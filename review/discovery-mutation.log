@@ -1,0 +1,19 @@
+[1m================================[0m
+[1mOmarchy Package Builder[0m
+[1m================================[0m
+[0;34m==>[0m Target architecture: x86_64
+[0;34m==>[0m Mirror: edge
+[0;34m==>[0m Build workspace: /home/omarchy/work/integration/build-output/edge/x86_64
+[0;34m==>[0m Final output: /home/omarchy/work/integration/pkgs.omarchy.org/edge/x86_64
+[1;33m⚠[0m DRY RUN MODE - build plan only; no container or makepkg will run
+==> Package Builder
+==> Target architecture: x86_64
+==> Mirror: edge
+==> Package root: /home/omarchy/work/integration/pkgbuilds
+==> Build workspace: /home/omarchy/work/integration/build-output/edge/x86_64
+==> Final output: /home/omarchy/work/integration/pkgs.omarchy.org/edge/x86_64
+==> Dry run: yes (plan only; makepkg will not run)
+==> Checking which packages need building...
+==> Checking specified packages: omawake-bin
+==> ERROR: Package 'omawake-bin' not found in /home/omarchy/work/integration/pkgbuilds
+original_layout_exit=1

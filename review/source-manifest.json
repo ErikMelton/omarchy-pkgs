@@ -1,0 +1,3772 @@
+{
+  ".github/workflows/sync-rebuilds.yml": {
+    "mode": "0o644",
+    "sha256": "747946d25bf49b73b9fd358722a4ed181933e277fe48a7623be05553e0f38ab9",
+    "symlink": false
+  },
+  ".github/workflows/sync-upstream.yml": {
+    "mode": "0o644",
+    "sha256": "d1bb5212d4954b4a82579930938668145c07c868d52b1bb4dcd4bd0419870743",
+    "symlink": false
+  },
+  ".github/workflows/test.yml": {
+    "mode": "0o644",
+    "sha256": "b98e0427d9adb826a001e829754d99b1c2577d470968c534e03c6e1282f53dfd",
+    "symlink": false
+  },
+  ".gitignore": {
+    "mode": "0o644",
+    "sha256": "f75ae619771cf64681d8c6180efe93148b290dd25a203f9fd3bfae46e42cbe2b",
+    "symlink": false
+  },
+  "LICENSE": {
+    "mode": "0o644",
+    "sha256": "717ba1949502290f8e47688ae2e323acd06c8ca47aec9f7596b15f678c1af4a2",
+    "symlink": false
+  },
+  "README.md": {
+    "mode": "0o644",
+    "sha256": "f7c353355d92b8263d5ada19095418e31464e4a4a52121022f9fda918d59bcc6",
+    "symlink": false
+  },
+  "bin/add-package": {
+    "mode": "0o755",
+    "sha256": "d61f40259460208d7d7b57a4750988343866273a5aed512579c84e54a225b1b0",
+    "symlink": false
+  },
+  "bin/advance-channel": {
+    "mode": "0o755",
+    "sha256": "0b37a9ff4d37300e41dd98985aa32755a6c5c4f5b6f39e1a2dec5e4a3ad47962",
+    "symlink": false
+  },
+  "bin/auto-release": {
+    "mode": "0o755",
+    "sha256": "4c45d4096e9a7efe84613dccea966c6a6147e7248c4ba9bf05bb9aff8f911082",
+    "symlink": false
+  },
+  "bin/build": {
+    "mode": "0o755",
+    "sha256": "016912a66e3693906661c23bd8fcf1cd1b801b0bd7bec0cdb3980ba8c6bf67db",
+    "symlink": false
+  },
+  "bin/check-versions": {
+    "mode": "0o755",
+    "sha256": "15c2ce84f3b0d503a4ab215e2ec179e86db0d0727903feadc9a8c99636d7efdf",
+    "symlink": false
+  },
+  "bin/clean-docker": {
+    "mode": "0o755",
+    "sha256": "4bac6613d5dbc5d30f70368c85a75b97c8b664fd9cf1d46e66c6b00143fa69ca",
+    "symlink": false
+  },
+  "bin/clean-repo": {
+    "mode": "0o755",
+    "sha256": "f1cbfc5cd565f2aa09af7c021e663ffc341c1fe2e42642bf4759774afa9182dc",
+    "symlink": false
+  },
+  "bin/deploy": {
+    "mode": "0o755",
+    "sha256": "92c0e054ef59c3540c006bd750ce8fb61268fa2c8cf01ccc92f770c75285c7f3",
+    "symlink": false
+  },
+  "bin/import-aur": {
+    "mode": "0o755",
+    "sha256": "f16e47fe8ec792eb81cfce62f14097157868c2260736aa83f22604e958560346",
+    "symlink": false
+  },
+  "bin/list-packages": {
+    "mode": "0o755",
+    "sha256": "27b68522636d24f6d4427dd893bbc492b3c92c8b8830679ec6d9843a3e6205c0",
+    "symlink": false
+  },
+  "bin/omarchy-pkgs": {
+    "mode": "0o755",
+    "sha256": "0f00cbf7aa86eeca714764cca3796b8b8b2f601e7c3733b02c35b6fbd024b6e6",
+    "symlink": false
+  },
+  "bin/omarchy-release": {
+    "mode": "0o755",
+    "sha256": "acf7708258047684120b927f00e9200103d5118f1c4ee11722d9201919744d9a",
+    "symlink": false
+  },
+  "bin/package-worktree": {
+    "mode": "0o755",
+    "sha256": "2121675a91704c62bea94a5be47d52c810c2b06255fd78bb7933ec673e681574",
+    "symlink": false
+  },
+  "bin/promote-build": {
+    "mode": "0o755",
+    "sha256": "755b880a2370591fad2c48b228f0f6e9d2cd28d625e0ed52ba8fb70da9ee9dd9",
+    "symlink": false
+  },
+  "bin/push-build": {
+    "mode": "0o755",
+    "sha256": "ba3e2301612bcf5ad02b9759ff76ab7f6bc880f26a5feb0109e54dd3f483d9d5",
+    "symlink": false
+  },
+  "bin/release": {
+    "mode": "0o755",
+    "sha256": "df951d04a2d4611621f6dbc7e0e7c9dad4b2705e4f529dabc368cc87234d22a2",
+    "symlink": false
+  },
+  "bin/remove-package": {
+    "mode": "0o755",
+    "sha256": "24f39a02c55322e52264e46e58e416197c0893bac33a35bf6fb3f793e13423f0",
+    "symlink": false
+  },
+  "bin/repo": {
+    "mode": "0o755",
+    "sha256": "4675904ca5b72f3cf944b676ee8e818a82492f2927d61d58e23eee67d1467b14",
+    "symlink": false
+  },
+  "bin/setup": {
+    "mode": "0o755",
+    "sha256": "0a3afd54686cc94c6e1bc2d009d1e331b0a634782cbc0e867ce8a78317cac12a",
+    "symlink": false
+  },
+  "bin/sign": {
+    "mode": "0o755",
+    "sha256": "19ab770b3d8f30fe862ef7a418aee0848b7a67a0a95245fb81154cbea9190acb",
+    "symlink": false
+  },
+  "bin/sync-rebuilds": {
+    "mode": "0o755",
+    "sha256": "950aacca25f106238d765023ef50f2a9cdb1cc7e94df70f3d9440f0a397f32a9",
+    "symlink": false
+  },
+  "bin/sync-repo": {
+    "mode": "0o755",
+    "sha256": "f696ed7b7a3d487315394053254d0f13a7ffcab7dcf86a05f8892432ce3b4b09",
+    "symlink": false
+  },
+  "bin/sync-upstream": {
+    "mode": "0o755",
+    "sha256": "efc9c5fb38b52befe5623c80217e13b87e40f89d9f63eee712a366c52c267b06",
+    "symlink": false
+  },
+  "bin/timers": {
+    "mode": "0o755",
+    "sha256": "88e23bc2a491d2686ebe71c80cca7b8a785e6210a7bb6b95f941d1f1b773a2f2",
+    "symlink": false
+  },
+  "bin/update-repo": {
+    "mode": "0o755",
+    "sha256": "255051ade62d75ef7cd34b929dc79e4771ad2a7366ce05fda45a625dc87ad001",
+    "symlink": false
+  },
+  "bin/upload-prebuilt": {
+    "mode": "0o755",
+    "sha256": "268cc5b860e413c7e4a8c18fed49636588a0b5c58c4e5f6ec15fd75c8621a93a",
+    "symlink": false
+  },
+  "build/Dockerfile": {
+    "mode": "0o644",
+    "sha256": "826026817a05eb051913958fcb493bf5a5169b5943993f3ba6d00a5242873af6",
+    "symlink": false
+  },
+  "build/build.sh": {
+    "mode": "0o755",
+    "sha256": "4a9d1c65abe932ad5f11859590a5756b7c34d00e9c16af68b5cff251f2bba8c9",
+    "symlink": false
+  },
+  "build/gpg-keys.txt": {
+    "mode": "0o644",
+    "sha256": "a156ae029de34c5a2fa962ef62790ec628aa1a834ea23f430841ebbdee824f08",
+    "symlink": false
+  },
+  "build/import-gpg-keys.sh": {
+    "mode": "0o755",
+    "sha256": "45cdaa5536d0a2738465bc1e0f72fc235b50598ee8c548bd91bd225cc76eab08",
+    "symlink": false
+  },
+  "build/pacstrap-docker": {
+    "mode": "0o755",
+    "sha256": "dc31490fa0c387a68ee860d18cca67b43831a45206f2d5e9cfaff103fba85055",
+    "symlink": false
+  },
+  "build/remove-package.sh": {
+    "mode": "0o755",
+    "sha256": "3ab3b9181ea4bcb1cdacdeb51c833c662939edd2f21874a1be93a113bc8a6ef2",
+    "symlink": false
+  },
+  "build/sign.sh": {
+    "mode": "0o755",
+    "sha256": "579ae1b967a4cbb1d9d8a5d27ef90122e19b217450b04605947130616d948f51",
+    "symlink": false
+  },
+  "build/update-repo.sh": {
+    "mode": "0o755",
+    "sha256": "060b4c0b7e3a48509dee9bdb9464d136dbfd21e853a8d64d10adad8d6e1d0dca",
+    "symlink": false
+  },
+  "docs/upstream-sources.md": {
+    "mode": "0o644",
+    "sha256": "3dd98f58dc2ea77c42b4248fbcd99f5b44c1419b4b043ae5bba36d0ec1a1be32",
+    "symlink": false
+  },
+  "helpers/basecamp-notifier.sh": {
+    "mode": "0o644",
+    "sha256": "7382be61af543ec945d9a080407b5f4c60101e537e2fe70a515aaa97558b21fd",
+    "symlink": false
+  },
+  "helpers/docker-helpers.sh": {
+    "mode": "0o644",
+    "sha256": "fc6ed6e5a0af5d88e82e7f32d198a448fe227ec9e9705e8eb742f468f799a8fc",
+    "symlink": false
+  },
+  "helpers/host-helpers.sh": {
+    "mode": "0o644",
+    "sha256": "368e0f23d2c5043f71e817aea62b32b9e11a2b06193105e60a290ae54e23dc9d",
+    "symlink": false
+  },
+  "helpers/lock-helpers.sh": {
+    "mode": "0o644",
+    "sha256": "b6c35308f31d15b4a584329544195deb435982fb288d87a7bf2f98c3ca287479",
+    "symlink": false
+  },
+  "helpers/message-helpers.sh": {
+    "mode": "0o644",
+    "sha256": "4777b430809505bff314fc6c62d85b0667ba93d4e37c0dbf66aae1198d3131b3",
+    "symlink": false
+  },
+  "helpers/package-metadata.sh": {
+    "mode": "0o644",
+    "sha256": "8836f97e1d9f1d23fe31929347b248449166c32c857333e9114ce49ef71a99d4",
+    "symlink": false
+  },
+  "helpers/paths.sh": {
+    "mode": "0o644",
+    "sha256": "f6549e3cb4ff90961ec21ec214b9cf27fbcc5e719c9c0fe86af73eb8e56b3658",
+    "symlink": false
+  },
+  "helpers/upstream-github.sh": {
+    "mode": "0o644",
+    "sha256": "1420759541c730de741a8b802c33ba778ff083d31ba77b2a4bca3bf515e52475",
+    "symlink": false
+  },
+  "helpers/upstream-watch.py": {
+    "mode": "0o644",
+    "sha256": "62fb97c925cccaa244d0223fb96faf2e0c7c679993855ae85660d2aa5c522891",
+    "symlink": false
+  },
+  "pkgbuilds/1password-beta/.gitlab-ci.yml": {
+    "mode": "0o644",
+    "sha256": "74c31ddaa163a5f8e5877caf001e6b98ec929a1c3d321cc262f11fd90b3ec9a7",
+    "symlink": false
+  },
+  "pkgbuilds/1password-beta/.omarchy/README.md": {
+    "mode": "0o644",
+    "sha256": "032bc337825d0ac9c80d9b0b1042b50f694c1d1e24f2f1420298631967986096",
+    "symlink": false
+  },
+  "pkgbuilds/1password-beta/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "2f2e65fc7d925fc11ca45e94c72e8ccc6b7db3972b0db501fda56f4db66982cf",
+    "symlink": false
+  },
+  "pkgbuilds/1password-beta/1password.install": {
+    "mode": "0o755",
+    "sha256": "2234d8b356049eb029ceb184faf0aa8c9e758df2fca66904d3f7af698aac95b6",
+    "symlink": false
+  },
+  "pkgbuilds/1password-beta/CODEOWNERS": {
+    "mode": "0o644",
+    "sha256": "4a20f05c3374b852bd901f480a34cd54be4ce5a0b6071f032d2064857a485387",
+    "symlink": false
+  },
+  "pkgbuilds/1password-beta/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "b10b8a5a640f4147812e14564a8520eb65183a66f70a670ef1d826c402e30b1e",
+    "symlink": false
+  },
+  "pkgbuilds/1password-beta/aur.env": {
+    "mode": "0o644",
+    "sha256": "635ea660067d1196122603b3287546a6016aa0b1598a101dbce89baa9c86ddef",
+    "symlink": false
+  },
+  "pkgbuilds/1password-cli/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "1c02f778229282baaaf09ff003f26b0b6e9c8ce81fbaf94dfeacdd038b183633",
+    "symlink": false
+  },
+  "pkgbuilds/1password-cli/1password-cli.install": {
+    "mode": "0o644",
+    "sha256": "68cfa58ca3524857b5ae4798c18324f5fcb36a4d07fb37110046cba89f244c74",
+    "symlink": false
+  },
+  "pkgbuilds/1password-cli/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "52c72ef343947ada6d42ab563772d5edf61a899d91356221c74f99ac18a94cea",
+    "symlink": false
+  },
+  "pkgbuilds/1password-cli/package-update.sh": {
+    "mode": "0o644",
+    "sha256": "fdf38fb635ecfc07bc62f50044be19959994c507b79e58a64b97b242ad87712c",
+    "symlink": false
+  },
+  "pkgbuilds/1password/.gitlab-ci.yml": {
+    "mode": "0o644",
+    "sha256": "74c31ddaa163a5f8e5877caf001e6b98ec929a1c3d321cc262f11fd90b3ec9a7",
+    "symlink": false
+  },
+  "pkgbuilds/1password/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "236832069c2454f562dcfad949cc3f1af4924ad0e436fa176cd4543a0ab4b0c0",
+    "symlink": false
+  },
+  "pkgbuilds/1password/1password.install": {
+    "mode": "0o755",
+    "sha256": "2234d8b356049eb029ceb184faf0aa8c9e758df2fca66904d3f7af698aac95b6",
+    "symlink": false
+  },
+  "pkgbuilds/1password/CODEOWNERS": {
+    "mode": "0o644",
+    "sha256": "4a20f05c3374b852bd901f480a34cd54be4ce5a0b6071f032d2064857a485387",
+    "symlink": false
+  },
+  "pkgbuilds/1password/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "d8d149196e66fa81fbd8a3014e04556d2a2ccc04757e091ce69add2f959de399",
+    "symlink": false
+  },
+  "pkgbuilds/1password/aur.env": {
+    "mode": "0o644",
+    "sha256": "635ea660067d1196122603b3287546a6016aa0b1598a101dbce89baa9c86ddef",
+    "symlink": false
+  },
+  "pkgbuilds/aether/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "535b61adb142dd25878fe252bfffa8e2ff7195a866f2ea5dc6cd6e755eac2cd6",
+    "symlink": false
+  },
+  "pkgbuilds/aether/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "6693bb8cc12a6192c69402c3645f581be891f536c9a9ec87267585be228a61fc",
+    "symlink": false
+  },
+  "pkgbuilds/asdcontrol/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "46915fe39736c2929e5a78e9a0915ca9a5398fd1b795e053678128d99972c749",
+    "symlink": false
+  },
+  "pkgbuilds/asdcontrol/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "e28612f2405e8ab2d15ebf0fab120904202c06e0b539ce9dedb296fe8950ddc9",
+    "symlink": false
+  },
+  "pkgbuilds/asdcontrol/asdcontrol.sudoers": {
+    "mode": "0o644",
+    "sha256": "70d6838f91cf4b5e51974b9b62b141924cec844a2e60de79607839584ede847f",
+    "symlink": false
+  },
+  "pkgbuilds/asusctl/.nvchecker.toml": {
+    "mode": "0o644",
+    "sha256": "0cb490c086e69519977e9099acabdd592a43e5cb20d66aa14ecbbcd35c821d56",
+    "symlink": false
+  },
+  "pkgbuilds/asusctl/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "99d3490f0e37cf7c079991840fdd60591c8ffe6b0cc296d36ed6d07d554c5951",
+    "symlink": false
+  },
+  "pkgbuilds/asusctl/LICENSE": {
+    "mode": "0o644",
+    "sha256": "7056c04df17a4e0f0bac9f787f347c9cd892cee6323d1c89528090afd0b934a3",
+    "symlink": false
+  },
+  "pkgbuilds/asusctl/LICENSES/0BSD.txt": {
+    "mode": "0o777",
+    "sha256": "1e881ecf2862d01e6e5bc2b861e46886d2a6fb01499c0c508a209a7271b13cf2",
+    "symlink": true
+  },
+  "pkgbuilds/asusctl/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "94d9e27c7830f88853ea6d25ca9bbadce06bd0297145d043ee623c2932f56eb9",
+    "symlink": false
+  },
+  "pkgbuilds/asusctl/REUSE.toml": {
+    "mode": "0o644",
+    "sha256": "e8a26e1b7d867311586d77986415f73b70e8aa3760d24591d61e88d024ee37d4",
+    "symlink": false
+  },
+  "pkgbuilds/asusctl/asusctl.install": {
+    "mode": "0o644",
+    "sha256": "46b17895292cfd77f76876ff9b14fb5188507d766ba60740794f06db56c55bee",
+    "symlink": false
+  },
+  "pkgbuilds/basecamp-cli/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "22ce665dd00c241e45035cd8c8c1b0c279867c747b36e4e6c6aefc9ae1ae4c36",
+    "symlink": false
+  },
+  "pkgbuilds/basecamp-cli/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "34f668479d4ebcdde6509e43172e894b7951d43bb161eb3c64813cb3ce978bf9",
+    "symlink": false
+  },
+  "pkgbuilds/bun-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "c28ff4765d0f71f3faddd1af18f79e2ca900732f6fe3e897e237b60f5ef7308f",
+    "symlink": false
+  },
+  "pkgbuilds/bun-bin/LICENSE": {
+    "mode": "0o644",
+    "sha256": "9b296bcc20090b5ea079dc1bca15913a32246121169bcf54cbdb7384d6f5b32b",
+    "symlink": false
+  },
+  "pkgbuilds/bun-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "c4f425ee55873fa6d3f88251426c156e0d5346ff0fa8353c2623f05b4ab52470",
+    "symlink": false
+  },
+  "pkgbuilds/claude-code/.nvchecker.toml": {
+    "mode": "0o644",
+    "sha256": "fb001a83d0b7361b2c541669f39c43e8ee4860fa72fb3e337c387195ff73346f",
+    "symlink": false
+  },
+  "pkgbuilds/claude-code/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "e4c0fca20e128526e0d5c22f9635c4247d2c3a5f8874c983b2be532827cebc11",
+    "symlink": false
+  },
+  "pkgbuilds/claude-code/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "4f5f919142ab1130f5111fa33d9ad1c9c51af4a8ec243a2751212fc8c17c9b1b",
+    "symlink": false
+  },
+  "pkgbuilds/claude-desktop/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "ab063a60e82c67ac6b234b9b261295366a573f834817f5c933f28f755711874d",
+    "symlink": false
+  },
+  "pkgbuilds/claude-desktop/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "d592c29c240b58fdd64fa264664a63d64991e22199df07d00b7cb5e0f07011d4",
+    "symlink": false
+  },
+  "pkgbuilds/claude-desktop/claude-desktop-launcher.sh": {
+    "mode": "0o644",
+    "sha256": "edfdbc63b65891ef7c481b07086c7e630fc102c042b6ed65331a52fcaf72b14a",
+    "symlink": false
+  },
+  "pkgbuilds/cliamp/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "eb099f2994d0aa4a15405092e740888be4c0a4dbf6f851e25303df27c32bde39",
+    "symlink": false
+  },
+  "pkgbuilds/cliamp/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "4fe3677143e8410aeae26a4756389a7344ba137781e8eed35492c1077a00e6a2",
+    "symlink": false
+  },
+  "pkgbuilds/crush-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5b0996633825445e117318f5173937b5f681747f8baa2d16dd2ad7b7a24043cc",
+    "symlink": false
+  },
+  "pkgbuilds/crush-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "5fc04562f369190d36f7662f3d8e99674754f1799545ad74635fa94d1be7d0b8",
+    "symlink": false
+  },
+  "pkgbuilds/cua-driver-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "95b5bc6bfd1195edc303e2cb611b39e7f12af34491225a5d8490656c71a323b8",
+    "symlink": false
+  },
+  "pkgbuilds/cua-driver-bin/.omarchy/upstream-test.sh": {
+    "mode": "0o644",
+    "sha256": "0d65b23309d1bd9503552794156c5b8e27150fdfecc4f6f499ecf0ecca3132a7",
+    "symlink": false
+  },
+  "pkgbuilds/cua-driver-bin/.omarchy/upstream.sh": {
+    "mode": "0o644",
+    "sha256": "aa5f78915ff5377498a8704efdacde87ac313e396c44de9d4a3d953a65f9c6ec",
+    "symlink": false
+  },
+  "pkgbuilds/cua-driver-bin/LICENSE": {
+    "mode": "0o644",
+    "sha256": "c0779290c1d4783169aa3dbfb55feb505e563ef8a004bbf55298ceffcfbda8d9",
+    "symlink": false
+  },
+  "pkgbuilds/cua-driver-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "45a41d3e8c127ade4c075f3aa97911fb10b5bebfd39ba952b09f25464832d9c4",
+    "symlink": false
+  },
+  "pkgbuilds/cua-driver-bin/pm.sh": {
+    "mode": "0o644",
+    "sha256": "c76e251c3ed424200eac52bec35ba534336307fabd83a175ab0b47e2084ab0d8",
+    "symlink": false
+  },
+  "pkgbuilds/cua-hyprland-plugin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/cua-hyprland-plugin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "6cab31c2b6fd01aadb9389c1aafec92f1a04442923debfe9c10ac0bf3972c5f3",
+    "symlink": false
+  },
+  "pkgbuilds/cua-hyprland-plugin/PROFILE.json": {
+    "mode": "0o644",
+    "sha256": "eebba812a7513b471cf8969364334a4bde1eaa9c4519157701c771c1b6cd1b07",
+    "symlink": false
+  },
+  "pkgbuilds/cua-hyprland-plugin/README.md": {
+    "mode": "0o644",
+    "sha256": "1e6f074b49ecbb678f581420e0fc5e203f19e9cb7904974038391b694b8a1de1",
+    "symlink": false
+  },
+  "pkgbuilds/cursor-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "65577fb6b58a7f29b058830c91308ccc496e38097aa90c6ea138cd8d9ec06172",
+    "symlink": false
+  },
+  "pkgbuilds/cursor-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "c53e7849e1c875ad758032e4d004d358f86672e63ad1c723c7f78400a3bcd06f",
+    "symlink": false
+  },
+  "pkgbuilds/cursor-bin/rg.sh": {
+    "mode": "0o755",
+    "sha256": "726022284725e2e971a17b9f900b90ae993ee70127fca2f6adb89e2f7e0a3610",
+    "symlink": false
+  },
+  "pkgbuilds/cursor-cli/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5ee7210055f1a7f2095c4be50f6b7cf3f14bfa67f849817a56c31293caeb05d2",
+    "symlink": false
+  },
+  "pkgbuilds/cursor-cli/Cursor-TOS": {
+    "mode": "0o644",
+    "sha256": "0370f1ff6f87ce67f688ca59ab8906890e0b4406f09abeef5d7aa6b7add8ded3",
+    "symlink": false
+  },
+  "pkgbuilds/cursor-cli/LICENSE": {
+    "mode": "0o644",
+    "sha256": "7056c04df17a4e0f0bac9f787f347c9cd892cee6323d1c89528090afd0b934a3",
+    "symlink": false
+  },
+  "pkgbuilds/cursor-cli/LICENSES/0BSD.txt": {
+    "mode": "0o777",
+    "sha256": "1e881ecf2862d01e6e5bc2b861e46886d2a6fb01499c0c508a209a7271b13cf2",
+    "symlink": true
+  },
+  "pkgbuilds/cursor-cli/LICENSES/LicenseRef-Cursor.txt": {
+    "mode": "0o644",
+    "sha256": "0370f1ff6f87ce67f688ca59ab8906890e0b4406f09abeef5d7aa6b7add8ded3",
+    "symlink": false
+  },
+  "pkgbuilds/cursor-cli/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "82093fea9b1d6c905935d1db9050da3f1295239cd59d21d95d63f59db8bffa5e",
+    "symlink": false
+  },
+  "pkgbuilds/cursor-cli/REUSE.toml": {
+    "mode": "0o644",
+    "sha256": "ea79efced376bcaddf7365a24c97a733fffa89f5b04371f8e75395a810c8f83a",
+    "symlink": false
+  },
+  "pkgbuilds/cursor-cli/auto-update-block.patch": {
+    "mode": "0o644",
+    "sha256": "d16c39ef3ecdb86f29a4a12f30654134b0bc80c1a68bf753324b714e39712afc",
+    "symlink": false
+  },
+  "pkgbuilds/cursor-cli/cursor-cli.install": {
+    "mode": "0o644",
+    "sha256": "79589c75f24efa39924e6f31168d9fd4b80f6529c2dc0e4649b9c87079d949ce",
+    "symlink": false
+  },
+  "pkgbuilds/cursor-cli/nvchecker.toml": {
+    "mode": "0o644",
+    "sha256": "e7dc32e2f0dd84a09fd9dff8d5695b8e3bae4826c9f43f3fce746697dc7a2dfd",
+    "symlink": false
+  },
+  "pkgbuilds/cursor-cli/update-pkgver.sh": {
+    "mode": "0o755",
+    "sha256": "02a77800530180653374fe8c812f583ea911a0cc756c052a651a361360d5b442",
+    "symlink": false
+  },
+  "pkgbuilds/dbxcli-bin/.nvchecker.toml": {
+    "mode": "0o644",
+    "sha256": "f19f445c03547954db4d71b3be0fc444c4e82a7b33c85e9d3764245d9b56189e",
+    "symlink": false
+  },
+  "pkgbuilds/dbxcli-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "18dda6a5ba50fe7ac84178a0dfb9868850ba183eb6dae2f4e0eb3df30b02388a",
+    "symlink": false
+  },
+  "pkgbuilds/dbxcli-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "efa3c26cf6014978cfaa7d161357c332e7030158a25413e668b91af979289a70",
+    "symlink": false
+  },
+  "pkgbuilds/dell-xps-touchpad-haptics/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/dell-xps-touchpad-haptics/99-dell-xps-touchpad-haptics.rules": {
+    "mode": "0o644",
+    "sha256": "6666c37fcae6b746ae9f480eea4685d4a7adca7aefb5090ec29fc901c6d4e6ec",
+    "symlink": false
+  },
+  "pkgbuilds/dell-xps-touchpad-haptics/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "e055c64c7c46eef05604bc331457b49f6b7ccdc395fb5a12d6b2ebff31c68b36",
+    "symlink": false
+  },
+  "pkgbuilds/dell-xps-touchpad-haptics/README.package.md": {
+    "mode": "0o644",
+    "sha256": "df95f8d20de1d04cba5e67f42a033c9e2c1beca2f2e615e250575e2ddfcf0f77",
+    "symlink": false
+  },
+  "pkgbuilds/dell-xps-touchpad-haptics/dell-xps-touchpad-haptics": {
+    "mode": "0o755",
+    "sha256": "e98dc2fdb728ab676b17168ee1a691a50a8280b6e3c3f808b767ca64d9b49f71",
+    "symlink": false
+  },
+  "pkgbuilds/dell-xps-touchpad-haptics/dell-xps-touchpad-haptics-daemon": {
+    "mode": "0o755",
+    "sha256": "08da5275d8e8abe2e263e742c0cd86283c7fe526fb739d6cbfff7c389de25b72",
+    "symlink": false
+  },
+  "pkgbuilds/dell-xps-touchpad-haptics/dell-xps-touchpad-haptics.install": {
+    "mode": "0o644",
+    "sha256": "59066aa39621f73f08994c110970a8289e57cd2fd188bd13eea18ad4c3599be9",
+    "symlink": false
+  },
+  "pkgbuilds/dell-xps-touchpad-haptics/dell-xps-touchpad-haptics.service": {
+    "mode": "0o644",
+    "sha256": "27620391718a115dccc728e41276cf70467c723d6fa2a8c222e44cad2e71242a",
+    "symlink": false
+  },
+  "pkgbuilds/dell-xps13-sidecar-amps/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/dell-xps13-sidecar-amps/LICENSE": {
+    "mode": "0o644",
+    "sha256": "fd9348252dda847b9b4c19e44c5ab101098c7d0470c2238857ce1e14bb63207b",
+    "symlink": false
+  },
+  "pkgbuilds/dell-xps13-sidecar-amps/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "d09f6eae6f810ce758b3a4863dae0f794ed48964130ed43bec61e14bf74cf173",
+    "symlink": false
+  },
+  "pkgbuilds/dell-xps13-sidecar-amps/README.md": {
+    "mode": "0o644",
+    "sha256": "82685711fcbe32bec70faa0aaf65032e0c0be4b6c8796123c171e1d7865e7771",
+    "symlink": false
+  },
+  "pkgbuilds/dell-xps13-sidecar-amps/dell-xps13-sidecar-amps-apply": {
+    "mode": "0o755",
+    "sha256": "ec5484486468c483b5a5acc50cd5a0dc5f368425c84bb88cddc95debe71d357e",
+    "symlink": false
+  },
+  "pkgbuilds/dell-xps13-sidecar-amps/dell-xps13-sidecar-amps.conf": {
+    "mode": "0o644",
+    "sha256": "dcef05d30c15b70943e621325d813980894c4c9d646aafe645e73e194f47f9d7",
+    "symlink": false
+  },
+  "pkgbuilds/dell-xps13-sidecar-amps/dell-xps13-sidecar-amps.install": {
+    "mode": "0o644",
+    "sha256": "5573370afad9ce25e9b11501154d231e062f2d90f4a99b775bef69b6c736d35c",
+    "symlink": false
+  },
+  "pkgbuilds/dropbox-cli/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "c8276ff002c6c0614d197bd4248ee398b3215119c147fcc5466d60f92b7bf559",
+    "symlink": false
+  },
+  "pkgbuilds/dropbox-cli/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "898e64a98d226aea3c6bd176bb3ce912af3872ee9216de81053a8bb27abc2a42",
+    "symlink": false
+  },
+  "pkgbuilds/dropbox-cli/dropboxd-fallback.patch": {
+    "mode": "0o644",
+    "sha256": "711ed63c6dfccfd05c6e9abaa291be9ac3c3909e84f788f568cb44dee2d48229",
+    "symlink": false
+  },
+  "pkgbuilds/dropbox/.nvchecker.toml": {
+    "mode": "0o644",
+    "sha256": "e0e286a1b3219c40ff3e78c84b9aa8f75c1a84f673481d4251006269a71e9d50",
+    "symlink": false
+  },
+  "pkgbuilds/dropbox/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "e354073c0d2e22647a9ca6fcda1be65b7f6d6a2177b3073b4073007c0b6d75c6",
+    "symlink": false
+  },
+  "pkgbuilds/dropbox/DropboxGlyph_Blue.svg": {
+    "mode": "0o644",
+    "sha256": "9ba76205ec5838db85d822f23cfd7e2112fd2757e8031d8374709f102143c548",
+    "symlink": false
+  },
+  "pkgbuilds/dropbox/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "3b51dfe6d8d50f37a6941c573ca5dac10bed6ccae4ef13bb4710123f65ca6cdb",
+    "symlink": false
+  },
+  "pkgbuilds/dropbox/dropbox.service": {
+    "mode": "0o644",
+    "sha256": "6c67a9c8c95c08fafafd2f1d828074b13e3347b05d2e4f4bf4e62746115d7477",
+    "symlink": false
+  },
+  "pkgbuilds/dropbox/dropbox@.service": {
+    "mode": "0o644",
+    "sha256": "98581e65a91ae1f19ed42edcdaaa52e102298b5da0d71b50089393d364474d3d",
+    "symlink": false
+  },
+  "pkgbuilds/dropbox/terms.txt": {
+    "mode": "0o644",
+    "sha256": "1610ff57e8b20ee7a37682c3cc505da4ddc9cec2bd7234c90c0f2073657521d2",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-all/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "885f21ca49bda8855474874399a97d8e69cc1eec4d444f4a21de7b2024a30274",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-all/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "671b58e10aca7892db4850e2569247587be80e9f8c068eac7a9a7f18308766c3",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-archlinuxpkgs/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "eca5cea161485ebf3e287a8792093e8673d62a233bc7a2ed25ce87f3d6072afb",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-archlinuxpkgs/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "e0021b69033e282c46dbb25c766d70b79b559e551e67a9b94ddb12eeb44bde28",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-bluetooth/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "cc0ebee2786daa7bd966a04e739d0450e90252c750a35bdbf8b3d343060b42c4",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-bluetooth/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "66853fc80dae3c35a1300bbcfea5630c6a696d0712a1c16ca3ce479b1771056b",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-calc/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "3161ddad34978a380c457594bde229e1c9b9b48de43de0340ca212ac1daf186c",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-calc/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "3fad210e853d025118cd04bfd213ab26b834ce12da92fb025e772a7498561f2c",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-clipboard/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "2d00a2182ead5c72fdf55c5b5988f449ea4c0fdd62db40130640f2da0cb3e2e4",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-clipboard/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "ddf01e7c9810409f76ecddeeaea71f8c39aa16a4156d21e7dc9e6b9625d92ece",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-desktopapplications/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "9f59875a14af53352e6e6b99b47fcee60be08a4279211325650c9942a7206e9f",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-desktopapplications/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "bf8ca9d13a583a5b09eec13dda2c89c5d0cffe2c96296403a9768df0dd0f9921",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-files/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "ed0c760fa717945f7f622ff5b432341a46b433c617bfde6955b7606f21833793",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-files/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "b82394c29ea3c584d8dea852e237ef9ef892de5639c2780f2880e0d82ab99cf4",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-menus/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "dfdf239042ff1265be271b2048cc72eaa8e2b53e6fc181776b52c57898487400",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-menus/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "cd2ff94cc4e62030ed297577155301d7499c588a95b44c9baa401f9a91e27cf7",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-providerlist/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "4a46ff834a947e965af8b165967ce7c064bbedd67b07811d6bb71371544ad0b0",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-providerlist/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "cced1a183fdafa1312b85a9a9f9415b99b19dbdc1ab31be7c2a45b9e0238d38a",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-runner/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "60ec0530aba271e8a1e8c797b011a7ed3a48dfaabf655b710e751d88f00914cd",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-runner/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "06dc450791a472617d3ceacde158b0c1eb56a60e2cfbd5a4a87afc16b36dabf9",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-symbols/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "9f13b222427675660376aafa158be96ec3d822eeef331c9f63d22e376432e6d4",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-symbols/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "c6b08fea2498efc0271449642deaa46422b8ad7e8f859ec1f76433dd64cf2d9e",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-todo/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "d9cb526497307c7377cd33f97451cdd6ff61c5fe169bca5aa88621d051857375",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-todo/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "36f9772b411e988ae2e1e617c78960f8ade4cebbecb0a25953a189a480739547",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-unicode/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "97f783f1ecff99f2d214c15a377fcab9f3381977a7829f4b5e0bbe13df8e5c72",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-unicode/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "ebcdad229d1a4dbfe7d4ed2feeeb75246df9b6aa705c68495f0bf1bcdd7a2992",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-websearch/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5f55f04db4180231a2806c599eed39981ab978c1fb030150b0e2dcb416d1960d",
+    "symlink": false
+  },
+  "pkgbuilds/elephant-websearch/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "c84252bab65c11d1aac53911376eaddef5bb3c79cf4e2cd248d6b54446fa3708",
+    "symlink": false
+  },
+  "pkgbuilds/elephant/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "2a4e1ecbd990395f2b819db022814475ab14e36703838e8277e0d7c9c8387a8a",
+    "symlink": false
+  },
+  "pkgbuilds/elephant/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "26cc98698270d2ed8faf2f4089ea40fd828fd27950afce2782133dbf49dcbdd5",
+    "symlink": false
+  },
+  "pkgbuilds/flea/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "95b5bc6bfd1195edc303e2cb611b39e7f12af34491225a5d8490656c71a323b8",
+    "symlink": false
+  },
+  "pkgbuilds/flea/.omarchy/upstream.sh": {
+    "mode": "0o755",
+    "sha256": "6ac8a55c01aed645e5f0c2e96b0169ef7c9a819269a95ef5a3ede771362275b9",
+    "symlink": false
+  },
+  "pkgbuilds/flea/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "16f0db24d2fa0bf54ec19425e8c4c30f8fc199b58546c5f91ee4e253ae93826f",
+    "symlink": false
+  },
+  "pkgbuilds/github-copilot-cli/.nvchecker.toml": {
+    "mode": "0o644",
+    "sha256": "ff1678d25f783cb43154a7d216390521f7a5953dced65c365f474e515406bf23",
+    "symlink": false
+  },
+  "pkgbuilds/github-copilot-cli/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "4100127f454dbe5a771edaa51651d75e88b1f206a6ad09cb162f6603beee548c",
+    "symlink": false
+  },
+  "pkgbuilds/github-copilot-cli/LICENSE": {
+    "mode": "0o644",
+    "sha256": "7056c04df17a4e0f0bac9f787f347c9cd892cee6323d1c89528090afd0b934a3",
+    "symlink": false
+  },
+  "pkgbuilds/github-copilot-cli/LICENSES/0BSD.txt": {
+    "mode": "0o777",
+    "sha256": "1e881ecf2862d01e6e5bc2b861e46886d2a6fb01499c0c508a209a7271b13cf2",
+    "symlink": true
+  },
+  "pkgbuilds/github-copilot-cli/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "1e4e872de619d7e3a281546d30c30ce122dad2c2badac1667ccd5ac73ed34a2e",
+    "symlink": false
+  },
+  "pkgbuilds/github-copilot-cli/REUSE.toml": {
+    "mode": "0o644",
+    "sha256": "0098cd0ac535a55c2b150c5d3a83049dcb781a04752ebd665350786c3a558105",
+    "symlink": false
+  },
+  "pkgbuilds/grok-bot/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "6a61b04ffbc8bdf797d72b18f1d068c81da74cb20fca913f905dd9af121b2e6e",
+    "symlink": false
+  },
+  "pkgbuilds/grok-bot/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "a950764cee6781c8779458b9bd7dcb55c0dafaa81c95cb24b2666e2fd3f8e6fd",
+    "symlink": false
+  },
+  "pkgbuilds/grok-bot/grok-bot.desktop": {
+    "mode": "0o644",
+    "sha256": "856056c9ca63dda5d01158ce8fb6a9a7cbb3f67c13a92b573cd196d3e50f26e7",
+    "symlink": false
+  },
+  "pkgbuilds/grok-bot/grok-bot.sh": {
+    "mode": "0o755",
+    "sha256": "6dfa6c305941afa6cbaefbeaae06d05ab5a88f31630005d25a819a160c20c7a3",
+    "symlink": false
+  },
+  "pkgbuilds/grok-bot/update-pkgver.sh": {
+    "mode": "0o755",
+    "sha256": "be264a23e3e7141ab9a2cee0a3e83a9217bcac9378eefe9359fc0d3a4b18ecfb",
+    "symlink": false
+  },
+  "pkgbuilds/herdr/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/herdr/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "d44e642847e49ab96c1de4e5a5bb2f69dfc09285809a7ecbd21079e829c7d7f3",
+    "symlink": false
+  },
+  "pkgbuilds/hermes-desktop/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/hermes-desktop/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "90df232c7609b4eb25576d3801db222efea3c46d7b5a48c5ae6b018238a90393",
+    "symlink": false
+  },
+  "pkgbuilds/hermes-desktop/hermes-desktop.desktop": {
+    "mode": "0o644",
+    "sha256": "3ef685bfcf366776b025d26c37d32854d8d4aa2023b2bd07c8e08b001ef1e8c4",
+    "symlink": false
+  },
+  "pkgbuilds/hermes-desktop/hermes-desktop.png": {
+    "mode": "0o644",
+    "sha256": "d60d164e24fdcf6532133b8ea43c77a201e4b9e9dbc396187b58d51d8590ef52",
+    "symlink": false
+  },
+  "pkgbuilds/hermes-desktop/hermes-desktop.sh": {
+    "mode": "0o644",
+    "sha256": "094d5f3191109a80eea9f23053b78a2e00dbecf90d62d1ca04c8e48866251469",
+    "symlink": false
+  },
+  "pkgbuilds/hermes-desktop/runtime-test.py": {
+    "mode": "0o644",
+    "sha256": "7337a12c71e8091ad5fc2e879e922c9cb1706c65f81b59d6dd70b12123dc7c00",
+    "symlink": false
+  },
+  "pkgbuilds/hermes-desktop/runtime.patch": {
+    "mode": "0o644",
+    "sha256": "9d5015d1be762a901f8f64319981ae862e9852fa5cb9a22a2ba1e691f90430a2",
+    "symlink": false
+  },
+  "pkgbuilds/heroic-games-launcher-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "59046e5e8d6110568c728601f997f7cbce71a93d8bcc480366a64f0c60d514d7",
+    "symlink": false
+  },
+  "pkgbuilds/heroic-games-launcher-bin/PKGBUILD": {
+    "mode": "0o755",
+    "sha256": "e57ca33c4a5a4a691150cc9fa90c9851beaa93d1e1c91f5aee97e5173c847aed",
+    "symlink": false
+  },
+  "pkgbuilds/hyprland-guiutils/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "78e02d8890b52c61d54b6f774fd71286db766b488dc4139aa22b4f80f410ac34",
+    "symlink": false
+  },
+  "pkgbuilds/hyprland-guiutils/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "3b0b74393232598f08ce8eb879976437b91aa96d37d6e909936df239335ccb67",
+    "symlink": false
+  },
+  "pkgbuilds/hyprland-preview-share-picker/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/hyprland-preview-share-picker/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "40b954d8368a3f8cbfee0b8b1067e03d63d0a9604d9a11ba7cb8a911430dda0a",
+    "symlink": false
+  },
+  "pkgbuilds/hyprland/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "603eba4742722dbff7c91787c31790ec20e86ae68818a598c553e9f759c51a73",
+    "symlink": false
+  },
+  "pkgbuilds/hyprland/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "ec5b3e8fb870459b379819212fa2b7c1beac878bb3d8e950eca2c3337c542b4b",
+    "symlink": false
+  },
+  "pkgbuilds/hyprshade/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "962d1a73a4913d60dd5ab8c02db95b3f0ce53de12c0596c5396d8a26b0214ea4",
+    "symlink": false
+  },
+  "pkgbuilds/hyprshade/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "68e98c167500126993624f154ed73384fe5ccf4950219a53d4c63e71abbbe288",
+    "symlink": false
+  },
+  "pkgbuilds/hyprtoolkit/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "892dcc99deb7fe1522affa09cab6dd4c5efb1c366244e0c2331fe676a50f5056",
+    "symlink": false
+  },
+  "pkgbuilds/hyprtoolkit/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "78e94cd057c0415a5207892d3538460e6bc6eb42e5953355d0c3c532c0bc74ff",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "9c451efd3b100b92a45c4e47a669e8ade3d6c393895b01ebd0fbaf255be7507f",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/0003-icvs-set-rgbcamera_pwrup_host-0-for-Panther-Lake.patch": {
+    "mode": "0o644",
+    "sha256": "4f95dac5e120572e41ee934a504b4cf9f80856a84815e981f601a8d5eae23965",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/0004-ipu7-psys-register-device-bus.patch": {
+    "mode": "0o644",
+    "sha256": "efa80311f00b9cf2ffbe1831a73e5c648d92b69cbb6f11e9d77df5597e5e83e5",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/0005-camhal-MediaControl-route-through-Intel-CVS-bridge.patch": {
+    "mode": "0o644",
+    "sha256": "4685d1688dd170451cdd58ce8cb2582012fb32ed4c4c89206a00b2efd7e07f48",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/0006-camhal-ipu75xa-ov08x40-Intel-CVS-formats.patch": {
+    "mode": "0o644",
+    "sha256": "c326478a14de90c98f7da1b174967a552e9d1b14879131cea06232c68aea86a1",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/0007-media-i2c-cvs-get-the-wake-irq-without-claiming-the-gpio.patch": {
+    "mode": "0o644",
+    "sha256": "1ce7ca510d339746870fa76b743e822cd79023af83632fbb1d13f2931a43f0b3",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/71-ipu7-hide-isys.rules": {
+    "mode": "0o644",
+    "sha256": "81043c96d53b9a4f13b68701bcfd03c9715d2ed1d8e998b24d519b2ae1e5c481",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/90-ipu7-psys.rules": {
+    "mode": "0o644",
+    "sha256": "e63cf4b5e1bc0612c10af4f3cf8ad966a38a2d2a10c1c09b871da75654798d64",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "d58b3be19b97a78125e9e132735626c035a7803de8867112420e3762c6a9cb8d",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/camera-deps.conf": {
+    "mode": "0o644",
+    "sha256": "b099b7d7a96c08bd7751e671c885c8e5a4e3b4b65ed8f73db93568fd49025d3a",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/camera-init.service": {
+    "mode": "0o644",
+    "sha256": "20b2a7f6527c6e651907e44366151f93dfb6c14076ed2af0f3a92cde6295f5b8",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/camera-sleep-hook": {
+    "mode": "0o644",
+    "sha256": "4983e6a5a175a91d00387463cf2fb69fd6ea7473f4bc057d442d447390250657",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/camera-tmpfiles.conf": {
+    "mode": "0o644",
+    "sha256": "1388729302f90d260509e8821ab7f619b3449ff31587471e4764ba02fbe096c3",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/disable-libcamera.conf": {
+    "mode": "0o644",
+    "sha256": "2fb30310cfeb501738391f2c7e192dc52d6ce17211d1cc285c758ccc9e269ec9",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/dkms-intel-cvs.conf": {
+    "mode": "0o644",
+    "sha256": "cdda0aca6be74538d06e3d8c062bda1e6e055c727972bb49c81d1d5dd465731a",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/dkms-ipu7-drivers.conf": {
+    "mode": "0o644",
+    "sha256": "f9bc244fce9abd77d4696ac80929964f8b09654a832c9301f2f5eb3cf098c8e4",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/dkms-vision-drivers.conf": {
+    "mode": "0o644",
+    "sha256": "f83169f53e4f8fa3f419687542fd14ca5e0ac7fa46fdd26506fc0cfda5788a5a",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/hide-ipu7-v4l2.conf": {
+    "mode": "0o644",
+    "sha256": "ee98ea71af7498fc169818a89e8df5afbf83ee859ddd3f1d96e0ddce5a42c73a",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/intel-cvs-Makefile": {
+    "mode": "0o644",
+    "sha256": "a038e385a4676ac0e6934bf4ca668fd71b1e4aa00f2bc731a76eca2b60bf020e",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/intel-ipu7-camera.install": {
+    "mode": "0o644",
+    "sha256": "0905745a5913eee07c692baa03e1663377766cee14bd1e500e86d477c4dd80c6",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/intel-ipu7-camera.service": {
+    "mode": "0o644",
+    "sha256": "e7c7e5b9c6a88d7665f799dd89ee69066fd3d4eb58c3c594caeb837ad8cfe5e9",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/ov08x40.yaml": {
+    "mode": "0o644",
+    "sha256": "228273640621e54784f8b75bf17c76f97f58fd6608d27bd40f0a7eb7743f26c7",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/v4l2-relayd-ipu7-override.conf": {
+    "mode": "0o644",
+    "sha256": "c586f06dfab097f7a5d90c8adb4148fcc7bdb0dbb39a674986dab6c2492eae47",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/v4l2-relayd-ipu7.conf": {
+    "mode": "0o644",
+    "sha256": "2c26b850f7f5691c6b857ab7785d1092a7ad9b60d6361bbcfc174353719acf3e",
+    "symlink": false
+  },
+  "pkgbuilds/intel-ipu7-camera/v4l2loopback-modprobe.conf": {
+    "mode": "0o644",
+    "sha256": "c817de3a1a32dc61dc8496a5e94594232a8fc0dcc0fd17407b0a3479b74facbc",
+    "symlink": false
+  },
+  "pkgbuilds/lib32-nvidia-580xx-utils/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "6792ac4e36daab4b7b379ae33fc24fe63e8994854b05cbd88f3f7500d6895840",
+    "symlink": false
+  },
+  "pkgbuilds/lib32-nvidia-580xx-utils/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "1561719b9790c95bde70179370a8d08ad00095a017c04fd77df95e3becabdaf9",
+    "symlink": false
+  },
+  "pkgbuilds/libfprint-git/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "a6af4d4222cdd7ae21aa8fe3e4007c79b89916d75f67987aaf914d814bbde9d1",
+    "symlink": false
+  },
+  "pkgbuilds/libfprint-git/.omarchy/patches/0001-omarchy-focaltech-moc-support.patch": {
+    "mode": "0o644",
+    "sha256": "ec0f5ca6014e710a9ae8b4c00dba25b9280d01ae903c6708871b8e6f6357c7d7",
+    "symlink": false
+  },
+  "pkgbuilds/libfprint-git/.omarchy/patches/0002-skip-merged-focaltech-pid.patch": {
+    "mode": "0o644",
+    "sha256": "70df9e4c59cc5fac53ee3e9150f0ea3c419337e9d009b03db1b5f32ebdd480ed",
+    "symlink": false
+  },
+  "pkgbuilds/libfprint-git/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "157891ced3bd192f990851f5b7f5b77e20fa4c1910e348474650e7a7215977ec",
+    "symlink": false
+  },
+  "pkgbuilds/libfprint-git/focaltech_moc-add-pid-0xA97A.patch": {
+    "mode": "0o644",
+    "sha256": "05f2e8e83d66bb4f10838fa7ff9d90f9116f01dd148abd3abc03c71baa5443d6",
+    "symlink": false
+  },
+  "pkgbuilds/libretro-cap32-git/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "b56e270e4b0754f8faeeaecfc5e514436daa4c59358363d4a6435e838c919927",
+    "symlink": false
+  },
+  "pkgbuilds/libretro-cap32-git/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "1e6d4017f55521782d1e0f139e4b930e6ab86c852bf25952531ffb84cfb67249",
+    "symlink": false
+  },
+  "pkgbuilds/libretro-database-git/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "17278f6584b941fcf621c3f0c6ac99b9d2d3dbbe0abcc5539c1c0f371f404e8e",
+    "symlink": false
+  },
+  "pkgbuilds/libretro-database-git/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "1ba7b81d2b96164bf6519b61c8367a78f39b412245943a968b9f27aa3c43563c",
+    "symlink": false
+  },
+  "pkgbuilds/libretro-fbneo-git/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "511b621e28ca3f664826d58a5d86fbec16b16f45b1c463f0561737238a77fc19",
+    "symlink": false
+  },
+  "pkgbuilds/libretro-fbneo-git/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "6fc20465188773dd26e2d22751815b2e651e12f898401b3591a0a91706848705",
+    "symlink": false
+  },
+  "pkgbuilds/libretro-uae-git/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "47d861e67638c77faf417b8234d2e4f51020cf0e35fb8376bfa924b3be7db20e",
+    "symlink": false
+  },
+  "pkgbuilds/libretro-uae-git/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "acc79f8fcaa2bc3f17ea439b894f879b60c5d7a40a3d7395321f39d7959ae0a1",
+    "symlink": false
+  },
+  "pkgbuilds/libretro-vice-git/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "c7d62d4ce81058b318e96b408608595f77bc09c1880e6a5b5114884526116b30",
+    "symlink": false
+  },
+  "pkgbuilds/libretro-vice-git/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "0ab6cff54ae070394da7b2a205c7a2f72dfa390e155d7126c70c21e69a0cedd5",
+    "symlink": false
+  },
+  "pkgbuilds/limine-mkinitcpio-hook/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "3caa6793e38970b0aa7ac70815e6658bfb0503b40bba423e5f87f7fb2533e878",
+    "symlink": false
+  },
+  "pkgbuilds/limine-mkinitcpio-hook/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "50706043253a195bebe60b10d40ca7159b4caa37d189165031cfb8a2be011f31",
+    "symlink": false
+  },
+  "pkgbuilds/limine-snapper-sync/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "74cc0645646fd9b014e5ee2161fa14c8b3ec3de4e6f115bce40d0089b1c47783",
+    "symlink": false
+  },
+  "pkgbuilds/limine-snapper-sync/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "a01247a629d1f2c8fca3dab2a5ac2efa534b9c4f6b78500fdfc4700db551cf35",
+    "symlink": false
+  },
+  "pkgbuilds/link-studio/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "af36458d5d4fffa24b14f3ece2d76aebc241197065e73d5d8bee46803fdf9a20",
+    "symlink": false
+  },
+  "pkgbuilds/link-studio/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "836f2f9fb89d788449c5a5b766dd864f703037e8e51aa5b8a384df2783e619c8",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "64219855dc61a1e18c72bb10afbd2d1daaadbb21db74843a9589e3ab0ed8a9fd",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0010-archlinux-base.patch": {
+    "mode": "0o644",
+    "sha256": "95f3e9209629044028373af987dc0e270a5a15acb8c8e49c5f05057220c75fe2",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0110-bore-6.8.0.patch": {
+    "mode": "0o644",
+    "sha256": "daf0aaebff3cf4679d0bb8137ace6c9a2de62f75aa4655a0a02ddf759f3c7f26",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0120-tlbpull.patch": {
+    "mode": "0o644",
+    "sha256": "a9171e731d08a454a50174889af8936fab962b33c37c67169b0cdf21b0b80821",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0121-smp-preempt.patch": {
+    "mode": "0o644",
+    "sha256": "413e9994d35bc722cfe45752ab60a1bd8454443170d80987e6a5be6b7b745940",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0130-sched-detach-tasks.patch": {
+    "mode": "0o644",
+    "sha256": "01b9087c0cebf17d0ffbbbdd6025c9937fcdfa00c8672d310786ca3c3ce6daf9",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0131-sched-avg-idle.patch": {
+    "mode": "0o644",
+    "sha256": "5c776365d391a15c23afb3969183449852f795f42355629ac563abf7ae5e4735",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0140-sched-always-inline.patch": {
+    "mode": "0o644",
+    "sha256": "3a6aaf3b29eb5b4018c5703626311cd1c7a61bd7100789633efc6a79a9b3247b",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0141-sched-urgent-fixes.patch": {
+    "mode": "0o644",
+    "sha256": "b28d9b548407f0da4280f4f9a6c0e92db6f3a32a35c7668471b92096eb7b093c",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0142-sched-itmt-no-debugfs-dependency.patch": {
+    "mode": "0o644",
+    "sha256": "9492d7db11fd327ff06a52cad945bf8ff6dfcabec72c435bf02b4432ee67475e",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0143-sched-hybrid-cluster-balancing.patch": {
+    "mode": "0o644",
+    "sha256": "66af19c43c068144699183a17b67bcf4df03578937c4cffc5d8b24e2e2828f7b",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0144-sched-nohz-idle-core.patch": {
+    "mode": "0o644",
+    "sha256": "267506a02ac723ea37adcc7c851051edbd1ed731c6aaea4c9e590aadc207855c",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0150-adios-3.2.0.patch": {
+    "mode": "0o644",
+    "sha256": "07baad05112a47cb0aea81191502c87e496e13b4f23a6ec36ea65bb4219c35a8",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0200-idle.patch": {
+    "mode": "0o644",
+    "sha256": "720720067a21e8c57d2619f4c0b46846ac060ec6db97088634d62ab8628c70a9",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0210-pstate.patch": {
+    "mode": "0o644",
+    "sha256": "3d1299d19aa9fbc96d25f67154009813e05e92340340953ac8355649cff837a4",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0211-amd-pstate-fixes.patch": {
+    "mode": "0o644",
+    "sha256": "dac26fb42f5df71b30c46b3c5894c6016af5a283c57b45173386767ca53b1bf8",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0212-amd-pstate-epp-cache.patch": {
+    "mode": "0o644",
+    "sha256": "66eb2c49dbf708cc781d411d0e44ed613480f0ef66d522272929d9cb7bb21e93",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0250-zsmalloc.patch": {
+    "mode": "0o644",
+    "sha256": "b7ba949eea77e169aceb2c401d4eb83a7413aab6f15ee2a7ab1a96352f0aa12d",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0260-mglru-exec-protect.patch": {
+    "mode": "0o644",
+    "sha256": "341424b925d506869793686e22ea8f095a34048595ebebec409c0a7bbd346ca2",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0270-ksm-rmap-walk.patch": {
+    "mode": "0o644",
+    "sha256": "7c25d0a53a115bc1f072ff0cfdd9aa88858e754ae8b15026a2582656e8bd9c43",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0280-mm-updates.patch": {
+    "mode": "0o644",
+    "sha256": "79799f12cdf42de1cf6c5d483896b439d77bc2e582e10c7215f5375a76612a72",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0290-zstd-bmi2-fallback-aliases.patch": {
+    "mode": "0o644",
+    "sha256": "5e3b455024fab2855b590091c9d14b0d12d5363f3d4bf025b31b9aa88b65eba5",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0291-zstd-bmi2-cpu-feature-dispatch.patch": {
+    "mode": "0o644",
+    "sha256": "abd8c9326cecc9bb85db4b3dc98ddcb66306b34a6d84fb05d0805aed537e2dc4",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0292-crypto-zstd-defer-cstream-init.patch": {
+    "mode": "0o644",
+    "sha256": "60a9df54821cd98581e7476f8a7bb6cb0819762bdbed4d356332e41d164a8182",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0293-crypto-zstd-defer-dstream-init.patch": {
+    "mode": "0o644",
+    "sha256": "929108ae0a8eb4782cafdd89e3d4426d02d86f2c2102ed99e760e31f0bc3794a",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0295-af-alg-restrict.patch": {
+    "mode": "0o644",
+    "sha256": "e1226c836a9c2fb6daff109e56ba21c13fd198e109cbb181de920af04fe153e6",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0296-x86-mm-pmd-modify-keep-dirty-bit.patch": {
+    "mode": "0o644",
+    "sha256": "8d60f7dd26ef904419aa966427a9af2f2c9a079bb092ea0b58274ab905f6047a",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0300-btrfs.patch": {
+    "mode": "0o644",
+    "sha256": "258597006eb96e1fb185ec9303ceb48148eedce95608b57900383f6df59d2989",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0301-btrfs-fixes.patch": {
+    "mode": "0o644",
+    "sha256": "f935409f9aeba3314adfad7db1b3d895557a07029a80d10969804e49c0e270ca",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0302-btrfs-zstd-decompress-direct-to-page.patch": {
+    "mode": "0o644",
+    "sha256": "d8e64b9da3beab7c33832c019da50d0977b39dc32ec1f649a7c3bc93a2fdb9a5",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0310-fuse-eof-zeroing.patch": {
+    "mode": "0o644",
+    "sha256": "1780f66b157de6d249301331e31b7505f6e6fa26686fa4c618623567e4b758ae",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0311-fuse-perf.patch": {
+    "mode": "0o644",
+    "sha256": "2501c98aaea6a53eeaa18d696f60b677e710d0f2d89f7525e47ba806de1878b3",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0312-fuse-writethrough-uptodate.patch": {
+    "mode": "0o644",
+    "sha256": "e6b770d37e80509ed7ec5d8b59b4d2e5d6dba54ba659d7392de3b567f1eb6e54",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0313-fuse-background-wakeup.patch": {
+    "mode": "0o644",
+    "sha256": "b8596b5b5b546fdc309e10326b0e2ccea5a0538d4919630ed2845cded78580aa",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0350-drm-edid-populate-monitor-range-from-displayid-adaptive-sync.patch": {
+    "mode": "0o644",
+    "sha256": "5cc215215fed4247c2d6b9732deff586331a07d54c3b00538a81921093a3a1a1",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0360-gpu-mem-cgroup.patch": {
+    "mode": "0o644",
+    "sha256": "e303da14a3c8a15fd1cb45394138f03dd16e66d2ac0d1ebcd933977df937d771",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0400-drm-i915-alpm-limit-pr-alpm-to-panel-replay.patch": {
+    "mode": "0o644",
+    "sha256": "1f0c958b64ba48b8dc8b5548e1ad1934b8d4903fc16fec15014759e3681ea275",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0401-drm-i915-psr-exit-panel-replay-for-alpm-lag.patch": {
+    "mode": "0o644",
+    "sha256": "47994d576008a377de612ed77e6b2e7bc6b24ad3a30a6d157646d380ae323142",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0402-psr2-early-transport-panels.patch": {
+    "mode": "0o644",
+    "sha256": "d9eb3717ba98e270b0a998f8dd90cbda072f63b6a6ea8f66763bde3ea64e591d",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0411-drm-xe-display-no-stolen-framebuffers.patch": {
+    "mode": "0o644",
+    "sha256": "1e2fddb2e0c5d184a2e8c774886cf9be2f2f292e4f05832b50e5b49c48a7bacc",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0420-safe-window.patch": {
+    "mode": "0o644",
+    "sha256": "b9b8771b6a8bd7128f4344ad189e32c155abf72abd3ff646dcf5c78b08eb94c4",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0430-fbc.patch": {
+    "mode": "0o644",
+    "sha256": "f62837e8ee51070f8139f718e0e80a4ce0c0dea9ce2328c10c63403aca5b3d2e",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0440-xe3-peak-bandwidth.patch": {
+    "mode": "0o644",
+    "sha256": "cae59282e3d1afd69f4f5dc00a180c712ef464c98b8fd7ccc9b03de944dc79b9",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0450-amd-hdmi-vrr-allm.patch": {
+    "mode": "0o644",
+    "sha256": "5a74c8b2ba11e5876eeeb5ba530ae97e384b48943fa7a31e13396ecb82c5a8ce",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0451-amd-vtem-tmds-links.patch": {
+    "mode": "0o644",
+    "sha256": "8b954ea37a2190022064c82688bc8cb1cf79a90598f078035be7d4041003cda9",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0452-amd-hdmi-frl-default.patch": {
+    "mode": "0o644",
+    "sha256": "40ac31789399a5964c4fd820d4cdc7214add91109bbcf4a614619e5d8b367441",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0460-vesa-displayid-dsc-bpp.patch": {
+    "mode": "0o644",
+    "sha256": "707460d08c15f451d0a0e567c6e35522f3e1409bbe3bfbcf7160f33af06391b7",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0461-vesa-dsc-passthru-mode-match-fix.patch": {
+    "mode": "0o644",
+    "sha256": "eebbe50deab379d09b5149ef30769ad6dfa11109696934ee66b108ec406da942",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0472-amdgpu-userq-post-reset-error.patch": {
+    "mode": "0o644",
+    "sha256": "dab92dbc6eac02771c72801d94e6a53aabcf629a9cd79e85e0ce2ba44a65b06b",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0473-i915-ptl-cdclk-sanitize.patch": {
+    "mode": "0o644",
+    "sha256": "30e2fc90c950869ab2fe1535b609f35dc1d46d6b6816de4afcbf687dbc224f0a",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0474-amd-display-oled-vesa-backlight.patch": {
+    "mode": "0o644",
+    "sha256": "1fdf8c4d8ee07c02883b827a11a84c1e5f70570545b8a4a232f6b59dd02049fa",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0475-revert-drm-i915-dp-as-sdp-vrr-or-pr.patch": {
+    "mode": "0o644",
+    "sha256": "0057dff07a3ce9c7b7085edd1f912958e01ce8f7400151d55dfb74c0c6a084e2",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0510-sound-updates.patch": {
+    "mode": "0o644",
+    "sha256": "2762f72620781a672d9a21bcc591b862b04a756b271cd1009a7390eb1b77635e",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0511-sound-updates-fixes.patch": {
+    "mode": "0o644",
+    "sha256": "541325476efee83232ab8a6c62c14cf3c3c957c49cf053ed2869f7780f86d032",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0512-sound-fixes.patch": {
+    "mode": "0o644",
+    "sha256": "8a8eb0934424ab6312f26e03a06be5d0401360ee60a20a87b11f7c3c6590103c",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0513-xps13-sof-quirk.patch": {
+    "mode": "0o644",
+    "sha256": "f7ff13ea46359217d696c6ccd49bc3d74c441ac5893d5151d95138017b0d10aa",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0514-rt766-stream-config-type.patch": {
+    "mode": "0o644",
+    "sha256": "d17493b3579c730d27dc723447175b70d991f50253c9fd419df5e923bdf7a244",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0516-hda-realtek-rog-strix-g733zw-speakers.patch": {
+    "mode": "0o644",
+    "sha256": "92971bb4dbde209cf170838cfcd75d8ac9978239821d3493c28cc12623c2bb60",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0517-asoc-amd-yc-acer-aspire-a314-23p.patch": {
+    "mode": "0o644",
+    "sha256": "7245c6e2cb5c0b0ddf800894f087770cbf8ccc6f8b3f53b9a21c704e9dfa42c2",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0540-media-ipu-bridge-ivsc-no-cvs-lookup.patch": {
+    "mode": "0o644",
+    "sha256": "135140bce40644079be7743b51f8618fc829a8868ac53137050f76c45eca4061",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0541-cvs-nova-lake-acpi-id.patch": {
+    "mode": "0o644",
+    "sha256": "e6ec816ae309445c6c11e3433c04d0c9100e16c0e23268226d13c19e7be49edb",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0542-media-cvs-wake-irq-without-claiming-gpio.patch": {
+    "mode": "0o644",
+    "sha256": "29c61ec984bd342113b3c4310a3d5fddfd6d7db83847cfb26b84cc730385320a",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0560-input.patch": {
+    "mode": "0o644",
+    "sha256": "53425998005a4115bdf6001b9ffbe62c66bb2db205994b2e13005a3417ea6cbb",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0565-i2c-asue140d-touchpad-100khz.patch": {
+    "mode": "0o644",
+    "sha256": "c28fca9ba015e96599627acf42e52737a6a846bdcbfd3d4af4147eda3109e12d",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0566-hid-asus-no-keyboard-init-reports-to-touchpads.patch": {
+    "mode": "0o644",
+    "sha256": "5ce97dadb9eb1a8b0da41a8446ee74e01a5a7e7ab439bbea7a711318f04ae24f",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0600-usb4stream-fixes.patch": {
+    "mode": "0o644",
+    "sha256": "44f1c7bd18ea7f8772ce41e24dddd5f314e416ec8dfac6afe1ce8680c1bb4903",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0601-usb4stream-busy-poll.patch": {
+    "mode": "0o644",
+    "sha256": "0bb8ae5b6f23e13c60953eb5bbc8939e8f6c8faf2b216a20203af3b6f0217134",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0610-typec-cable-altmode-check.patch": {
+    "mode": "0o644",
+    "sha256": "907c92ef681154d10959a5f0cbe2a636688036990ba42e059af00cc2311b4be4",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0620-usb-string-sanitize.patch": {
+    "mode": "0o644",
+    "sha256": "534e68a989d36823f14a10299803f294eef39391619b4c329d78c20539d9fcd5",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0650-wireguard-tstamp-type.patch": {
+    "mode": "0o644",
+    "sha256": "516e6ec51ca0330989128a4eb2a8f6785e5d45d930899cbbbf37b8147ddfd854",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0660-btusb-mediatek-mt7922-13d3-3625.patch": {
+    "mode": "0o644",
+    "sha256": "bda3d6842f15998ce3f3e33d0e6e420df9c9c2abcba13716af478720c5933753",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0661-rtw89-command-offload-source.patch": {
+    "mode": "0o644",
+    "sha256": "3e7e7dba1ca88930c2c3f0d5411ddcee8c2e12fca59d859e2383dccaf9a08022",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0662-iwlwifi-mld-skip-tx-when-firmware-dead.patch": {
+    "mode": "0o644",
+    "sha256": "3a271bc6b0219152047fb2b78d9e695eb791b796ea6d8233096912c77d62a5c0",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0700-pci-target-speed-quirk.patch": {
+    "mode": "0o644",
+    "sha256": "4e80f2d05591175d4ed0a1a144509e97260e5593472aae586c07956215d99162",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0750-applesmc-cache-race.patch": {
+    "mode": "0o644",
+    "sha256": "8ebce8f38e38bd66879d040028c2448e5bc7dcde9df0ccee2b4221015591b162",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0751-applesmc-key-backlight-workqueue-leak.patch": {
+    "mode": "0o644",
+    "sha256": "0b0e05b615ae6eb825bf7d7fa568f551b0dff6c2cee62c9285c1b0d63224ea1c",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0770-acpi-pm-acer-swift3-sf314-56g-power-resource.patch": {
+    "mode": "0o644",
+    "sha256": "2e1e2a0eb039ce61c1612bf6c7ab5227b99df053bcd5592da7758715dd333fda",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0800-platform-updates.patch": {
+    "mode": "0o644",
+    "sha256": "17de1f76da3db42dc3c7829a22953cd2c6de916999d809e3fb0bbb741753ec8f",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0801-amd-pmf-util-unbind-use-after-free.patch": {
+    "mode": "0o644",
+    "sha256": "d90cc6570a47c8754e4c5d45834e0434c0a1fcabda9b8933b1fba84e3dabc083",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0850-futex-wait-multiple.patch": {
+    "mode": "0o644",
+    "sha256": "028bf538c870465e1752514725372fa9eef6b7178d9b8d1e2ecc15edc5a63cc8",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0851-futex-wait-multiple-fixes.patch": {
+    "mode": "0o644",
+    "sha256": "a92a84405ee9845738c6b52d8f0f0eca16eb40afe0ebe0f4e9e1168597675311",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/0852-futex-wait-multiple-abi-fixes.patch": {
+    "mode": "0o644",
+    "sha256": "44a0b10a6dc83465ea86f5fba936b2bfbeffb1b3f0b2e04013bfed99ba4f6c5a",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/8201-xe-shrinker-return-freed-page-count.patch": {
+    "mode": "0o644",
+    "sha256": "229b28cee6f2b8afb5888eed453ce7f82de033900383bd91957339007c9e6cbf",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/8202-xe-shrinker-runtime-pm-for-non-system-memory.patch": {
+    "mode": "0o644",
+    "sha256": "c5d61db05b19fde06102b0b3dbd76e1989c8f07f3b7d175176bd2d73f1a71e5c",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/8203-xe-shrinker-release-through-the-put-helper.patch": {
+    "mode": "0o644",
+    "sha256": "5988d7a37b4b71a64ed09fea872f08515a3c7029d33fd053a6a1822bb811ddb5",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/8204-mm-opportunistic-compaction.patch": {
+    "mode": "0o644",
+    "sha256": "1ec4fb93700b0696ba2c2a371f218f13b32dcc745523c7ee26a5c3cd7af253fc",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/8205-mm-hint-uses-allocation-order.patch": {
+    "mode": "0o644",
+    "sha256": "c67fee35a42866dd3c9056ff099fc504cdad9530c107d959331b5572b21af818",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/8206-mm-carry-order-and-hint-in-one-word.patch": {
+    "mode": "0o644",
+    "sha256": "36cb306751c57de3e61c7a4cd18a7f131eef0dc1de15a4e28751d1e5b08bace8",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/8207-mm-classify-huge-page-allocations-as-failable.patch": {
+    "mode": "0o644",
+    "sha256": "07683e522d6dea3d3ce658ee80bf4317f6c3caf248259da960bc4610f4d1e807",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/8208-mm-thp-deferred-split-uses-hint.patch": {
+    "mode": "0o644",
+    "sha256": "66a0933d2d4f2edc8999b6fdf0fe10b5b607646fd6f1a1d534bf26270543f8f1",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/8209-xe-shrinker-use-opportunistic-hint.patch": {
+    "mode": "0o644",
+    "sha256": "c5279468d93e562f509a6b599a2b7ca7ee0032d3fe35314c5769fc6c9a9234ab",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/8210-xe-shrinker-single-backup-decision.patch": {
+    "mode": "0o644",
+    "sha256": "c0111614ec44014cbf621eedf5a4ef302a855423bc1633ee692392950e971d0e",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/9999-bpftool-strip-wformat-bootstrap.patch": {
+    "mode": "0o644",
+    "sha256": "1cbe1ddd3b37cd0c7e4bad4af08e681eda2f7a61698004322bb87f320aa95dbb",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "e690050a58986670edc7b70949c1e76b4d4b7cff77d3bb53992254a9d621e267",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/config.x86_64": {
+    "mode": "0o644",
+    "sha256": "ec67a6590495e4c139191fe1d5f9e5da5d291eadee1f68ee46cc52667470f5b4",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/keys/pgp/12D27D5D8C8E9BF1AABC7C7C7C64768D3DE334E7.asc": {
+    "mode": "0o644",
+    "sha256": "1270204cc36d09cf851876d0dca7b249af0d03e3b620a8757bf1f3391974e636",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/keys/pgp/647F28654894E3BD457199BE38DBBDC86092693E.asc": {
+    "mode": "0o644",
+    "sha256": "369874fe967723f7ee31a72014900e42b37f7f9c307391d254467aaf6ca9d85c",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy-bore/keys/pgp/ABAF11C65A2970B130ABE3C479BE3E4300411886.asc": {
+    "mode": "0o644",
+    "sha256": "9ec2257fa084e6e676e876e0c16b5e6449cf4f9670e87b5f08fd8d330a78391f",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "64219855dc61a1e18c72bb10afbd2d1daaadbb21db74843a9589e3ab0ed8a9fd",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0010-archlinux-base.patch": {
+    "mode": "0o644",
+    "sha256": "95f3e9209629044028373af987dc0e270a5a15acb8c8e49c5f05057220c75fe2",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0120-tlbpull.patch": {
+    "mode": "0o644",
+    "sha256": "a9171e731d08a454a50174889af8936fab962b33c37c67169b0cdf21b0b80821",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0121-smp-preempt.patch": {
+    "mode": "0o644",
+    "sha256": "6a27e1b363f1bb133b9905f84b00e4d01885cac84858db46bdbf764849c9984b",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0130-sched-detach-tasks.patch": {
+    "mode": "0o644",
+    "sha256": "dc3facd0cea0f1f99cfd824203db8da8cd0a970d07b2c4c88dab661655687545",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0131-sched-avg-idle.patch": {
+    "mode": "0o644",
+    "sha256": "9066c85e02351d86d4c61b86eb34d45fbd8022f42ce1739aee37931e7959298f",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0140-sched-always-inline.patch": {
+    "mode": "0o644",
+    "sha256": "bc0cc15d29d5b817201daf0f694543f932e6af319c24c1f603fc89e71b7c27cf",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0141-sched-urgent-fixes.patch": {
+    "mode": "0o644",
+    "sha256": "a101a8e061983d0a1cf5b47efb28840e4a8d3b00daee53a6a7f773e2472ffdc9",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0142-sched-itmt-no-debugfs-dependency.patch": {
+    "mode": "0o644",
+    "sha256": "9492d7db11fd327ff06a52cad945bf8ff6dfcabec72c435bf02b4432ee67475e",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0143-sched-hybrid-cluster-balancing.patch": {
+    "mode": "0o644",
+    "sha256": "a90ad7d91ecd9c7f64c9f84a65626241bc86c08c5c255e6684b7e26bcf5a47f8",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0144-sched-nohz-idle-core.patch": {
+    "mode": "0o644",
+    "sha256": "c206a0d1ac334a36f9ec5b8b2d706eaf6b726d32e304848d0ada50b6f25885b8",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0145-sched-eevdf-tunables.patch": {
+    "mode": "0o644",
+    "sha256": "40177376862e4d7f45684c5e2a743f3da40d59817b0afa3050a3002ac6838085",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0200-idle.patch": {
+    "mode": "0o644",
+    "sha256": "720720067a21e8c57d2619f4c0b46846ac060ec6db97088634d62ab8628c70a9",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0210-pstate.patch": {
+    "mode": "0o644",
+    "sha256": "3d1299d19aa9fbc96d25f67154009813e05e92340340953ac8355649cff837a4",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0211-amd-pstate-fixes.patch": {
+    "mode": "0o644",
+    "sha256": "dac26fb42f5df71b30c46b3c5894c6016af5a283c57b45173386767ca53b1bf8",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0212-amd-pstate-epp-cache.patch": {
+    "mode": "0o644",
+    "sha256": "66eb2c49dbf708cc781d411d0e44ed613480f0ef66d522272929d9cb7bb21e93",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0250-zsmalloc.patch": {
+    "mode": "0o644",
+    "sha256": "b7ba949eea77e169aceb2c401d4eb83a7413aab6f15ee2a7ab1a96352f0aa12d",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0260-mglru-exec-protect.patch": {
+    "mode": "0o644",
+    "sha256": "341424b925d506869793686e22ea8f095a34048595ebebec409c0a7bbd346ca2",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0270-ksm-rmap-walk.patch": {
+    "mode": "0o644",
+    "sha256": "7c25d0a53a115bc1f072ff0cfdd9aa88858e754ae8b15026a2582656e8bd9c43",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0280-mm-updates.patch": {
+    "mode": "0o644",
+    "sha256": "79799f12cdf42de1cf6c5d483896b439d77bc2e582e10c7215f5375a76612a72",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0290-zstd-bmi2-fallback-aliases.patch": {
+    "mode": "0o644",
+    "sha256": "5e3b455024fab2855b590091c9d14b0d12d5363f3d4bf025b31b9aa88b65eba5",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0291-zstd-bmi2-cpu-feature-dispatch.patch": {
+    "mode": "0o644",
+    "sha256": "abd8c9326cecc9bb85db4b3dc98ddcb66306b34a6d84fb05d0805aed537e2dc4",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0292-crypto-zstd-defer-cstream-init.patch": {
+    "mode": "0o644",
+    "sha256": "60a9df54821cd98581e7476f8a7bb6cb0819762bdbed4d356332e41d164a8182",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0293-crypto-zstd-defer-dstream-init.patch": {
+    "mode": "0o644",
+    "sha256": "929108ae0a8eb4782cafdd89e3d4426d02d86f2c2102ed99e760e31f0bc3794a",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0295-af-alg-restrict.patch": {
+    "mode": "0o644",
+    "sha256": "e1226c836a9c2fb6daff109e56ba21c13fd198e109cbb181de920af04fe153e6",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0296-x86-mm-pmd-modify-keep-dirty-bit.patch": {
+    "mode": "0o644",
+    "sha256": "8d60f7dd26ef904419aa966427a9af2f2c9a079bb092ea0b58274ab905f6047a",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0300-btrfs.patch": {
+    "mode": "0o644",
+    "sha256": "258597006eb96e1fb185ec9303ceb48148eedce95608b57900383f6df59d2989",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0301-btrfs-fixes.patch": {
+    "mode": "0o644",
+    "sha256": "f935409f9aeba3314adfad7db1b3d895557a07029a80d10969804e49c0e270ca",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0302-btrfs-zstd-decompress-direct-to-page.patch": {
+    "mode": "0o644",
+    "sha256": "d8e64b9da3beab7c33832c019da50d0977b39dc32ec1f649a7c3bc93a2fdb9a5",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0310-fuse-eof-zeroing.patch": {
+    "mode": "0o644",
+    "sha256": "1780f66b157de6d249301331e31b7505f6e6fa26686fa4c618623567e4b758ae",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0311-fuse-perf.patch": {
+    "mode": "0o644",
+    "sha256": "2501c98aaea6a53eeaa18d696f60b677e710d0f2d89f7525e47ba806de1878b3",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0312-fuse-writethrough-uptodate.patch": {
+    "mode": "0o644",
+    "sha256": "e6b770d37e80509ed7ec5d8b59b4d2e5d6dba54ba659d7392de3b567f1eb6e54",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0313-fuse-background-wakeup.patch": {
+    "mode": "0o644",
+    "sha256": "b8596b5b5b546fdc309e10326b0e2ccea5a0538d4919630ed2845cded78580aa",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0350-drm-edid-populate-monitor-range-from-displayid-adaptive-sync.patch": {
+    "mode": "0o644",
+    "sha256": "5cc215215fed4247c2d6b9732deff586331a07d54c3b00538a81921093a3a1a1",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0360-gpu-mem-cgroup.patch": {
+    "mode": "0o644",
+    "sha256": "e303da14a3c8a15fd1cb45394138f03dd16e66d2ac0d1ebcd933977df937d771",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0400-drm-i915-alpm-limit-pr-alpm-to-panel-replay.patch": {
+    "mode": "0o644",
+    "sha256": "1f0c958b64ba48b8dc8b5548e1ad1934b8d4903fc16fec15014759e3681ea275",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0401-drm-i915-psr-exit-panel-replay-for-alpm-lag.patch": {
+    "mode": "0o644",
+    "sha256": "47994d576008a377de612ed77e6b2e7bc6b24ad3a30a6d157646d380ae323142",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0402-psr2-early-transport-panels.patch": {
+    "mode": "0o644",
+    "sha256": "d9eb3717ba98e270b0a998f8dd90cbda072f63b6a6ea8f66763bde3ea64e591d",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0411-drm-xe-display-no-stolen-framebuffers.patch": {
+    "mode": "0o644",
+    "sha256": "1e2fddb2e0c5d184a2e8c774886cf9be2f2f292e4f05832b50e5b49c48a7bacc",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0420-safe-window.patch": {
+    "mode": "0o644",
+    "sha256": "b9b8771b6a8bd7128f4344ad189e32c155abf72abd3ff646dcf5c78b08eb94c4",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0430-fbc.patch": {
+    "mode": "0o644",
+    "sha256": "f62837e8ee51070f8139f718e0e80a4ce0c0dea9ce2328c10c63403aca5b3d2e",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0440-xe3-peak-bandwidth.patch": {
+    "mode": "0o644",
+    "sha256": "cae59282e3d1afd69f4f5dc00a180c712ef464c98b8fd7ccc9b03de944dc79b9",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0450-amd-hdmi-vrr-allm.patch": {
+    "mode": "0o644",
+    "sha256": "5a74c8b2ba11e5876eeeb5ba530ae97e384b48943fa7a31e13396ecb82c5a8ce",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0451-amd-vtem-tmds-links.patch": {
+    "mode": "0o644",
+    "sha256": "8b954ea37a2190022064c82688bc8cb1cf79a90598f078035be7d4041003cda9",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0452-amd-hdmi-frl-default.patch": {
+    "mode": "0o644",
+    "sha256": "40ac31789399a5964c4fd820d4cdc7214add91109bbcf4a614619e5d8b367441",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0460-vesa-displayid-dsc-bpp.patch": {
+    "mode": "0o644",
+    "sha256": "707460d08c15f451d0a0e567c6e35522f3e1409bbe3bfbcf7160f33af06391b7",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0461-vesa-dsc-passthru-mode-match-fix.patch": {
+    "mode": "0o644",
+    "sha256": "eebbe50deab379d09b5149ef30769ad6dfa11109696934ee66b108ec406da942",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0472-amdgpu-userq-post-reset-error.patch": {
+    "mode": "0o644",
+    "sha256": "dab92dbc6eac02771c72801d94e6a53aabcf629a9cd79e85e0ce2ba44a65b06b",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0473-i915-ptl-cdclk-sanitize.patch": {
+    "mode": "0o644",
+    "sha256": "30e2fc90c950869ab2fe1535b609f35dc1d46d6b6816de4afcbf687dbc224f0a",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0474-amd-display-oled-vesa-backlight.patch": {
+    "mode": "0o644",
+    "sha256": "1fdf8c4d8ee07c02883b827a11a84c1e5f70570545b8a4a232f6b59dd02049fa",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0475-revert-drm-i915-dp-as-sdp-vrr-or-pr.patch": {
+    "mode": "0o644",
+    "sha256": "0057dff07a3ce9c7b7085edd1f912958e01ce8f7400151d55dfb74c0c6a084e2",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0510-sound-updates.patch": {
+    "mode": "0o644",
+    "sha256": "2762f72620781a672d9a21bcc591b862b04a756b271cd1009a7390eb1b77635e",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0511-sound-updates-fixes.patch": {
+    "mode": "0o644",
+    "sha256": "541325476efee83232ab8a6c62c14cf3c3c957c49cf053ed2869f7780f86d032",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0512-sound-fixes.patch": {
+    "mode": "0o644",
+    "sha256": "8a8eb0934424ab6312f26e03a06be5d0401360ee60a20a87b11f7c3c6590103c",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0513-xps13-sof-quirk.patch": {
+    "mode": "0o644",
+    "sha256": "f7ff13ea46359217d696c6ccd49bc3d74c441ac5893d5151d95138017b0d10aa",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0514-rt766-stream-config-type.patch": {
+    "mode": "0o644",
+    "sha256": "d17493b3579c730d27dc723447175b70d991f50253c9fd419df5e923bdf7a244",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0516-hda-realtek-rog-strix-g733zw-speakers.patch": {
+    "mode": "0o644",
+    "sha256": "92971bb4dbde209cf170838cfcd75d8ac9978239821d3493c28cc12623c2bb60",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0517-asoc-amd-yc-acer-aspire-a314-23p.patch": {
+    "mode": "0o644",
+    "sha256": "7245c6e2cb5c0b0ddf800894f087770cbf8ccc6f8b3f53b9a21c704e9dfa42c2",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0540-media-ipu-bridge-ivsc-no-cvs-lookup.patch": {
+    "mode": "0o644",
+    "sha256": "135140bce40644079be7743b51f8618fc829a8868ac53137050f76c45eca4061",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0541-cvs-nova-lake-acpi-id.patch": {
+    "mode": "0o644",
+    "sha256": "e6ec816ae309445c6c11e3433c04d0c9100e16c0e23268226d13c19e7be49edb",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0542-media-cvs-wake-irq-without-claiming-gpio.patch": {
+    "mode": "0o644",
+    "sha256": "29c61ec984bd342113b3c4310a3d5fddfd6d7db83847cfb26b84cc730385320a",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0560-input.patch": {
+    "mode": "0o644",
+    "sha256": "53425998005a4115bdf6001b9ffbe62c66bb2db205994b2e13005a3417ea6cbb",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0565-i2c-asue140d-touchpad-100khz.patch": {
+    "mode": "0o644",
+    "sha256": "c28fca9ba015e96599627acf42e52737a6a846bdcbfd3d4af4147eda3109e12d",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0566-hid-asus-no-keyboard-init-reports-to-touchpads.patch": {
+    "mode": "0o644",
+    "sha256": "5ce97dadb9eb1a8b0da41a8446ee74e01a5a7e7ab439bbea7a711318f04ae24f",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0600-usb4stream-fixes.patch": {
+    "mode": "0o644",
+    "sha256": "44f1c7bd18ea7f8772ce41e24dddd5f314e416ec8dfac6afe1ce8680c1bb4903",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0601-usb4stream-busy-poll.patch": {
+    "mode": "0o644",
+    "sha256": "0bb8ae5b6f23e13c60953eb5bbc8939e8f6c8faf2b216a20203af3b6f0217134",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0610-typec-cable-altmode-check.patch": {
+    "mode": "0o644",
+    "sha256": "907c92ef681154d10959a5f0cbe2a636688036990ba42e059af00cc2311b4be4",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0620-usb-string-sanitize.patch": {
+    "mode": "0o644",
+    "sha256": "534e68a989d36823f14a10299803f294eef39391619b4c329d78c20539d9fcd5",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0650-wireguard-tstamp-type.patch": {
+    "mode": "0o644",
+    "sha256": "516e6ec51ca0330989128a4eb2a8f6785e5d45d930899cbbbf37b8147ddfd854",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0660-btusb-mediatek-mt7922-13d3-3625.patch": {
+    "mode": "0o644",
+    "sha256": "bda3d6842f15998ce3f3e33d0e6e420df9c9c2abcba13716af478720c5933753",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0661-rtw89-command-offload-source.patch": {
+    "mode": "0o644",
+    "sha256": "3e7e7dba1ca88930c2c3f0d5411ddcee8c2e12fca59d859e2383dccaf9a08022",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0662-iwlwifi-mld-skip-tx-when-firmware-dead.patch": {
+    "mode": "0o644",
+    "sha256": "3a271bc6b0219152047fb2b78d9e695eb791b796ea6d8233096912c77d62a5c0",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0700-pci-target-speed-quirk.patch": {
+    "mode": "0o644",
+    "sha256": "4e80f2d05591175d4ed0a1a144509e97260e5593472aae586c07956215d99162",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0750-applesmc-cache-race.patch": {
+    "mode": "0o644",
+    "sha256": "8ebce8f38e38bd66879d040028c2448e5bc7dcde9df0ccee2b4221015591b162",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0751-applesmc-key-backlight-workqueue-leak.patch": {
+    "mode": "0o644",
+    "sha256": "0b0e05b615ae6eb825bf7d7fa568f551b0dff6c2cee62c9285c1b0d63224ea1c",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0770-acpi-pm-acer-swift3-sf314-56g-power-resource.patch": {
+    "mode": "0o644",
+    "sha256": "2e1e2a0eb039ce61c1612bf6c7ab5227b99df053bcd5592da7758715dd333fda",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0800-platform-updates.patch": {
+    "mode": "0o644",
+    "sha256": "17de1f76da3db42dc3c7829a22953cd2c6de916999d809e3fb0bbb741753ec8f",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0801-amd-pmf-util-unbind-use-after-free.patch": {
+    "mode": "0o644",
+    "sha256": "d90cc6570a47c8754e4c5d45834e0434c0a1fcabda9b8933b1fba84e3dabc083",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0850-futex-wait-multiple.patch": {
+    "mode": "0o644",
+    "sha256": "028bf538c870465e1752514725372fa9eef6b7178d9b8d1e2ecc15edc5a63cc8",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0851-futex-wait-multiple-fixes.patch": {
+    "mode": "0o644",
+    "sha256": "a92a84405ee9845738c6b52d8f0f0eca16eb40afe0ebe0f4e9e1168597675311",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/0852-futex-wait-multiple-abi-fixes.patch": {
+    "mode": "0o644",
+    "sha256": "44a0b10a6dc83465ea86f5fba936b2bfbeffb1b3f0b2e04013bfed99ba4f6c5a",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/8201-xe-shrinker-return-freed-page-count.patch": {
+    "mode": "0o644",
+    "sha256": "229b28cee6f2b8afb5888eed453ce7f82de033900383bd91957339007c9e6cbf",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/8202-xe-shrinker-runtime-pm-for-non-system-memory.patch": {
+    "mode": "0o644",
+    "sha256": "c5d61db05b19fde06102b0b3dbd76e1989c8f07f3b7d175176bd2d73f1a71e5c",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/8203-xe-shrinker-release-through-the-put-helper.patch": {
+    "mode": "0o644",
+    "sha256": "5988d7a37b4b71a64ed09fea872f08515a3c7029d33fd053a6a1822bb811ddb5",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/8204-mm-opportunistic-compaction.patch": {
+    "mode": "0o644",
+    "sha256": "1ec4fb93700b0696ba2c2a371f218f13b32dcc745523c7ee26a5c3cd7af253fc",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/8205-mm-hint-uses-allocation-order.patch": {
+    "mode": "0o644",
+    "sha256": "c67fee35a42866dd3c9056ff099fc504cdad9530c107d959331b5572b21af818",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/8206-mm-carry-order-and-hint-in-one-word.patch": {
+    "mode": "0o644",
+    "sha256": "36cb306751c57de3e61c7a4cd18a7f131eef0dc1de15a4e28751d1e5b08bace8",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/8207-mm-classify-huge-page-allocations-as-failable.patch": {
+    "mode": "0o644",
+    "sha256": "07683e522d6dea3d3ce658ee80bf4317f6c3caf248259da960bc4610f4d1e807",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/8208-mm-thp-deferred-split-uses-hint.patch": {
+    "mode": "0o644",
+    "sha256": "66a0933d2d4f2edc8999b6fdf0fe10b5b607646fd6f1a1d534bf26270543f8f1",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/8209-xe-shrinker-use-opportunistic-hint.patch": {
+    "mode": "0o644",
+    "sha256": "c5279468d93e562f509a6b599a2b7ca7ee0032d3fe35314c5769fc6c9a9234ab",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/8210-xe-shrinker-single-backup-decision.patch": {
+    "mode": "0o644",
+    "sha256": "c0111614ec44014cbf621eedf5a4ef302a855423bc1633ee692392950e971d0e",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/9999-bpftool-strip-wformat-bootstrap.patch": {
+    "mode": "0o644",
+    "sha256": "1cbe1ddd3b37cd0c7e4bad4af08e681eda2f7a61698004322bb87f320aa95dbb",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "2ac6e4ddb90f0afbe7602d274a36389f70b9a11664c256d2aee6cafb1fd4fcbf",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/config.x86_64": {
+    "mode": "0o644",
+    "sha256": "85fbe8a369d42048097394785d483d14c10acc04a5e7bfbcd90ce44d5c8d9673",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/keys/pgp/12D27D5D8C8E9BF1AABC7C7C7C64768D3DE334E7.asc": {
+    "mode": "0o644",
+    "sha256": "1270204cc36d09cf851876d0dca7b249af0d03e3b620a8757bf1f3391974e636",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/keys/pgp/647F28654894E3BD457199BE38DBBDC86092693E.asc": {
+    "mode": "0o644",
+    "sha256": "369874fe967723f7ee31a72014900e42b37f7f9c307391d254467aaf6ca9d85c",
+    "symlink": false
+  },
+  "pkgbuilds/linux-omarchy/keys/pgp/ABAF11C65A2970B130ABE3C479BE3E4300411886.asc": {
+    "mode": "0o644",
+    "sha256": "9ec2257fa084e6e676e876e0c16b5e6449cf4f9670e87b5f08fd8d330a78391f",
+    "symlink": false
+  },
+  "pkgbuilds/linux-ptl/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "64219855dc61a1e18c72bb10afbd2d1daaadbb21db74843a9589e3ab0ed8a9fd",
+    "symlink": false
+  },
+  "pkgbuilds/linux-ptl/0020-drm-i915-alpm-limit-pr-alpm-to-panel-replay.patch": {
+    "mode": "0o644",
+    "sha256": "0362fad3b0b627b352d4acd20fca3be9ab754ccf4ff69d7a7f10d4dd49377973",
+    "symlink": false
+  },
+  "pkgbuilds/linux-ptl/0028-drm-i915-psr-exit-Panel-Replay-for-ALPM-lag.patch": {
+    "mode": "0o644",
+    "sha256": "39ca28bf480847ff7161da1f4ca8f586d80d59dd2b923f0cdf1b28503433ceab",
+    "symlink": false
+  },
+  "pkgbuilds/linux-ptl/0029-drm-edid-populate-monitor-range-from-displayid-adaptive-sync.patch": {
+    "mode": "0o644",
+    "sha256": "1a0bebfba76248bbda67f8812278835de71754412369454ce60f4dde0bd81916",
+    "symlink": false
+  },
+  "pkgbuilds/linux-ptl/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "6792cabd15475e0f9c7e6bb615d7e337d5e7d881b7d1769e03778a68f51a8e38",
+    "symlink": false
+  },
+  "pkgbuilds/linux-ptl/config.x86_64": {
+    "mode": "0o644",
+    "sha256": "09bf2e22e995baf6a2c38079cfb5ad896d4e10aa47af60864c2dd36d5cb9e25c",
+    "symlink": false
+  },
+  "pkgbuilds/lmstudio-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "85f1f85e89ea834ecd11cf053b0f150c530987fda40af6e709a3a27d2a9d6f6d",
+    "symlink": false
+  },
+  "pkgbuilds/lmstudio-bin/LMStudio-bin Blueprint.md": {
+    "mode": "0o644",
+    "sha256": "09284dc297dfea0cd71a06d47e727d0d20b4d9bf6e7b4c1a5eeb9a4a072e0ad3",
+    "symlink": false
+  },
+  "pkgbuilds/lmstudio-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "5535a095eaf8a8c6aac7c860ffc0c00cf4a2afc0e8bb902e78efa6a3253e7a33",
+    "symlink": false
+  },
+  "pkgbuilds/lmstudio-bin/PKGBUILD.template": {
+    "mode": "0o644",
+    "sha256": "e5c11ef30eb27f846474508a2713a9803b6676295f60ad8ccae2a086b66cfba5",
+    "symlink": false
+  },
+  "pkgbuilds/lmstudio-bin/lmstudio-bin.install": {
+    "mode": "0o644",
+    "sha256": "0d8d75c719aaab575240f6039055ace7d584727c1cb433eb62513e9897c49c3d",
+    "symlink": false
+  },
+  "pkgbuilds/lmstudio-bin/lmstudio.desktop": {
+    "mode": "0o644",
+    "sha256": "635dec12f3e3a57136b9e6fd7c2839ed6da7287fa55b482d64debf6eacf36baa",
+    "symlink": false
+  },
+  "pkgbuilds/lmstudio-bin/lmstudio.png": {
+    "mode": "0o644",
+    "sha256": "9f791789c959a11316328692807737a5f1bc1c170ae99ec04c56bfd8ee8263e5",
+    "symlink": false
+  },
+  "pkgbuilds/lmstudio-bin/update_package.py": {
+    "mode": "0o644",
+    "sha256": "ee4a862fc0350dd30e7342ec9d87dfc61340de24426a9cba075e2995f7b38d4b",
+    "symlink": false
+  },
+  "pkgbuilds/lmstudio-bin/verify_git_hygiene.sh": {
+    "mode": "0o755",
+    "sha256": "91f33502bc5e4d913295a749cae270048826e0fca2380a7915f42f642f6a69a1",
+    "symlink": false
+  },
+  "pkgbuilds/lmstudio-bin/verify_system.sh": {
+    "mode": "0o755",
+    "sha256": "0f103c3c4adbb6d8f2e09cb3442a54eaf199ccefe34f8d4a2d70320a38725795",
+    "symlink": false
+  },
+  "pkgbuilds/localsend-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "65c0a79a15dd61a844324d3642b023c08dc6800dca25462fcfe5e0f1f31f8c1b",
+    "symlink": false
+  },
+  "pkgbuilds/localsend-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "0d81ab6a3f22d422345479550f45f676a377befa66de3a61bcdf86fabbb38a7b",
+    "symlink": false
+  },
+  "pkgbuilds/localsend/.nvchecker.toml": {
+    "mode": "0o644",
+    "sha256": "ba15c4572f96dae44f98089048e099e6c3aaf200655eafdfdec52eaff7f75b7d",
+    "symlink": false
+  },
+  "pkgbuilds/localsend/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5802988875964407bdc9260735e6da4b3e0308c601f31e13455791a67cf30555",
+    "symlink": false
+  },
+  "pkgbuilds/localsend/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "199904d43d737961beab7e2724d33b56d84c6b438a45ecedd325c702f406d187",
+    "symlink": false
+  },
+  "pkgbuilds/macbook12-spi-driver-dkms/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "646783919b1b026da7ab9b513bd6c3c64393b32bbab1e4a8abc2b9074e8e1567",
+    "symlink": false
+  },
+  "pkgbuilds/macbook12-spi-driver-dkms/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "40b527ab7a8f3961b218422b61ee9d6210cfd8702c08a24b52cb5d05bb1ed2f3",
+    "symlink": false
+  },
+  "pkgbuilds/macbook12-spi-driver-dkms/dkms.conf": {
+    "mode": "0o644",
+    "sha256": "e42243352d015a78e5d13260361d3052d0b84c4105bcb89191a319f2249cc47b",
+    "symlink": false
+  },
+  "pkgbuilds/macbook8-spi-pxa2xx-nodma-dkms/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/macbook8-spi-pxa2xx-nodma-dkms/Makefile": {
+    "mode": "0o644",
+    "sha256": "f9d1e48f6a18168105a6f6991953125cdf41457de178c00fe7378376ec11f12f",
+    "symlink": false
+  },
+  "pkgbuilds/macbook8-spi-pxa2xx-nodma-dkms/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "d0ca326914b3848d03ac864c2b948bb2d38c7c43e944dd9aa0fb97cf4720b022",
+    "symlink": false
+  },
+  "pkgbuilds/macbook8-spi-pxa2xx-nodma-dkms/dkms.conf": {
+    "mode": "0o644",
+    "sha256": "9fb4503571118d6e128387b99e371fc1f9401fe192f215c5b976a81c4937c514",
+    "symlink": false
+  },
+  "pkgbuilds/macbook8-spi-pxa2xx-nodma-dkms/macbook8-spi-nodma.conf": {
+    "mode": "0o644",
+    "sha256": "455d3a9985928a5abc21452ca70c845d9203ec26c8826962607cdfbc2f34d86c",
+    "symlink": false
+  },
+  "pkgbuilds/macbook8-spi-pxa2xx-nodma-dkms/spi-pxa2xx-pci-nodma.c": {
+    "mode": "0o644",
+    "sha256": "ffe04ab2c5d51db36b39eba05ace5faaf33d5004f46608f4fa06343ba873038b",
+    "symlink": false
+  },
+  "pkgbuilds/macbook8-spi-pxa2xx-nodma-dkms/spi-pxa2xx.h": {
+    "mode": "0o644",
+    "sha256": "011221bcaae0b8ca2634c3b2624b83b8a7bd94b37427fcd95548b3db705d5ec3",
+    "symlink": false
+  },
+  "pkgbuilds/makima-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "b9f229632537c3e8cc9e4391ae2ddbff1cd64ce73abd05fabc5848f60ee95508",
+    "symlink": false
+  },
+  "pkgbuilds/makima-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "09779640f3dce1a8b7617c8eea6d553f462e3346622737b21761034764b5bec7",
+    "symlink": false
+  },
+  "pkgbuilds/minecraft-launcher/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "d4d2e12a84ee31e4b96f8f2b220606ea35c8e47f776ec6d5b85f49f5f0af933c",
+    "symlink": false
+  },
+  "pkgbuilds/minecraft-launcher/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "7b8a72e8ef40d9ae029ce44051d7e847d00c88158af9692c64ad047a5e61d723",
+    "symlink": false
+  },
+  "pkgbuilds/minecraft-launcher/minecraft-launcher.desktop": {
+    "mode": "0o644",
+    "sha256": "09006f33be0d4540dfb1838db00ec6c5d3a542e8c8c58c8374f4f85479222e3f",
+    "symlink": false
+  },
+  "pkgbuilds/minecraft-launcher/minecraft-launcher.sh": {
+    "mode": "0o755",
+    "sha256": "83a89378cd17c1bbee173d12d14c13edae1b29770ee8411a534c5a547c164d4b",
+    "symlink": false
+  },
+  "pkgbuilds/mise-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "3ca2c16b34ee2acfa4c21ba7f4c1306f1bbd2f78cd8d2d4e5bbab1327b857e50",
+    "symlink": false
+  },
+  "pkgbuilds/mise-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "db47b3ed32bb1fb15b604900833a2c7c2e08963cd7704655574b93234ff2ddc1",
+    "symlink": false
+  },
+  "pkgbuilds/nautilus-dropbox/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "314bd8f82cee90987f1cdbf0cd27732783f2819f3201ea744a56a9079efb0d10",
+    "symlink": false
+  },
+  "pkgbuilds/nautilus-dropbox/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "a5ef755d544e18052e2103e03d7ad995e0f1899d86e004b108c5cd4587b44994",
+    "symlink": false
+  },
+  "pkgbuilds/nautilus-open-any-terminal/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "87bc2ef9e6bb445fa119eeed92c75928a6ecf2ba69a341c5bfff56db5129377d",
+    "symlink": false
+  },
+  "pkgbuilds/nautilus-open-any-terminal/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "d3db7c75f1cd6793e5f249147d476cc3a328fbe8062ce17ff7cfb2648acd8914",
+    "symlink": false
+  },
+  "pkgbuilds/nordvpn-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "968f37c787a0dd73355c5a1f93e5ac53db60a3d26fe0589343eff950a78ac88c",
+    "symlink": false
+  },
+  "pkgbuilds/nordvpn-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "2837da6d3082259ca0f7bce54285fa9e0adf2ae071fd6de193b64bd1c4e2b36d",
+    "symlink": false
+  },
+  "pkgbuilds/nordvpn-bin/nordvpn-bin.install": {
+    "mode": "0o644",
+    "sha256": "e5e804228d7d3a436330bffee96adf05f6b5c85710ba82e4417c078805f760f5",
+    "symlink": false
+  },
+  "pkgbuilds/nvidia-580xx-utils/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "7731c72d7e0f928a5e1ce78cc039c414c5b8b62f719436e09defff87cd6ae1dc",
+    "symlink": false
+  },
+  "pkgbuilds/nvidia-580xx-utils/0001-Enable-atomic-kernel-modesetting-by-default.patch": {
+    "mode": "0o644",
+    "sha256": "163c57160cc1033020680f638b44ebd94b496152dcd8951e87d5077d4d5c2009",
+    "symlink": false
+  },
+  "pkgbuilds/nvidia-580xx-utils/0002-Fix-hardware-cursor-crash.patch": {
+    "mode": "0o644",
+    "sha256": "c1a1cf05dd12efd67858180461ad97a6ebe206b55b56df207854b322ce734613",
+    "symlink": false
+  },
+  "pkgbuilds/nvidia-580xx-utils/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "ef954c16b8df90a8b5fbc2bf117f2e5899205d0373fb55c03a8c0ceb75ac8bd3",
+    "symlink": false
+  },
+  "pkgbuilds/nvidia-580xx-utils/limit-vram-usage": {
+    "mode": "0o644",
+    "sha256": "b14f7a65359c05c373ddfc750cd4cf086a48e815489d93ad5cbe1dbf84bf8f5a",
+    "symlink": false
+  },
+  "pkgbuilds/nvidia-580xx-utils/nvidia-580xx-utils.install": {
+    "mode": "0o644",
+    "sha256": "0013a424d7c1234dcead372afef28c143596f8614f77a8730c5b935f447bc334",
+    "symlink": false
+  },
+  "pkgbuilds/nvidia-580xx-utils/nvidia-drm-outputclass.conf": {
+    "mode": "0o644",
+    "sha256": "be99ff3def641bb900c2486cce96530394c5dc60548fc4642f19d3a4c784134d",
+    "symlink": false
+  },
+  "pkgbuilds/nvidia-580xx-utils/nvidia-sleep.conf": {
+    "mode": "0o644",
+    "sha256": "12d31a5425aba66be9e9129012cde82755ad4d5b7ce9933df8fc398c4fa8d631",
+    "symlink": false
+  },
+  "pkgbuilds/nvidia-580xx-utils/nvidia-utils.sysusers": {
+    "mode": "0o644",
+    "sha256": "f77a5247a3ba63e9fad3a3b2822d0fcfa51e0f79b5a90bd79bf08ea34b64ab07",
+    "symlink": false
+  },
+  "pkgbuilds/nvidia-580xx-utils/nvidia.rules": {
+    "mode": "0o644",
+    "sha256": "0e54249a7754b668b436f0f7aa7e95fff68edbb12a93dbee4660e09a8c695f84",
+    "symlink": false
+  },
+  "pkgbuilds/nvidia-580xx-utils/systemd-homed-override.conf": {
+    "mode": "0o644",
+    "sha256": "c5aa7b8abe69e72bfdc6b9ee8afbfd350bcc557e894558f2e6e4087fa9aa0dd8",
+    "symlink": false
+  },
+  "pkgbuilds/nvidia-580xx-utils/systemd-suspend-override.conf": {
+    "mode": "0o644",
+    "sha256": "1d053c5078387021338cfc3a732bed61be1a20a549775573788e9134775c8149",
+    "symlink": false
+  },
+  "pkgbuilds/omacalc/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/omacalc/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "e5cfb6709291cab21ff4c04a232d6b61f735fe7861313b043843d018a27930cd",
+    "symlink": false
+  },
+  "pkgbuilds/omacalc/omacalc.desktop": {
+    "mode": "0o644",
+    "sha256": "a8697a8606ab2ff6323e2923a835b1d3312e03f20614b71b1d5db57c84c93306",
+    "symlink": false
+  },
+  "pkgbuilds/omacalc/omacalc.install": {
+    "mode": "0o644",
+    "sha256": "ddb234b61ffb550ea14ebc495b1dc6df5e362e7881f1d14687f63f184d7d9b4d",
+    "symlink": false
+  },
+  "pkgbuilds/omacalc/omacalc.svg": {
+    "mode": "0o644",
+    "sha256": "a6366f7167e657dd3be9c129a533fccc007dfb644db505f07068ad5a5986d34d",
+    "symlink": false
+  },
+  "pkgbuilds/omacut/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/omacut/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "2205d41048d7ce3fe1808fffd6742ec398b9e4bbfe9e958cfcb5313318ca2df8",
+    "symlink": false
+  },
+  "pkgbuilds/omacut/omacut.install": {
+    "mode": "0o644",
+    "sha256": "ddb234b61ffb550ea14ebc495b1dc6df5e362e7881f1d14687f63f184d7d9b4d",
+    "symlink": false
+  },
+  "pkgbuilds/omakade/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "e04fc8f1dc8201e32e07e7d0a2087d9e9cf939d6a995dfaa0c62fec06769e8b6",
+    "symlink": false
+  },
+  "pkgbuilds/omakade/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "305641eecf331cedd513bb514634b87da613aeb41568168b8021e147615a1c84",
+    "symlink": false
+  },
+  "pkgbuilds/omapresent/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "0a243191066fb29d6caf4c31ebe9a4550a6ecb0ecb0d1f5d18a71a86f977acdd",
+    "symlink": false
+  },
+  "pkgbuilds/omapresent/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "1a920ba0bbe84d44e7863920e92526a72d323aa82577cfa86e12465bd0786d12",
+    "symlink": false
+  },
+  "pkgbuilds/omapresent/omapresent.desktop": {
+    "mode": "0o644",
+    "sha256": "2e426b713941d5254e4bf651c9f6e9ca89417b33099ce05f70f339b3e4b99f70",
+    "symlink": false
+  },
+  "pkgbuilds/omapresent/omapresent.png": {
+    "mode": "0o644",
+    "sha256": "7a893e75cbd93c537c3249d4f842760c6a2e5e80fa31cc836de8cbc188527737",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-audio-tuner/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-audio-tuner/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "7ab7b46b30de0f52833ca8f533c399c60a39885392b7740c5bf3adf710dd9d3d",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-chromium-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "2c6aa9578dd0dcbba714724493e43fb7fa715d9024997db352dffee6c86e2f67",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-chromium-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "cb05f674e2f69c662e6f852f638bc616aed27fe0ad0fb23e9ac82af7655475ad",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-dev/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "9467878830509b8582f55f217d6157e722d21f77714a92ae044c6ee8ec084e2f",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-dev/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "1e4f4bf3b755446b225d9e698fbb410e4a589b634da8d5add687a65326668ef8",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-emacs/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "03e63ed4902b4ae588963c33fb3d16e81da699f85830333bf118325ef41ca3a5",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-emacs/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "a50dab85394f25cf41d2237a4d4fd9cd9b1e8aec5e1a6ec20c54ff88acb8b36a",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-fish/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-fish/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "20a0cec2b83dba1c570c7b6611705fb3bd2c946203d5a48ddb86a3205c1c31be",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-fish/omarchy-fish.install": {
+    "mode": "0o644",
+    "sha256": "e519ee0f62db8352d9a7288caccdd6660a27a4a10621238b3be53e60b9e32857",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-keyring/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-keyring/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "a7ad3fe3bb570ca4ef9f69890b33639bd56599c942176ef03b32843d95a587d0",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-keyring/omarchy-keyring.install": {
+    "mode": "0o644",
+    "sha256": "5e8498cdd2455761bec2aefc3e88b1513b8f4446f9e14a2798ab18c72be3adf6",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-keyring/omarchy-revoked": {
+    "mode": "0o644",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-keyring/omarchy-trusted": {
+    "mode": "0o644",
+    "sha256": "ab0b688815444cffd48d15ca3597c77dbb364d59763c5784fca36691520f00fd",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-keyring/omarchy.gpg": {
+    "mode": "0o644",
+    "sha256": "15d6aac44df688165b2ea35fe0b23af239bbc66a6909c10a5c219e8d94b707de",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-nvim/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-nvim/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "c91107a63b402fd58c1a614fe67e2d9c8f9fe5da2638233b3eccbbd126c4b106",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-nvim/lazyvim.json": {
+    "mode": "0o644",
+    "sha256": "e11b5459b4ab8c5dfd9f5fab67a5242ec9c475838fe777a7a9a2199b4b9e56f2",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-nvim/lua/config/options.lua": {
+    "mode": "0o644",
+    "sha256": "7c924d2eb9e707fba115ccc660082a8920901b25d28af338df0f9db14934dd25",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-nvim/lua/config/remote_clipboard.lua": {
+    "mode": "0o644",
+    "sha256": "bac8268c3dde4e747772467d6671e626aa4982478551d8fc8ebe1259a4854f2c",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-nvim/lua/plugins/all-themes.lua": {
+    "mode": "0o644",
+    "sha256": "7d438de29c987a97494c9c27e835d5587b9c05f0eab4f7ddab3c1d2ed1a0d8f1",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-nvim/lua/plugins/disable-news-alert.lua": {
+    "mode": "0o644",
+    "sha256": "5e27ebfe77359f9a42a478fb01671962801fbba6846cc72c19c7313ccd8333be",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-nvim/lua/plugins/omarchy-theme-hotreload.lua": {
+    "mode": "0o644",
+    "sha256": "d4f74ba06eec038006daf7ac509ac4102270c634c6b5a80babce037503a8e2a1",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-nvim/lua/plugins/snacks-animated-scrolling-off.lua": {
+    "mode": "0o644",
+    "sha256": "e3dc59bf119a30f3e4a712c048902350dad188e4ebfd9a718820d3145e43d57a",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-nvim/omarchy-nvim-setup": {
+    "mode": "0o755",
+    "sha256": "5f9dd390dc0ad5d42d9f3c857064ffb74f5ef27304e15395d0db09684f24630f",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-nvim/plugin/after/transparency.lua": {
+    "mode": "0o644",
+    "sha256": "6e31b917f13e16514ac94ff9270d47f24e76509a3e559ca85116a5aa2d61306a",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-settings-dev/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "9467878830509b8582f55f217d6157e722d21f77714a92ae044c6ee8ec084e2f",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-settings-dev/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "eb6b15fb919984e46203c0baf066b50f9e22cf4fae9c30a31282075a3f92160b",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-settings-dev/omarchy-settings-dev.install": {
+    "mode": "0o644",
+    "sha256": "6397324f662d23aee68f8c6ec535dcad7140b71a3ff370e8fd4ae358b9354410",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-settings/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "60a989167cbc65f03a02f9de306cd0c05895491714fdd0d91b5f000506eaef4c",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-settings/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "6bfaac430f6de3e1d7c95772ea81a7b6abc407c233a5afbf3820b1597e88fc78",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-settings/omarchy-settings.install": {
+    "mode": "0o644",
+    "sha256": "5714b40b50d8a50e8f04f2f8379c138339bbd8a7bf72c3e5afeb194740240fde",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-walker/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-walker/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "950b8353fd46caf5377dad2d3ef96917c7953f223b9056505d2c7d5de0a86a54",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-zsh/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-zsh/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "3267bd4d1901413cfac5d9065f88b70241ee690b0b31ea88629bd178cd908d6c",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy-zsh/omarchy-zsh.install": {
+    "mode": "0o644",
+    "sha256": "54e8b189a15c301731f6e2a01343e2ff7c756d5630667288d32febafe479a872",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "60a989167cbc65f03a02f9de306cd0c05895491714fdd0d91b5f000506eaef4c",
+    "symlink": false
+  },
+  "pkgbuilds/omarchy/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "326e681ee911e8327434efc07198f9558ad0594729a6ac43fae2cd5446592b94",
+    "symlink": false
+  },
+  "pkgbuilds/omareel/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "00ed530f054e923ad09f0b8d07761800b29ce131faee67d8506e64e3d5ecb916",
+    "symlink": false
+  },
+  "pkgbuilds/omareel/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "d1291e54294b80f41ae454b4a0ad960416ed742947a5c025df5b1257fe434328",
+    "symlink": false
+  },
+  "pkgbuilds/omareel/omareel.install": {
+    "mode": "0o644",
+    "sha256": "5a23331528c209089eb2bc50e32fbb4bd837e8213439904d7bf996261e934016",
+    "symlink": false
+  },
+  "pkgbuilds/omasnap/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/omasnap/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "d161ae72f95053a13e687c8b9203fc8f2e94762f175d6ebec88aab62aaca38ac",
+    "symlink": false
+  },
+  "pkgbuilds/omaspeak-bin/.SRCINFO": {
+    "mode": "0o644",
+    "sha256": "3585749a7bcb46a835a686b9d122320d463aed9e057004d41c96ddc61b1140dd",
+    "symlink": false
+  },
+  "pkgbuilds/omaspeak-bin/.gitignore": {
+    "mode": "0o644",
+    "sha256": "094c0eb99bf29b4f6b31ccc9fc1aff95cad09477eeb9cd81b078cd731dc81c71",
+    "symlink": false
+  },
+  "pkgbuilds/omaspeak-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "9aff180f8ca7772367cf3cdd0d387349a9706c05e194eb70ff55a1e114136429",
+    "symlink": false
+  },
+  "pkgbuilds/omaspeak-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "9a4e257407a76b0b91204ac8e4f622150e7a4e94aba5855681522149202f23de",
+    "symlink": false
+  },
+  "pkgbuilds/omaspeak-bin/omaspeak-bin.install": {
+    "mode": "0o644",
+    "sha256": "203b32453ec8ba818152872040873af9f24955ff3b88507e87e372e9256248e5",
+    "symlink": false
+  },
+  "pkgbuilds/omatrack/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/omatrack/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "09cdc62e455a200eef78c3357b0067285b7f597b2191bc8369fb204b2d885b53",
+    "symlink": false
+  },
+  "pkgbuilds/omawake-bin/.SRCINFO": {
+    "mode": "0o644",
+    "sha256": "b9f5bb59046a1f02a4f6141f5165b4d51476744c357a7ef8558f22432b869b86",
+    "symlink": false
+  },
+  "pkgbuilds/omawake-bin/.gitignore": {
+    "mode": "0o644",
+    "sha256": "e53e66f757edf9637d187c48899697869aff336a06ceff94cb00eb63c11315f1",
+    "symlink": false
+  },
+  "pkgbuilds/omawake-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "9aff180f8ca7772367cf3cdd0d387349a9706c05e194eb70ff55a1e114136429",
+    "symlink": false
+  },
+  "pkgbuilds/omawake-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "f56c6112b61eae63f410c2b45f4021ea9f7312fef2029079a1d666c818527775",
+    "symlink": false
+  },
+  "pkgbuilds/omawake-bin/omawake-bin.install": {
+    "mode": "0o644",
+    "sha256": "baa2a121dd5336c69788003473a921afd9653bc298f888cdd1bfa78da5d54c94",
+    "symlink": false
+  },
+  "pkgbuilds/omawrite/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/omawrite/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "1982f29bf12bcf821308f81839d0a457ee4148a414863c38f1b193cd1fcd372d",
+    "symlink": false
+  },
+  "pkgbuilds/omawrite/omawrite.install": {
+    "mode": "0o644",
+    "sha256": "ddb234b61ffb550ea14ebc495b1dc6df5e362e7881f1d14687f63f184d7d9b4d",
+    "symlink": false
+  },
+  "pkgbuilds/omazed/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "8d19c353f13587a6e78f169f6de6023414d40f60cdc50d9f11f9c35ddc0310ed",
+    "symlink": false
+  },
+  "pkgbuilds/omazed/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "0503e1fd4cf17a46c9cb20ffd970593f71cb3527627ed3c4855f5c9db2cc0ded",
+    "symlink": false
+  },
+  "pkgbuilds/omazed/omazed.install": {
+    "mode": "0o644",
+    "sha256": "4c26df5067ae99a3d374711e4f0f8a890fc719d68123a7c8e93cbfc2f59acab4",
+    "symlink": false
+  },
+  "pkgbuilds/once-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "03b4d55c6056a2c5c5d6897b4b65a19f2f3b0869c3679be9797b4dc26afb14ff",
+    "symlink": false
+  },
+  "pkgbuilds/once-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "644df1513443b1d7ea1a5152023ecfbd602866c6568de250134a85eeeb21fbf4",
+    "symlink": false
+  },
+  "pkgbuilds/once-bin/once-background.service": {
+    "mode": "0o644",
+    "sha256": "aa314fe79677eb5f120fcc3d4c42007a93ff7b1ef917382c0c1fdca5633ad46a",
+    "symlink": false
+  },
+  "pkgbuilds/once-bin/once.install": {
+    "mode": "0o644",
+    "sha256": "9e0ad96a82e35476273acc6be2820fbb5b476b0327ccdc541116a343141c6dd5",
+    "symlink": false
+  },
+  "pkgbuilds/openai-codex-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "cf2d348848fdb734cd1da6581de7238d1517b5ae6d3650ae943bc510ec35e0b0",
+    "symlink": false
+  },
+  "pkgbuilds/openai-codex-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "e5645c690be2dcde933819719fec7a96f2f536d69761882b7c598a02d637328a",
+    "symlink": false
+  },
+  "pkgbuilds/openai-codex-desktop/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "46915fe39736c2929e5a78e9a0915ca9a5398fd1b795e053678128d99972c749",
+    "symlink": false
+  },
+  "pkgbuilds/openai-codex-desktop/.omarchy/upstream.sh": {
+    "mode": "0o755",
+    "sha256": "276a02acba98c2c5df457c04e88a46a83766a115be34bca10eff6025434dd1e4",
+    "symlink": false
+  },
+  "pkgbuilds/openai-codex-desktop/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "207eb43c5535735e664bcc9e2a0771c5614e032612336d9ef04de2c2302d531a",
+    "symlink": false
+  },
+  "pkgbuilds/openai-codex-desktop/chatgpt-launcher.sh": {
+    "mode": "0o755",
+    "sha256": "b3a4503b5931f102444bc7015c3cf4e40266cf034e0d682bd2a407dc5b3ee58c",
+    "symlink": false
+  },
+  "pkgbuilds/openclaw/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "bcee407a1897e760b54ac6d7e57864719b7766f6738ebc1413795bba388229bf",
+    "symlink": false
+  },
+  "pkgbuilds/openclaw/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "90e0519f7de5c12080e947dbf5d87f70d8f88f77a6578903ce09f5208b778fea",
+    "symlink": false
+  },
+  "pkgbuilds/openclaw/openclaw.install": {
+    "mode": "0o644",
+    "sha256": "2acf774cf81bda7caee6cf435ef6955f29cea439a05f8bfa8efe1ba6abbd7493",
+    "symlink": false
+  },
+  "pkgbuilds/perplexity/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "46915fe39736c2929e5a78e9a0915ca9a5398fd1b795e053678128d99972c749",
+    "symlink": false
+  },
+  "pkgbuilds/perplexity/.omarchy/upstream.sh": {
+    "mode": "0o755",
+    "sha256": "a2a9d5cc720875438f81c876fd2cb369d95bda122b9f0844dde0f27685a1a41d",
+    "symlink": false
+  },
+  "pkgbuilds/perplexity/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "217ec98bbc25ada8d41a334dff5ce61f9f146da6b3aab5f002d20972ba222471",
+    "symlink": false
+  },
+  "pkgbuilds/perplexity/perplexity-launcher.sh": {
+    "mode": "0o755",
+    "sha256": "b180ca6fbd268712a277a34d4215f176001c0031a4f6360686458623f47fad65",
+    "symlink": false
+  },
+  "pkgbuilds/python-mediapipe/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "a4c9791a3881fabdbd27be66df586d17a6b5e7aa84d75987273ccb542cd87b4e",
+    "symlink": false
+  },
+  "pkgbuilds/python-mediapipe/0004-use-opencv-headers.patch": {
+    "mode": "0o644",
+    "sha256": "d18e88a217a00dc77cf2bfaa1d33b5fbc912deed5df686b0d2455fb0db75a677",
+    "symlink": false
+  },
+  "pkgbuilds/python-mediapipe/0005-set-hermetic-python-version-and-disable-odml-converter.patch": {
+    "mode": "0o644",
+    "sha256": "62cbd43346e7a7705127656a74bec44852e5bbfc006c4723005fdd23af5258db",
+    "symlink": false
+  },
+  "pkgbuilds/python-mediapipe/0006-opencv5-geometry-header.patch": {
+    "mode": "0o644",
+    "sha256": "fb082d88d9cca47534ae01fca676a3afdb909bfc82d52c97cf0eaedf34571d5f",
+    "symlink": false
+  },
+  "pkgbuilds/python-mediapipe/0007-bump-rules-java.patch": {
+    "mode": "0o644",
+    "sha256": "bdead49ac5370dc84d9facee962bf2def5d9055d7339a37b2ba3f3b4bb02f811",
+    "symlink": false
+  },
+  "pkgbuilds/python-mediapipe/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "395187b95104cdc5fd891af4c65fa0e2541ccb85eb6b4b24460c6cefa61b8f44",
+    "symlink": false
+  },
+  "pkgbuilds/python-sounddevice/.nvchecker.toml": {
+    "mode": "0o644",
+    "sha256": "ec0af45ab3895ba0cd5b7b9c8e3d99d0fa5d595f30bfe349a1fcc2656a721687",
+    "symlink": false
+  },
+  "pkgbuilds/python-sounddevice/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "f6c0d3ff32227f5254b0bc671275ed230f675945c80c331630cb0c4aa4c612ef",
+    "symlink": false
+  },
+  "pkgbuilds/python-sounddevice/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "bd070c3f5dae3bd5914df45e907a73ac5fb99c746939bf599b2a5de43b6fe28b",
+    "symlink": false
+  },
+  "pkgbuilds/python-terminaltexteffects/.nvchecker.toml": {
+    "mode": "0o644",
+    "sha256": "5bed515ee5a42d384912c4275a803cb63694c97bee24dbf66c901076a64df33f",
+    "symlink": false
+  },
+  "pkgbuilds/python-terminaltexteffects/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "56e1872b93153dc1d37fdf0e91ae6a5f60ccd6dec6c620304487fcedcd6eff0a",
+    "symlink": false
+  },
+  "pkgbuilds/python-terminaltexteffects/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "332461a6f6b809fee62f2531289a4e3bee9b1860c321ccb4ed717cd97757966a",
+    "symlink": false
+  },
+  "pkgbuilds/qmk-hid/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "2166728a06ff299c0b2f3f5bb0557d4f5984abf2ffad7efebc142cd14cd77691",
+    "symlink": false
+  },
+  "pkgbuilds/qmk-hid/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "d5a2b2342b2c5e39550a49a121d26d20189e96c8e044dcdc14f969dbe10073df",
+    "symlink": false
+  },
+  "pkgbuilds/quickshell-git/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "aa25c6bb52dceed51ed17099e4f9c6f6e30e5078758afec1d7afa2c21195f892",
+    "symlink": false
+  },
+  "pkgbuilds/quickshell-git/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "70faf862473e193968145eb68719086057f11e7340e150de2d0d46b079fcf891",
+    "symlink": false
+  },
+  "pkgbuilds/quickshell-git/quickshell-check.hook": {
+    "mode": "0o644",
+    "sha256": "8543e21aeaaa5441b73a679160e7601a957f16c433e8d6bd9257e80bd0e94083",
+    "symlink": false
+  },
+  "pkgbuilds/retroarch-joypad-autoconfig-git/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/retroarch-joypad-autoconfig-git/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "82ac01f42db565ba6356e1f0fde0a9777b2b4c41c59b3dacc25019ab8a22b301",
+    "symlink": false
+  },
+  "pkgbuilds/rustdesk/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "65254382d43d6b1cd50dc3b48014a45b7ab8a80014020949d2abe60a5555da55",
+    "symlink": false
+  },
+  "pkgbuilds/rustdesk/0000-disable-update-check@rustdesk.patch": {
+    "mode": "0o644",
+    "sha256": "8f7f1019404ce47dc012ba7c546ad634b973452fc2c57ac64b62cdc7c1f54ea3",
+    "symlink": false
+  },
+  "pkgbuilds/rustdesk/0001-extended_text-drop-version-for-flutter.3.22.3@rustdesk.patch": {
+    "mode": "0o644",
+    "sha256": "1dfe5e12cd6966edbcfdf1b2ae867116c44e442124222bc8d98a7623f67c9b5f",
+    "symlink": false
+  },
+  "pkgbuilds/rustdesk/0002-screen_retriever@rustdesk.patch": {
+    "mode": "0o644",
+    "sha256": "82757ee1ab6b956a3c601f7db82e2d9ad80dbbcf2ba68c63059f0b529426ccd0",
+    "symlink": false
+  },
+  "pkgbuilds/rustdesk/0003-mkvparser.cc-cstdint.patch": {
+    "mode": "0o644",
+    "sha256": "359046f24f8a81b96a198000a1cfd7934c1f4870b2a1306e13f65694cefef68f",
+    "symlink": false
+  },
+  "pkgbuilds/rustdesk/0004-bindgen@rustdesk.patch": {
+    "mode": "0o644",
+    "sha256": "976944c6c163ed0810207f54bb4b5d5cf41aa4e4673133f188e0b0ada5eafc8e",
+    "symlink": false
+  },
+  "pkgbuilds/rustdesk/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "767ee11c14e72eb3a20917c036a4a49532a94f77451f1e64d183b9f92c22c960",
+    "symlink": false
+  },
+  "pkgbuilds/rustdesk/rustdesk.install": {
+    "mode": "0o644",
+    "sha256": "8bb11fe60ee120d9a9143f8699fae6c45d2268603571b165b64102d598c3d240",
+    "symlink": false
+  },
+  "pkgbuilds/schist-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "04f2031d821c38b15e3ce49d190765ab89e3f0f6544944f07409f78e8b75bc64",
+    "symlink": false
+  },
+  "pkgbuilds/schist-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "d30594823a3ee8518680e1115e61205020d404852793b2e0a66877ad78e98bf9",
+    "symlink": false
+  },
+  "pkgbuilds/slap-notes-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "68330b764e9f4442f6a0e26820d9f8ebda4b51e214e31d690d8a826d502b6596",
+    "symlink": false
+  },
+  "pkgbuilds/slap-notes-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "a6b5fcfe34a272e7d28a96c78dc7baad349fff53caec5b1737befe8e9dc70451",
+    "symlink": false
+  },
+  "pkgbuilds/slap-notes-bin/slap-notes-bin.install": {
+    "mode": "0o755",
+    "sha256": "f6f85843480ad0952045b2afec4b78d6bcfc74f3e46f48f15715d6e2f94d5377",
+    "symlink": false
+  },
+  "pkgbuilds/slap-notes-bin/slap-notes-launcher.sh": {
+    "mode": "0o755",
+    "sha256": "9d208c06717906b74c41874bdd3fdba0f0dc5b31d239ae00d19472e6eab2ea29",
+    "symlink": false
+  },
+  "pkgbuilds/spotify/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "2d4a877dabcf388f69d212da767c8f4044b110c3fd9bbb2e3daf3163c7fdabb3",
+    "symlink": false
+  },
+  "pkgbuilds/spotify/LICENSE": {
+    "mode": "0o644",
+    "sha256": "4e8bea31ca27e16cac9c9dcd8f6ec27e1f82b45de86d6fee7a1e77e23f884b92",
+    "symlink": false
+  },
+  "pkgbuilds/spotify/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "08bc9cc5782131c2d6e30b2314c27865e28575575e842b5aa5f23d6c10546887",
+    "symlink": false
+  },
+  "pkgbuilds/spotify/keys/pgp/E1096BCBFF6D418796DE78515384CE82BA52C83A.asc": {
+    "mode": "0o644",
+    "sha256": "31cc40faddd0e0ffb62fb53a04e4ad79c7fc0945b8c1622233c480571be34572",
+    "symlink": false
+  },
+  "pkgbuilds/spotify/spotify.protocol": {
+    "mode": "0o644",
+    "sha256": "af54f3b90cac46fa100b3f919a9225d10d847617d24aa9af3d832e7689f482c3",
+    "symlink": false
+  },
+  "pkgbuilds/spotify/spotify.sh": {
+    "mode": "0o644",
+    "sha256": "764cf7d24c35e3327cef4c0469351dabbf8b1edbaa10e1f35f64c91f135b31d9",
+    "symlink": false
+  },
+  "pkgbuilds/strata/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "95b5bc6bfd1195edc303e2cb611b39e7f12af34491225a5d8490656c71a323b8",
+    "symlink": false
+  },
+  "pkgbuilds/strata/.omarchy/upstream.sh": {
+    "mode": "0o755",
+    "sha256": "26ebfd332cdb441e3ca17b71456cf3d0968db50ac4d712f3a3d3a98a0752b47d",
+    "symlink": false
+  },
+  "pkgbuilds/strata/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "e82a69b5ca454b4b683b63ff6330e394071fc859ea9a2f5b1e4a7c4b78a7ee6a",
+    "symlink": false
+  },
+  "pkgbuilds/sublime-text-4/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "999e1ff2a6519ce0de62f7fe3c4581a3f38a9c3d186379fcffabf1bb0956c29f",
+    "symlink": false
+  },
+  "pkgbuilds/sublime-text-4/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "ba74fbbe025044abc5abf8945d1365db3a6b789fd9671b693ca255ac3e32f58c",
+    "symlink": false
+  },
+  "pkgbuilds/sublime-text-4/sublime-text-4.sh": {
+    "mode": "0o644",
+    "sha256": "f85b6daf64c8860ebde669cb8fcfe665156a11dd288fbf503ce4eedf21dddeb9",
+    "symlink": false
+  },
+  "pkgbuilds/sunshine/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "864c9795d30045b9b26a81490d7ef8514dfd495a47c311ea1a9ab343aff9326b",
+    "symlink": false
+  },
+  "pkgbuilds/sunshine/2026.516.143833-060b6b07-remove-setuptools-from-glad-dependencies.patch": {
+    "mode": "0o644",
+    "sha256": "06a78d624975887541e2b0013b3085e798195e334fdb05d35caf4bbad818ddde",
+    "symlink": false
+  },
+  "pkgbuilds/sunshine/2026.516.143833-3377f7a7-link-shared-libstdcxx-with-gcc-15.patch": {
+    "mode": "0o644",
+    "sha256": "63f86f6ffd6d9f3da35353109fa4a4df9a900a791f70b29cafc8e464b870337d",
+    "symlink": false
+  },
+  "pkgbuilds/sunshine/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "e9b53b1fd1065a597e810b324d99f6f79ef1a3408b4f11ff1693f8e799981058",
+    "symlink": false
+  },
+  "pkgbuilds/sunshine/sunshine.install": {
+    "mode": "0o644",
+    "sha256": "2a087574b72197f5f4e3b85015384157ff46397c4244635adbb6dbde9ea3580c",
+    "symlink": false
+  },
+  "pkgbuilds/supergfxctl/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "44bebf5348ee11f275c1d9dccaac61821e07c2ce5871b53fd08c2fe99aa06dcd",
+    "symlink": false
+  },
+  "pkgbuilds/supergfxctl/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "54d030123c3754061fb522e2dc2e7cdb8b4bfc5e9e90c579da054465ab338896",
+    "symlink": false
+  },
+  "pkgbuilds/symfony-cli/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "bdd794b31bd8c8881aa50af8e7de22c37e588603c4f17a8c220756822e110d37",
+    "symlink": false
+  },
+  "pkgbuilds/symfony-cli/LICENSE": {
+    "mode": "0o644",
+    "sha256": "4e71af4085268d944f98ddeff989909e8438216397b48a07a49d3ddc7cd2de15",
+    "symlink": false
+  },
+  "pkgbuilds/symfony-cli/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "a2b56d7102cc0a8124501134e7ab41b20d79f6eeb125220971b9c436767ecd1a",
+    "symlink": false
+  },
+  "pkgbuilds/symfony-cli/README.md": {
+    "mode": "0o644",
+    "sha256": "9444aaea0892a0c1ccdec8917279f8eec0ee81c8b6560433fb762c7c9d38eb34",
+    "symlink": false
+  },
+  "pkgbuilds/symfony-cli/update.sh": {
+    "mode": "0o755",
+    "sha256": "521b0006826b77ac9601b1c38375b6d529d6da9e13e81080c13665acee0b6eb1",
+    "symlink": false
+  },
+  "pkgbuilds/t3code-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "46915fe39736c2929e5a78e9a0915ca9a5398fd1b795e053678128d99972c749",
+    "symlink": false
+  },
+  "pkgbuilds/t3code-bin/.omarchy/upstream.sh": {
+    "mode": "0o755",
+    "sha256": "9c29105a38255fca4ccb478ae740bb8f87f5be111cfd51803e3d94240c7d5531",
+    "symlink": false
+  },
+  "pkgbuilds/t3code-bin/LICENSE": {
+    "mode": "0o644",
+    "sha256": "935d8f2af0c703f9c39517ee57cc4930b19d02d533be930b63f0e82f93614b43",
+    "symlink": false
+  },
+  "pkgbuilds/t3code-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "ea0c8e9b61aaca435769258837d4a5e68cb9ec674eec6c1d0f7382f933ce1f68",
+    "symlink": false
+  },
+  "pkgbuilds/t3code-bin/t3-launcher.sh": {
+    "mode": "0o755",
+    "sha256": "c5b3f2a9f0b14b12cfd973b79319f0f018b7ae49a1d43d8ca346100c3f7de28f",
+    "symlink": false
+  },
+  "pkgbuilds/t3code-bin/t3code-launcher.sh": {
+    "mode": "0o644",
+    "sha256": "cb905ff341372ef2ef6e402cf485959f8bd1df8f0efebee4cda1afdd5e6abc0a",
+    "symlink": false
+  },
+  "pkgbuilds/tensaku/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "d845325c89688f102f51f5c68d7df5da58db3832f5972e382c8b03d6a1dd5e6e",
+    "symlink": false
+  },
+  "pkgbuilds/tensaku/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "6036447609827ad709eecf38fac8fcbe3aa6ba276f34ffc48df62116fbe5883b",
+    "symlink": false
+  },
+  "pkgbuilds/tmog-bin/.omarchy/README.md": {
+    "mode": "0o644",
+    "sha256": "cf9b943976bb60a0b5e0571da35fa6b2a4d3892f99d006bd9cf15a70053b8b3d",
+    "symlink": false
+  },
+  "pkgbuilds/tmog-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/tmog-bin/.omarchy/upstream.sh": {
+    "mode": "0o755",
+    "sha256": "fc320ea260da82b31e2841ded08538fcd2951463d1cd4c8c7cf61f922273ed52",
+    "symlink": false
+  },
+  "pkgbuilds/tmog-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "358ccddb9116b99d769c1eacbc6b5a5853b608281430bdb75908954d397cfa3b",
+    "symlink": false
+  },
+  "pkgbuilds/tobi-try/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/tobi-try/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "e061fc0bc63320a59f5e63b01ac31a62ba106ff07fe31bc680cd3192c7434f55",
+    "symlink": false
+  },
+  "pkgbuilds/ttf-ia-writer/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5aafee48a07b75a36fbb7265e554b14005658d4a4cbaf89141bc5e12a997945e",
+    "symlink": false
+  },
+  "pkgbuilds/ttf-ia-writer/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "65fce2668ee5ecb134731891f3c4db5f658b22971b0b1ce30ea5aee0229587b5",
+    "symlink": false
+  },
+  "pkgbuilds/ttf-jetbrains-mono-nerd-basic/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "c8948b7121a1ed2413adfb7e3a04f8ad70ac8f44b5e2465924b219a88057dad9",
+    "symlink": false
+  },
+  "pkgbuilds/ttf-jetbrains-mono-nerd-basic/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "6c9c58e947cc8b79bb01c53d734dfd3f83154a60fb12d8fad56e72b39caa77a7",
+    "symlink": false
+  },
+  "pkgbuilds/ttfx/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/ttfx/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "6e4856e047a37c7791ba9354ccf8419ddf62bee062802584fbce581bb9d823b2",
+    "symlink": false
+  },
+  "pkgbuilds/tuxedo-drivers-nocompatcheck-dkms/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "9f973ca7708e8a561cf5a11f864fe422c89d3c8f9704023319489a48b30652b8",
+    "symlink": false
+  },
+  "pkgbuilds/tuxedo-drivers-nocompatcheck-dkms/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "1237abd42000e0d33d48179546fdb822926616892273214a56a7956e38c9347c",
+    "symlink": false
+  },
+  "pkgbuilds/tuxedo-drivers-nocompatcheck-dkms/dkms.conf": {
+    "mode": "0o644",
+    "sha256": "0b1f2ceb729b1944504d1227e39b202159076846aaa38f8b6237b9535e543a21",
+    "symlink": false
+  },
+  "pkgbuilds/typora/.mailmap": {
+    "mode": "0o644",
+    "sha256": "b7c8251e95a4ef137de1cda9834dd4a07713fc748afce0348a037535134b5f03",
+    "symlink": false
+  },
+  "pkgbuilds/typora/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "3b27229eaff2070275d54867c856addae742b0505a862e2d3e2c46eed579b44b",
+    "symlink": false
+  },
+  "pkgbuilds/typora/Makefile": {
+    "mode": "0o644",
+    "sha256": "4dcdc26847fe8ca1f556ad49982d83bb071345209ddfa21a03d4277d161cccb6",
+    "symlink": false
+  },
+  "pkgbuilds/typora/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "747f250a9dbec5784ed9bf148c3d06a4a3e9737ba3a5d9fbe5bb0e11b7849d91",
+    "symlink": false
+  },
+  "pkgbuilds/typora/typora.sh": {
+    "mode": "0o644",
+    "sha256": "889410bffb83a27f3c427e012eedf5aac7e087bc6700867b43c547123dcac2d7",
+    "symlink": false
+  },
+  "pkgbuilds/tzupdate/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "40cd4ab5db9a55cea9048c20af7ff252e9edc07c5d385b07222b6d6db922a30c",
+    "symlink": false
+  },
+  "pkgbuilds/tzupdate/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "f17a2d032b0454dcdadf2d8d496223492d019a802f600b26dacf693caccc35c7",
+    "symlink": false
+  },
+  "pkgbuilds/ufw-docker/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "db3d99449601f57442072d0bdd4c662af7da9b9497dac30d6c5d8271b996bb26",
+    "symlink": false
+  },
+  "pkgbuilds/ufw-docker/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "f651f8eed8ed0b5e5f06b135853063cfce5703b93caac173fb93c59f52882ad6",
+    "symlink": false
+  },
+  "pkgbuilds/ufw-docker/ufw-docker.install": {
+    "mode": "0o644",
+    "sha256": "a731e57874386e0d2e4855682afdca08d821ed1e9148bf2ee0bcd91450e87302",
+    "symlink": false
+  },
+  "pkgbuilds/v4l2-relayd/.omarchy/README.md": {
+    "mode": "0o644",
+    "sha256": "baea28c01f3f71cd529bbecb27de7a4240ce1b28bdd05ead9c89c6627ab9e683",
+    "symlink": false
+  },
+  "pkgbuilds/v4l2-relayd/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "496c247bf604662ca5b0d82fcdf2e13d68f3cc82535b69f2d76f157943580dee",
+    "symlink": false
+  },
+  "pkgbuilds/v4l2-relayd/.omarchy/patches/add-reset-output-source.patch": {
+    "mode": "0o644",
+    "sha256": "7993286e134ff8bc75643cd3d1f3dd7c564af1076f1f98ab2eb613e5f4fefe2a",
+    "symlink": false
+  },
+  "pkgbuilds/v4l2-relayd/.omarchy/patches/escape-splashsrc-expansion.patch": {
+    "mode": "0o644",
+    "sha256": "822a9e4eb0279beb89c388c7806010a14d451c8e04ac8686da83dadc29d93a53",
+    "symlink": false
+  },
+  "pkgbuilds/v4l2-relayd/.omarchy/patches/reset-output-on-idle.patch": {
+    "mode": "0o644",
+    "sha256": "436094eb4c9b81d91a99c4b0011bd7914b2e229972c5cb1d0a602e48bebe0a43",
+    "symlink": false
+  },
+  "pkgbuilds/v4l2-relayd/0001-reset-output-on-idle.patch": {
+    "mode": "0o644",
+    "sha256": "07722a8708ced48d2db9575f3eae5b1266868d259d260635e06e9a10baddec78",
+    "symlink": false
+  },
+  "pkgbuilds/v4l2-relayd/0002-escape-optional-splashsrc-expansion.patch": {
+    "mode": "0o644",
+    "sha256": "3cb89056af276eed7a45dfc96435e8e48558e4e11c96560360d46d631b1c0b6c",
+    "symlink": false
+  },
+  "pkgbuilds/v4l2-relayd/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "8b83e7398f8772cbd9e037426d1abfc3b9528f1794a20b1246e5874761526886",
+    "symlink": false
+  },
+  "pkgbuilds/vi/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "1cd672097f8b3bb092b9ad2b9e6ab9dbdc059d4b4d104db59bfae1d0a2103a06",
+    "symlink": false
+  },
+  "pkgbuilds/vi/LICENSE": {
+    "mode": "0o644",
+    "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+    "symlink": false
+  },
+  "pkgbuilds/vi/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "dee6bd7934b97ed39876a40dc802ce1162d6c1c141e7ea070eea2a17a9cdee0f",
+    "symlink": false
+  },
+  "pkgbuilds/vi/fix-tubesize-short-overflow.patch": {
+    "mode": "0o644",
+    "sha256": "42167fabebe30a13d594346b1d254db82090ba41742a9f35b8895d37092053f0",
+    "symlink": false
+  },
+  "pkgbuilds/vi/format-security.patch": {
+    "mode": "0o644",
+    "sha256": "ec50373ab48a9b327c5d02b10406bc3d04310d692de6c17098a59b1afeb08e03",
+    "symlink": false
+  },
+  "pkgbuilds/vi/keys/pgp/86CFFCA918CF3AF47147588051E8B148A9999C34.asc": {
+    "mode": "0o644",
+    "sha256": "01ffb9869a1b225b1bbcf59ad89970eea4499cda5936f04200815ef219f9d2dd",
+    "symlink": false
+  },
+  "pkgbuilds/vi/linenum.patch": {
+    "mode": "0o644",
+    "sha256": "4539f46cd839475c168a9c463f041354463e90e810b973a10c499c2727b008e7",
+    "symlink": false
+  },
+  "pkgbuilds/vi/navkeys.patch": {
+    "mode": "0o644",
+    "sha256": "0e9e2d381f1d8cb86daae68462b3849825b003c08007725c0db9939d3d5bf58d",
+    "symlink": false
+  },
+  "pkgbuilds/vi/preserve-dir.patch": {
+    "mode": "0o644",
+    "sha256": "f0ef9ed2ccea98bf47b08dd3faa2abb911b4e6c0579f5294e9d0e8742282ff65",
+    "symlink": false
+  },
+  "pkgbuilds/visual-studio-code-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "eb6e151dd781969fb59e81cddd2ddf124d6434495fa4f02eff6d3dd417789e9e",
+    "symlink": false
+  },
+  "pkgbuilds/visual-studio-code-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "e1abbab2b6bfa5f02df97710d9483d3c465fce2f3478d20aa7d481511d2cdb2f",
+    "symlink": false
+  },
+  "pkgbuilds/visual-studio-code-bin/visual-studio-code-bin.install": {
+    "mode": "0o644",
+    "sha256": "c910a24270895767939b23194673d76641432aa107e6e81ca8ad6f7a8fc6e9b7",
+    "symlink": false
+  },
+  "pkgbuilds/visual-studio-code-bin/visual-studio-code-bin.sh": {
+    "mode": "0o644",
+    "sha256": "bd0d9edf69283ebdf4e73e0a7b168d2fcf50acbd01f63674cad93ed4fe42fdad",
+    "symlink": false
+  },
+  "pkgbuilds/voxtype-bin/.nvchecker.toml": {
+    "mode": "0o644",
+    "sha256": "9c79d609070401fbe613cc307f6b237c80a7b2f8611e8cd897eee9656e0e5823",
+    "symlink": false
+  },
+  "pkgbuilds/voxtype-bin/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "c88c60d6a3986461ac64ab49689a755251dd848449ef29e68dd53577b37b9efe",
+    "symlink": false
+  },
+  "pkgbuilds/voxtype-bin/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "05065785d22e99ff57b0f59824ecddcd43edd1b83cd25b15b269f95fa1580151",
+    "symlink": false
+  },
+  "pkgbuilds/voxtype-bin/voxtype-bin.install": {
+    "mode": "0o644",
+    "sha256": "4388bdf1b5c3f6c5e3a0319ac76b849cca8f813050bec1e2613ba2713e74802e",
+    "symlink": false
+  },
+  "pkgbuilds/walker/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "60f7c30c949339985d4d1ce6ba913f2aee13a071998f82c130c4ebd762140774",
+    "symlink": false
+  },
+  "pkgbuilds/walker/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "d17ffcb24bfb51c3672841b167cd7d70d59b54f944d1c84079603a9229269f72",
+    "symlink": false
+  },
+  "pkgbuilds/wayfreeze/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+    "symlink": false
+  },
+  "pkgbuilds/wayfreeze/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "8c59c7799214befb4617a6705590dacabe78f9b7276c482a5be432c0813e4bef",
+    "symlink": false
+  },
+  "pkgbuilds/xdg-terminal-exec/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "97c0c36c42d4ca39f1ab172b7309e6726fb28ff91e03865cb377a1f20b829feb",
+    "symlink": false
+  },
+  "pkgbuilds/xdg-terminal-exec/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "04805ebcc84b577c72f2cea2ce2de49a574d1a5caa18551aa0a38c793b64ec01",
+    "symlink": false
+  },
+  "pkgbuilds/xpadneo-dkms/.nvchecker.toml": {
+    "mode": "0o644",
+    "sha256": "2ac07b11b6c8df0298879780b6bf4be1d93a86daba422cd1d80b53c20163636b",
+    "symlink": false
+  },
+  "pkgbuilds/xpadneo-dkms/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "bd34f1d31ce96d4feb7edcab9818743ea9ab2467d7e35a8bcb06217b95624e77",
+    "symlink": false
+  },
+  "pkgbuilds/xpadneo-dkms/LICENSE": {
+    "mode": "0o644",
+    "sha256": "7056c04df17a4e0f0bac9f787f347c9cd892cee6323d1c89528090afd0b934a3",
+    "symlink": false
+  },
+  "pkgbuilds/xpadneo-dkms/LICENSES/0BSD.txt": {
+    "mode": "0o777",
+    "sha256": "1e881ecf2862d01e6e5bc2b861e46886d2a6fb01499c0c508a209a7271b13cf2",
+    "symlink": true
+  },
+  "pkgbuilds/xpadneo-dkms/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "604dd1d6f2ebb2c65692cc61154af461c07a0552d2ea34468e5c16da1af3f429",
+    "symlink": false
+  },
+  "pkgbuilds/xpadneo-dkms/REUSE.toml": {
+    "mode": "0o644",
+    "sha256": "9f5de073b10ae35f10af60d78ecd7916135bba9d245ecc49c9775e4681d91428",
+    "symlink": false
+  },
+  "pkgbuilds/yaru-icon-theme/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "74aa48d67dd074dbb6e82a8a21a7bda04eb742a6047e79ba7688db2bd73a6397",
+    "symlink": false
+  },
+  "pkgbuilds/yaru-icon-theme/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "d7b1f8ce0715e52fa0752b270178fcec1673c85641cfa90a7bb3f4afe2b1f1c3",
+    "symlink": false
+  },
+  "pkgbuilds/yay/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "d1385fdd41b8f23cf7ae3befa57557c32777087d9c2bce6a16f13eb491978267",
+    "symlink": false
+  },
+  "pkgbuilds/yay/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "5c1cb01eca47edb4e4665d8734a23bd71d33ba240093ff5a125e0bb2daa8e473",
+    "symlink": false
+  },
+  "pkgbuilds/yt6801-dkms/.omarchy/package.json": {
+    "mode": "0o644",
+    "sha256": "f897e345e69dfd7d0a6d4636ee1b9f506bba020d1c3f8dcb3139d3ce2c0f28f8",
+    "symlink": false
+  },
+  "pkgbuilds/yt6801-dkms/PKGBUILD": {
+    "mode": "0o644",
+    "sha256": "1f6e0e7867c87120efab9dbb74a80844c43f2c160e3b9a61ce7e8972f8ec9934",
+    "symlink": false
+  },
+  "pkgbuilds/yt6801-dkms/patch.diff": {
+    "mode": "0o644",
+    "sha256": "597cbcefe2c3f426a20b089b1a24f7bfcaffe81bdfe1bd2c789c9228b3b5708e",
+    "symlink": false
+  },
+  "systemd/omarchy-auto-release-edge.service": {
+    "mode": "0o644",
+    "sha256": "f1c3e31d301933ac6fc8f64f36aa030e73798e25e429ad9deb3752d13f73afbd",
+    "symlink": false
+  },
+  "systemd/omarchy-auto-release-edge.timer": {
+    "mode": "0o644",
+    "sha256": "88f3d907f3a6a01d36f9b857cb2cfd328af1970a5ba9aee12c118c40fb71cc8f",
+    "symlink": false
+  },
+  "systemd/omarchy-auto-release-rc.service": {
+    "mode": "0o644",
+    "sha256": "b993c2013e04fd512ce3abb700e21f7642f902012468ea6973f0dc77034d090c",
+    "symlink": false
+  },
+  "systemd/omarchy-auto-release-rc.timer": {
+    "mode": "0o644",
+    "sha256": "5e3c508f6f93307a3adce303fd547d810705f9fa07544ec7cac0890800294736",
+    "symlink": false
+  },
+  "systemd/omarchy-auto-release-stable.service": {
+    "mode": "0o644",
+    "sha256": "efedc25b77efb6359e0a122f07207544c26d7c00d96c6ca47af91aa6bc0c03b1",
+    "symlink": false
+  },
+  "systemd/omarchy-auto-release-stable.timer": {
+    "mode": "0o644",
+    "sha256": "d2331a7d39d94a3f196568384c75152c52542d660bf8f3d1baf7d311f9ab05ba",
+    "symlink": false
+  },
+  "systemd/omarchy-check-versions.service": {
+    "mode": "0o644",
+    "sha256": "ccdc4dfb779f29e80e745f055e6f967b0cec89df205c0c909b27b6b0b179411a",
+    "symlink": false
+  },
+  "systemd/omarchy-check-versions.timer": {
+    "mode": "0o644",
+    "sha256": "2ee50256208052a5e393e1aaaf3f1cd90dba427a42214de13fde92bfa83653ae",
+    "symlink": false
+  },
+  "tests/build-isolation.Dockerfile": {
+    "mode": "0o644",
+    "sha256": "8124e0b27b338b1985714a4928127028ccd1af57fa60259108e22df1548f6eeb",
+    "symlink": false
+  },
+  "tests/build-isolation.sh": {
+    "mode": "0o755",
+    "sha256": "cc2664dd2f2f368ed5117210dfcba32f0e5131d59fed0cd642b7dc8ea8a95108",
+    "symlink": false
+  },
+  "tests/partial-release.sh": {
+    "mode": "0o755",
+    "sha256": "157d9dc83c7f6108aa1fefa39b1775c6ae23e786599c2b1b9220ea3c7d43d597",
+    "symlink": false
+  },
+  "tests/published-build-plan.sh": {
+    "mode": "0o755",
+    "sha256": "97b20b0cbc0f681e8215378de2d32073eff41d0f65fafc6684b49eee1a20032f",
+    "symlink": false
+  },
+  "tests/upstream-watch.py": {
+    "mode": "0o644",
+    "sha256": "9f892d50441b8bc9678e0dbbe8fac1a7f6210f30a5ef346f8db838614d1cc0a0",
+    "symlink": false
+  }
+}

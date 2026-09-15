@@ -1,0 +1,62 @@
+311e0882-85e9-4c32-b9f7-49655c03917f
+ActiveState=inactive
+FragmentPath=/usr/lib/systemd/user/omaspeak.service
+UnitFileState=disabled
+Created symlink '/home/omarchy/.config/systemd/user/graphical-session.target.wants/omaspeak.service' → '/usr/lib/systemd/user/omaspeak.service'.
+enabled
+[Expected transient SSH connection timeout during reboot; private worker address omitted]
+c3110716-264a-454b-b487-efddf1a16cb0
+ActiveState=active
+FragmentPath=/usr/lib/systemd/user/omaspeak.service
+UnitFileState=enabled
+MainPID=1140
+active
+{
+  "backend": {
+    "effective": {
+      "device": "cpu",
+      "provider": "CPUExecutionProvider",
+      "runtime": "default"
+    },
+    "evidence": [
+      "runtime-loaded ONNX Runtime CPU engine initialized"
+    ],
+    "fallback_policy": "error",
+    "fallback_used": false,
+    "kind": "onnxruntime",
+    "placement_verified": true,
+    "requested": {
+      "device": "cpu",
+      "runtime": "default"
+    },
+    "supported_capabilities": [
+      "cpu",
+      "openvino",
+      "cuda"
+    ]
+  },
+  "model": "supertonic-3-int8",
+  "pid": 1140,
+  "running": true,
+  "sample_rate": 44100,
+  "type": "status"
+}
+/usr/bin/omaspeak
+7fe233000000-7fe2330cb000 r--p 00000000 00:1d 527291                     /usr/lib/omaspeak/libonnxruntime.so.1.29.0
+7fe2330cb000-7fe2345f8000 r-xp 000cb000 00:1d 527291                     /usr/lib/omaspeak/libonnxruntime.so.1.29.0
+7fe2345f8000-7fe234adc000 r--p 015f8000 00:1d 527291                     /usr/lib/omaspeak/libonnxruntime.so.1.29.0
+7fe234adc000-7fe234b29000 r--p 01adb000 00:1d 527291                     /usr/lib/omaspeak/libonnxruntime.so.1.29.0
+7fe234b29000-7fe234b2e000 rw-p 01b28000 00:1d 527291                     /usr/lib/omaspeak/libonnxruntime.so.1.29.0
+{
+  "type": "synthesis",
+  "output": "/home/omarchy/pr447-omaspeak/autostart-reboot.wav",
+  "sample_rate": 44100,
+  "samples": 126882,
+  "audio_seconds": 2.8771428571428572,
+  "load_milliseconds": 1009,
+  "synthesis_milliseconds": 490
+}
+cce01cbc92b73ca7bf9bed8a5d25a4021a7ed783434930e45d701bd46660ff58  /home/omarchy/pr447-omaspeak/autostart-reboot.wav
+Removed '/home/omarchy/.config/systemd/user/graphical-session.target.wants/omaspeak.service'.
+ActiveState=inactive
+UnitFileState=disabled

@@ -1,0 +1,4 @@
+PASS: explicit edge x86_64 builder discovers omawake-bin
+PASS: explicit edge x86_64 builder discovers omaspeak-bin
+PASS: scheduled discovery includes omawake-bin, edge-only and x86_64-only
+PASS: scheduled discovery includes omaspeak-bin, edge-only and x86_64-only

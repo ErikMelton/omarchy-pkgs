@@ -1,0 +1,173 @@
+ok
+2284cc9c54c9f65ba3c1c17eb94765013ccb7f02e144ec3c4e6f3512fe805fb5  /home/omarchy/work/review/build-output/edge/x86_64/omaspeak-bin-0.0.1.rc-1-x86_64.pkg.tar.zst
+loading packages...
+resolving dependencies...
+warning: omaspeak-bin-0.0.1.rc-1 is up to date -- reinstalling
+looking for conflicting packages...
+
+Package (1)   Old Version  New Version  Net Change
+
+omaspeak-bin  0.0.1.rc-1   0.0.1.rc-1     0.00 MiB
+
+Total Installed Size:  34.97 MiB
+Net Upgrade Size:       0.00 MiB
+
+:: Proceed with installation? [Y/n] 
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+checking available disk space...
+:: Running pre-transaction hooks...
+(1/2) Checking Omarchy update entrypoint...
+(2/2) Waiting for limine-snapper-sync to finish...
+:: Processing package changes...
+reinstalling omaspeak-bin...
+:: Run omaspeak setup check to verify the current configuration.
+:: Running post-transaction hooks...
+(1/2) Reloading user manager configuration...
+(2/2) Arming ConditionNeedsUpdate...
+omaspeak-bin: 176 total files, 0 altered files
+c29b9714c2794cd6478562e943ba4392ff4685bd7947270c0a14a59247e88825  /usr/bin/omaspeak
+5715f06d8992ca8eeeddcce43df3a7d38f97d537052126f558e912cb312460ca  /usr/lib/omaspeak/libonnxruntime.so
+5715f06d8992ca8eeeddcce43df3a7d38f97d537052126f558e912cb312460ca  /usr/lib/omaspeak/libonnxruntime.so.1
+5715f06d8992ca8eeeddcce43df3a7d38f97d537052126f558e912cb312460ca  /usr/lib/omaspeak/libonnxruntime.so.1.29.0
+ActiveState=inactive
+FragmentPath=/usr/lib/systemd/user/omaspeak.service
+UnitFileState=disabled
+ok config    /home/omarchy/.config/omaspeak/config.toml
+ok backend   supertonic runtime adapter is available
+ok model     /home/omarchy/.local/share/omaspeak/models/supertonic-3-int8
+ok voice     M1 (speaker ID 0)
+ok runtime   default runtime is installed and its libraries resolve
+ok engine    runtime/device probe passed; model inference is not verified by this check
+ok audio     pw-play or aplay is available
+ok launcher  /home/omarchy/.local/share/applications/omaspeak-settings.desktop
+ok systemd   not installed (optional): /home/omarchy/.config/systemd/user/omaspeak.service
+{
+  "catalog": {
+    "archive_root": "sherpa-onnx-supertonic-3-tts-int8-2026-05-11",
+    "archive_sha256": "82fa96f91c4ef8abaae3a14a3f4153facf88bed821d1f7331cec2700f432c427",
+    "archive_size": 128774318,
+    "archive_url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2",
+    "backend": "supertonic",
+    "description": "Supertonic 3 multilingual int8 (31 languages; OpenVINO evaluation model)",
+    "downloadable": true,
+    "duration_predictor": "duration_predictor.int8.onnx",
+    "family": "supertonic",
+    "id": "supertonic-3-int8",
+    "language": "en",
+    "license": "OpenRAIL-M",
+    "license_file": "MODEL-LICENSE",
+    "license_sha256": "0d944a9110fed9a9602d60e0423a272903e7bd21ab060490774efc77c2275e9f",
+    "license_status": "verified",
+    "license_url": "https://huggingface.co/Supertone/supertonic-3/blob/724fb5abbf5502583fb520898d45929e62f02c0b/LICENSE",
+    "name": "supertonic-3-int8",
+    "npu_capable": false,
+    "openvino_capable": true,
+    "required_files": [
+      {
+        "path": "duration_predictor.int8.onnx",
+        "sha256": "c3eb91414d5ff8a7a239b7fe9e34e7e2bf8a8140d8375ffb14718b1c639325db",
+        "size": 3700147
+      },
+      {
+        "path": "text_encoder.int8.onnx",
+        "sha256": "c7befd5ea8c3119769e8a6c1486c4edc6a3bc8365c67621c881bbb774b9902ff",
+        "size": 36416150
+      },
+      {
+        "path": "vector_estimator.int8.onnx",
+        "sha256": "20cd86fa5c6effedfda0e7cffe5b0569ca401c440a0c3a1d72bf39286c0db3fd",
+        "size": 78400833
+      },
+      {
+        "path": "vocoder.int8.onnx",
+        "sha256": "e923d60f53f95eb1ce235f1dc33ec56d9c057823c96fa6f8acf98f32b0da6152",
+        "size": 25991073
+      },
+      {
+        "path": "tts.json",
+        "sha256": "42078d3aef1cd43ab43021f3c54f47d2d75ceb4e75f627f118890128b06a0d09",
+        "size": 8253
+      },
+      {
+        "path": "unicode_indexer.bin",
+        "sha256": "8402ca48e5189a8950138580b0fff64db6f072f24ac07cd54ba8b2fbb9883b30",
+        "size": 262144
+      },
+      {
+        "path": "voice.bin",
+        "sha256": "67d5209b0ee8ce6c74105ffbe12fe6a7628aea3b4ba2fcb308a4a67938a93ce8",
+        "size": 517168
+      }
+    ],
+    "requires_acceptance": true,
+    "source_revision": "724fb5abbf5502583fb520898d45929e62f02c0b",
+    "steps": 5,
+    "supplemental_files": [],
+    "text_encoder": "text_encoder.int8.onnx",
+    "tts_json": "tts.json",
+    "unicode_indexer": "unicode_indexer.bin",
+    "vector_estimator": "vector_estimator.int8.onnx",
+    "vocoder": "vocoder.int8.onnx",
+    "voice_style": "voice.bin",
+    "voices": [
+      {
+        "id": 0,
+        "name": "M1"
+      },
+      {
+        "id": 1,
+        "name": "M2"
+      },
+      {
+        "id": 2,
+        "name": "M3"
+      },
+      {
+        "id": 3,
+        "name": "M4"
+      },
+      {
+        "id": 4,
+        "name": "M5"
+      },
+      {
+        "id": 5,
+        "name": "F1"
+      },
+      {
+        "id": 6,
+        "name": "F2"
+      },
+      {
+        "id": 7,
+        "name": "F3"
+      },
+      {
+        "id": 8,
+        "name": "F4"
+      },
+      {
+        "id": 9,
+        "name": "F5"
+      }
+    ]
+  },
+  "license_acceptance": {
+    "accepted_at_unix_seconds": 1789449058,
+    "license": "OpenRAIL-M",
+    "license_file": "MODEL-LICENSE",
+    "license_sha256": "0d944a9110fed9a9602d60e0423a272903e7bd21ab060490774efc77c2275e9f",
+    "license_url": "https://huggingface.co/Supertone/supertonic-3/blob/724fb5abbf5502583fb520898d45929e62f02c0b/LICENSE"
+  },
+  "provenance": {
+    "archive_sha256": "82fa96f91c4ef8abaae3a14a3f4153facf88bed821d1f7331cec2700f432c427",
+    "archive_url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2",
+    "modified": false,
+    "source": "catalog-download",
+    "source_revision": "724fb5abbf5502583fb520898d45929e62f02c0b",
+    "supplemental_assets": []
+  }
+}

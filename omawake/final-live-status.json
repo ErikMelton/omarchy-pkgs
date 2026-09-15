@@ -1,0 +1,19 @@
+{
+  "protocol": 1,
+  "id": "25223-1789449148944514591",
+  "type": "state",
+  "state": "armed",
+  "details": {
+    "audio": {
+      "channels": 2,
+      "device": "default",
+      "sample_rate": 44100
+    },
+    "backend": {
+      "effective_runtime": "default",
+      "fallback_used": false,
+      "kind": "sherpa-onnx"
+    },
+    "model_load_milliseconds": 375
+  }
+}

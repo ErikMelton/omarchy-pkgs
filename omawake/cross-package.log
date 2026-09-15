@@ -1,0 +1,99 @@
+2284cc9c54c9f65ba3c1c17eb94765013ccb7f02e144ec3c4e6f3512fe805fb5  /home/omarchy/pr447-evidence/omaspeak-input/work/review/build-output/edge/x86_64/omaspeak-bin-0.0.1.rc-1-x86_64.pkg.tar.zst
+loading packages...
+resolving dependencies...
+looking for conflicting packages...
+
+Package (1)   New Version  Net Change
+
+omaspeak-bin  0.0.1.rc-1    34.97 MiB
+
+Total Installed Size:  34.97 MiB
+
+:: Proceed with installation? [Y/n] 
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+checking available disk space...
+:: Running pre-transaction hooks...
+(1/1) Waiting for limine-snapper-sync to finish...
+:: Processing package changes...
+installing omaspeak-bin...
+:: Run omaspeak setup to configure a model and runtime.
+:: The optional user service remains disabled; on-demand speech works without it.
+:: Accelerator instructions: /usr/share/doc/omaspeak-bin/ACCELERATOR_SETUP.md
+Optional dependencies for omaspeak-bin
+    pipewire-audio: audio playback through pw-play [installed]
+    openvino: Intel CPU acceleration runtime
+    openvino-intel-gpu-plugin: Intel GPU device support for OpenVINO
+    openvino-intel-npu-plugin: Intel NPU device support for OpenVINO
+    cuda: NVIDIA CUDA libraries for an external CUDA runtime bundle
+    cudnn: NVIDIA neural-network libraries for an external CUDA runtime bundle
+:: Running post-transaction hooks...
+(1/2) Reloading user manager configuration...
+(2/2) Arming ConditionNeedsUpdate...
+ok config    /home/omarchy/.config/omaspeak/config.toml
+ok backend   supertonic runtime adapter is available
+ok model     /home/omarchy/.local/share/omaspeak/models/supertonic-3-int8
+ok voice     M1 (speaker ID 0)
+ok runtime   default runtime is installed and its libraries resolve
+ok engine    runtime/device probe passed; model inference is not verified by this check
+ok audio     pw-play or aplay is available
+error launcher  desktop launcher is missing: /home/omarchy/.local/share/applications/omaspeak-settings.desktop
+  fix: run `omaspeak setup menu`
+ok systemd   not installed (optional): /home/omarchy/.config/systemd/user/omaspeak.service
+omaspeak: setup checks failed
+added wake word: computer
+/tmp/omawake-native/sherpa-onnx/sherpa-onnx/csrc/features.cc:AcceptWaveformImpl:107 Creating a resampler:
+   in_sample_rate: 44100
+   output_sample_rate: 16000
+
+{
+  "actions": [],
+  "backend": {
+    "effective_runtime": "default",
+    "fallback_used": false,
+    "kind": "sherpa-onnx"
+  },
+  "detections": [
+    {
+      "id": "computer",
+      "start_time": 0.0,
+      "timestamps": [
+        0.6399999856948853,
+        0.7999999523162842,
+        0.8799999952316284
+      ],
+      "tokens": [
+        " COMP",
+        "U",
+        "TER"
+      ]
+    }
+  ],
+  "keywords_buffer": "▁LOVE LY ▁CHI L D @lovely-child\n▁FOR E VER @forever\n▁COMP U TER @computer",
+  "model_load_milliseconds": 384
+}
+-rw-r--r-- 1 omarchy omarchy 153378 Sep 15 05:13 /home/omarchy/pr447-evidence/cross-package-response.wav
+Sep 15 05:13:44 omabot-worker systemd[633]: Stopped Omawake local wake-word daemon.
+Sep 15 05:13:44 omabot-worker systemd[633]: omawake.service: Consumed 3min 32.619s CPU time over 1min 11.116s wall clock time, 43.5M memory peak.
+Sep 15 05:13:44 omabot-worker systemd[633]: Started Omawake local wake-word daemon.
+Sep 15 05:13:45 omabot-worker omawake[25589]: loaded wake-word model in 341 ms
+Sep 15 05:13:45 omabot-worker omawake[25589]: armed on default (44100 Hz, 2 channel(s))
+Sep 15 05:13:45 omabot-worker omawake[25589]: /tmp/omawake-native/sherpa-onnx/sherpa-onnx/csrc/features.cc:AcceptWaveformImpl:107 Creating a resampler:
+Sep 15 05:13:45 omabot-worker omawake[25589]:    in_sample_rate: 44100
+Sep 15 05:13:45 omabot-worker omawake[25589]:    output_sample_rate: 16000
+Sep 15 05:13:48 omabot-worker omawake[25735]: {
+Sep 15 05:13:48 omabot-worker omawake[25735]:   "type": "synthesis",
+Sep 15 05:13:48 omabot-worker omawake[25735]:   "output": "/home/omarchy/pr447-evidence/cross-package-response.wav",
+Sep 15 05:13:48 omabot-worker omawake[25735]:   "sample_rate": 44100,
+Sep 15 05:13:48 omabot-worker omawake[25735]:   "samples": 76667,
+Sep 15 05:13:48 omabot-worker omawake[25735]:   "audio_seconds": 1.7384807256235828,
+Sep 15 05:13:48 omabot-worker omawake[25735]:   "load_milliseconds": 631,
+Sep 15 05:13:48 omabot-worker omawake[25735]:   "synthesis_milliseconds": 448
+Sep 15 05:13:48 omabot-worker omawake[25735]: }
+Sep 15 05:13:48 omabot-worker omawake[25589]: detected computer; action exited 0
+Sep 15 05:13:50 omabot-worker omawake[25589]: armed on default (44100 Hz, 2 channel(s))
+Sep 15 05:13:50 omabot-worker omawake[25589]: /tmp/omawake-native/sherpa-onnx/sherpa-onnx/csrc/features.cc:AcceptWaveformImpl:107 Creating a resampler:
+Sep 15 05:13:50 omabot-worker omawake[25589]:    in_sample_rate: 44100
+Sep 15 05:13:50 omabot-worker omawake[25589]:    output_sample_rate: 16000

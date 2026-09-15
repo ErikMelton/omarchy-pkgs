@@ -1,0 +1,9 @@
+{
+  "type": "synthesis",
+  "output": "/home/omarchy/pr447-omaspeak/playback-monitor-source.wav",
+  "sample_rate": 44100,
+  "samples": 151948,
+  "audio_seconds": 3.445532879818594,
+  "load_milliseconds": 418,
+  "synthesis_milliseconds": 730
+}

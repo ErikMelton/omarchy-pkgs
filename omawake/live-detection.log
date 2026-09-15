@@ -1,0 +1,52 @@
+LIVE_NEGATIVE_NO_ACTIONS
+  File: /home/omarchy/pr447-evidence/action-lovely-child
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 0,57	Inode: 22691       Links: 1
+Access: (0644/-rw-r--r--)  Uid: ( 1000/ omarchy)   Gid: ( 1000/ omarchy)
+Access: 2026-09-15 05:11:20.957523373 +0000
+Modify: 2026-09-15 05:11:20.957523373 +0000
+Change: 2026-09-15 05:11:20.957523373 +0000
+ Birth: 2026-09-15 05:11:20.957523373 +0000
+  File: /home/omarchy/pr447-evidence/action-forever
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 0,57	Inode: 22693       Links: 1
+Access: (0644/-rw-r--r--)  Uid: ( 1000/ omarchy)   Gid: ( 1000/ omarchy)
+Access: 2026-09-15 05:11:25.858659279 +0000
+Modify: 2026-09-15 05:11:25.858659279 +0000
+Change: 2026-09-15 05:11:25.858659279 +0000
+ Birth: 2026-09-15 05:11:25.858633216 +0000
+{
+  "protocol": 1,
+  "id": "22635-1789449093080026541",
+  "type": "state",
+  "state": "armed",
+  "details": {
+    "audio": {
+      "channels": 2,
+      "device": "default",
+      "sample_rate": 44100
+    },
+    "backend": {
+      "effective_runtime": "default",
+      "fallback_used": false,
+      "kind": "sherpa-onnx"
+    },
+    "model_load_milliseconds": 403
+  }
+}
+Sep 15 05:10:45 omabot-worker systemd[633]: Started Omawake local wake-word daemon.
+Sep 15 05:10:45 omabot-worker omawake[13801]: loaded wake-word model in 403 ms
+Sep 15 05:10:45 omabot-worker omawake[13801]: armed on default (44100 Hz, 2 channel(s))
+Sep 15 05:10:45 omabot-worker omawake[13801]: /tmp/omawake-native/sherpa-onnx/sherpa-onnx/csrc/features.cc:AcceptWaveformImpl:107 Creating a resampler:
+Sep 15 05:10:45 omabot-worker omawake[13801]:    in_sample_rate: 44100
+Sep 15 05:10:45 omabot-worker omawake[13801]:    output_sample_rate: 16000
+Sep 15 05:11:20 omabot-worker omawake[13801]: detected lovely-child; action exited 0
+Sep 15 05:11:22 omabot-worker omawake[13801]: armed on default (44100 Hz, 2 channel(s))
+Sep 15 05:11:22 omabot-worker omawake[13801]: /tmp/omawake-native/sherpa-onnx/sherpa-onnx/csrc/features.cc:AcceptWaveformImpl:107 Creating a resampler:
+Sep 15 05:11:22 omabot-worker omawake[13801]:    in_sample_rate: 44100
+Sep 15 05:11:22 omabot-worker omawake[13801]:    output_sample_rate: 16000
+Sep 15 05:11:25 omabot-worker omawake[13801]: detected forever; action exited 0
+Sep 15 05:11:27 omabot-worker omawake[13801]: armed on default (44100 Hz, 2 channel(s))
+Sep 15 05:11:27 omabot-worker omawake[13801]: /tmp/omawake-native/sherpa-onnx/sherpa-onnx/csrc/features.cc:AcceptWaveformImpl:107 Creating a resampler:
+Sep 15 05:11:27 omabot-worker omawake[13801]:    in_sample_rate: 44100
+Sep 15 05:11:27 omabot-worker omawake[13801]:    output_sample_rate: 16000

@@ -1,0 +1,6 @@
+PASS: release/dev pairs and Flea build together in isolated roots
+PASS: failed prerequisite blocks consumers; independent build remains clean
+PASS: kept workspace supplies dependencies to a later isolated build
+PASS: rebuilt artifacts supersede cached packages with the same filename
+PASS: deferred pair mode works across isolated containers
+PASS: empty plans finish without starting a package build

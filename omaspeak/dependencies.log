@@ -1,0 +1,23 @@
+793 quickshell -n -p /home/omarchy/work/omarchy/shell
+11973 bash -c pgrep -af "mako|swaync|quickshell"; ldd /usr/bin/omaspeak; ldd /usr/lib/omaspeak/libonnxruntime.so; find /usr/share/licenses/omaspeak-bin -maxdepth 1 -type f -printf "%f\n"; ls -lh ~/.local/share/omaspeak/models 2>/dev/null; find ~/work/review/build-output -name "omaspeak*"
+	linux-vdso.so.1 (0x00007f491aca6000)
+	libgcc_s.so.1 => /usr/lib/libgcc_s.so.1 (0x00007f491ac4d000)
+	libm.so.6 => /usr/lib/libm.so.6 (0x00007f491a4c9000)
+	libc.so.6 => /usr/lib/libc.so.6 (0x00007f491a200000)
+	/lib64/ld-linux-x86-64.so.2 => /usr/lib64/ld-linux-x86-64.so.2 (0x00007f491aca8000)
+	linux-vdso.so.1 (0x00007fd76707d000)
+	libdl.so.2 => /usr/lib/libdl.so.2 (0x00007fd76704c000)
+	librt.so.1 => /usr/lib/librt.so.1 (0x00007fd767047000)
+	libpthread.so.0 => /usr/lib/libpthread.so.0 (0x00007fd767042000)
+	libstdc++.so.6 => /usr/lib/libstdc++.so.6 (0x00007fd765000000)
+	libm.so.6 => /usr/lib/libm.so.6 (0x00007fd764ec9000)
+	libgcc_s.so.1 => /usr/lib/libgcc_s.so.1 (0x00007fd767013000)
+	libc.so.6 => /usr/lib/libc.so.6 (0x00007fd764c00000)
+	/usr/lib64/ld-linux-x86-64.so.2 (0x00007fd76707f000)
+OMASPEAK-LICENSE
+OMASPEAK-THIRD-PARTY-NOTICES
+ONNX-RUNTIME-LICENSE
+ONNX-RUNTIME-THIRD-PARTY-NOTICES
+RUST-DEPENDENCIES.txt
+SUPERTONIC-CODE-LICENSE
+total 0

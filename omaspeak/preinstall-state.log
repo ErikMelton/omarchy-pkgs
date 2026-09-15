@@ -1,0 +1,15 @@
+Server String: /run/user/1000/pulse/native
+Library Protocol Version: 35
+Server Protocol Version: 35
+Is Local: yes
+Client Index: 79
+Tile Size: 65472
+User Name: omarchy
+Host Name: omabot-worker
+Server Name: PulseAudio (on PipeWire 1.6.8)
+Server Version: 15.0.0
+Default Sample Specification: float32le 2ch 48000Hz
+Default Channel Map: front-left,front-right
+Default Sink: auto_null
+Default Source: @DEFAULT_SOURCE@
+Cookie: ff2e:8b65

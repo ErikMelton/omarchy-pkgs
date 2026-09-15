@@ -1,0 +1,23 @@
+resolving dependencies...
+looking for conflicting packages...
+
+Package (2)        New Version  Net Change  Download Size
+
+extra/ggml         0.21.0-1       1.11 MiB       0.37 MiB
+extra/whisper-cpp  1.9.1-2        3.41 MiB       0.85 MiB
+
+Total Download Size:   1.21 MiB
+Total Installed Size:  4.53 MiB
+
+:: Proceed with installation? [Y/n] 
+:: Retrieving packages...
+ whisper-cpp-1.9.1-2-x86_64 downloading...
+ ggml-0.21.0-1-x86_64 downloading...
+error: failed retrieving file 'ggml-0.21.0-1-x86_64.pkg.tar.zst.sig' from stable-mirror.omarchy.org : Exceeded the maximum allowed file size (16384) with 16384 bytes
+warning: failed to retrieve some files
+error: failed to commit transaction (failed to retrieve some files)
+Errors occurred, no packages were upgraded.
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0100   1093 100   1093   0      0  12287      0                              0100   1093 100   1093   0      0  12285      0                              0
+  0      0   0      0   0      0      0      0                              0 10 74.10M  10  7.88M   0      0  6.65M      0   00:11   00:01   00:10  7.89M 24 74.10M  24 18.34M   0      0  8.40M      0   00:08   00:02   00:06  9.18M 38 74.10M  38 28.59M   0      0  8.98M      0   00:08   00:03   00:05  9.53M 52 74.10M  52 38.86M   0      0  9.29M      0   00:07   00:04   00:03  9.72M 65 74.10M  65 48.69M   0      0  9.30M      0   00:07   00:05   00:02  9.64M 80 74.10M  80 59.79M   0      0  9.59M      0   00:07   00:06   00:01 10.28M 94 74.10M  94 69.75M   0      0  9.64M      0   00:07   00:07         10.18M100 74.10M 100 74.10M   0      0  9.66M      0   00:07   00:07         10.18M100 74.10M 100 74.10M   0      0  9.66M      0   00:07   00:07         10.18M100 74.10M 100 74.10M   0      0  9.66M      0   00:07   00:07         10.18M

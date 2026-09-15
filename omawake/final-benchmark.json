@@ -1,0 +1,154 @@
+{
+  "backend": {
+    "effective_runtime": "default",
+    "fallback_used": false,
+    "kind": "sherpa-onnx",
+    "placement_verified": true,
+    "requested_device": "cpu",
+    "requested_runtime": "default"
+  },
+  "benchmark": "omawake-file-detection",
+  "files": [
+    {
+      "audio_duration_milliseconds": 16715.0,
+      "iterations": [
+        {
+          "detections": [
+            {
+              "id": "lovely-child",
+              "start_time": 0.0,
+              "timestamps": [
+                5.359999656677246,
+                5.599999904632568,
+                5.839999675750732,
+                6.0,
+                6.039999961853027
+              ],
+              "tokens": [
+                " LOVE",
+                "LY",
+                " CHI",
+                "L",
+                "D"
+              ]
+            },
+            {
+              "id": "forever",
+              "start_time": 0.0,
+              "timestamps": [
+                10.880000114440918,
+                10.960000038146973,
+                11.0
+              ],
+              "tokens": [
+                " FOR",
+                "E",
+                "VER"
+              ]
+            }
+          ],
+          "elapsed_milliseconds": 437.454971,
+          "iteration": 1,
+          "real_time_factor": 0.026171401196530063
+        },
+        {
+          "detections": [
+            {
+              "id": "lovely-child",
+              "start_time": 0.0,
+              "timestamps": [
+                5.359999656677246,
+                5.599999904632568,
+                5.839999675750732,
+                6.0,
+                6.039999961853027
+              ],
+              "tokens": [
+                " LOVE",
+                "LY",
+                " CHI",
+                "L",
+                "D"
+              ]
+            },
+            {
+              "id": "forever",
+              "start_time": 0.0,
+              "timestamps": [
+                10.880000114440918,
+                10.960000038146973,
+                11.0
+              ],
+              "tokens": [
+                " FOR",
+                "E",
+                "VER"
+              ]
+            }
+          ],
+          "elapsed_milliseconds": 287.206514,
+          "iteration": 2,
+          "real_time_factor": 0.017182561411905474
+        },
+        {
+          "detections": [
+            {
+              "id": "lovely-child",
+              "start_time": 0.0,
+              "timestamps": [
+                5.359999656677246,
+                5.599999904632568,
+                5.839999675750732,
+                6.0,
+                6.039999961853027
+              ],
+              "tokens": [
+                " LOVE",
+                "LY",
+                " CHI",
+                "L",
+                "D"
+              ]
+            },
+            {
+              "id": "forever",
+              "start_time": 0.0,
+              "timestamps": [
+                10.880000114440918,
+                10.960000038146973,
+                11.0
+              ],
+              "tokens": [
+                " FOR",
+                "E",
+                "VER"
+              ]
+            }
+          ],
+          "elapsed_milliseconds": 395.52198599999997,
+          "iteration": 3,
+          "real_time_factor": 0.02366269733772061
+        }
+      ],
+      "path": "/home/omarchy/.local/share/omawake/models/sherpa-onnx-kws-zipformer-gigaspeech-3.3M-2024-01-01/test_wavs/1.wav",
+      "summary": {
+        "p50_milliseconds": 395.52198599999997,
+        "p50_real_time_factor": 0.02366269733772061,
+        "p95_milliseconds": 437.454971,
+        "p95_real_time_factor": 0.026171401196530063,
+        "samples": 3
+      }
+    }
+  ],
+  "measured_iterations": 3,
+  "model_load_milliseconds": 377.07748000000004,
+  "schema_version": 1,
+  "summary": {
+    "p50_milliseconds": 395.52198599999997,
+    "p50_real_time_factor": 0.02366269733772061,
+    "p95_milliseconds": 437.454971,
+    "p95_real_time_factor": 0.026171401196530063,
+    "samples": 3
+  },
+  "warmup_iterations": 1
+}

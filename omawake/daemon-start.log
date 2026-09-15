@@ -1,0 +1,29 @@
+{
+  "protocol": 1,
+  "id": "13995-1789449047072343825",
+  "type": "state",
+  "state": "armed",
+  "details": {
+    "audio": {
+      "channels": 2,
+      "device": "default",
+      "sample_rate": 44100
+    },
+    "backend": {
+      "effective_runtime": "default",
+      "fallback_used": false,
+      "kind": "sherpa-onnx"
+    },
+    "model_load_milliseconds": 403
+  }
+}
+ActiveState=active
+FragmentPath=/usr/lib/systemd/user/omawake.service
+MainPID=13801
+Sep 15 05:10:45 omabot-worker systemd[633]: Started Omawake local wake-word daemon.
+Sep 15 05:10:45 omabot-worker omawake[13801]: loaded wake-word model in 403 ms
+Sep 15 05:10:45 omabot-worker omawake[13801]: armed on default (44100 Hz, 2 channel(s))
+Sep 15 05:10:45 omabot-worker omawake[13801]: /tmp/omawake-native/sherpa-onnx/sherpa-onnx/csrc/features.cc:AcceptWaveformImpl:107 Creating a resampler:
+Sep 15 05:10:45 omabot-worker omawake[13801]:    in_sample_rate: 44100
+Sep 15 05:10:45 omabot-worker omawake[13801]:    output_sample_rate: 16000
+119	78	118	PipeWire	float32le 2ch 44100Hz

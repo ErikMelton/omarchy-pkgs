@@ -1,0 +1,11 @@
+{
+  "actions": [],
+  "backend": {
+    "effective_runtime": "default",
+    "fallback_used": false,
+    "kind": "sherpa-onnx"
+  },
+  "detections": [],
+  "keywords_buffer": "▁LOVE LY ▁CHI L D @lovely-child\n▁FOR E VER @forever",
+  "model_load_milliseconds": 377
+}

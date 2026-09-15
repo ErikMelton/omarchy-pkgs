@@ -1,0 +1,97 @@
+ActiveState=active
+FragmentPath=/usr/lib/systemd/user/omaspeak.service
+MainPID=68347
+{
+  "backend": {
+    "effective": {
+      "device": "cpu",
+      "provider": "CPUExecutionProvider",
+      "runtime": "default"
+    },
+    "evidence": [
+      "runtime-loaded ONNX Runtime CPU engine initialized"
+    ],
+    "fallback_policy": "error",
+    "fallback_used": false,
+    "kind": "onnxruntime",
+    "placement_verified": true,
+    "requested": {
+      "device": "cpu",
+      "runtime": "default"
+    },
+    "supported_capabilities": [
+      "cpu",
+      "openvino",
+      "cuda"
+    ]
+  },
+  "model": "supertonic-3-int8",
+  "pid": 68347,
+  "running": true,
+  "sample_rate": 44100,
+  "type": "status"
+}
+/usr/bin/omaspeak
+7f38b2e00000-7f38b2ecb000 r--p 00000000 00:1d 525304                     /usr/lib/omaspeak/libonnxruntime.so.1.29.0
+7f38b2ecb000-7f38b43f8000 r-xp 000cb000 00:1d 525304                     /usr/lib/omaspeak/libonnxruntime.so.1.29.0
+7f38b43f8000-7f38b48dc000 r--p 015f8000 00:1d 525304                     /usr/lib/omaspeak/libonnxruntime.so.1.29.0
+7f38b48dc000-7f38b4929000 r--p 01adb000 00:1d 525304                     /usr/lib/omaspeak/libonnxruntime.so.1.29.0
+7f38b4929000-7f38b492e000 rw-p 01b28000 00:1d 525304                     /usr/lib/omaspeak/libonnxruntime.so.1.29.0
+{
+  "type": "synthesis",
+  "output": "/home/omarchy/pr447-omaspeak/daemon.wav",
+  "sample_rate": 44100,
+  "samples": 132394,
+  "audio_seconds": 3.0021315192743763,
+  "load_milliseconds": 570,
+  "synthesis_milliseconds": 555
+}
+{
+  "backend": {
+    "effective": {
+      "device": "cpu",
+      "provider": "CPUExecutionProvider",
+      "runtime": "default"
+    },
+    "evidence": [
+      "runtime-loaded ONNX Runtime CPU engine initialized"
+    ],
+    "fallback_policy": "error",
+    "fallback_used": false,
+    "kind": "onnxruntime",
+    "placement_verified": true,
+    "requested": {
+      "device": "cpu",
+      "runtime": "default"
+    },
+    "supported_capabilities": [
+      "cpu",
+      "openvino",
+      "cuda"
+    ]
+  },
+  "model": "supertonic-3-int8",
+  "pid": 68455,
+  "running": true,
+  "sample_rate": 44100,
+  "type": "status"
+}
+inactive
+{
+  "type": "synthesis",
+  "output": "/home/omarchy/pr447-omaspeak/voice7.wav",
+  "sample_rate": 44100,
+  "samples": 97829,
+  "audio_seconds": 2.2183446712018142,
+  "load_milliseconds": 474,
+  "synthesis_milliseconds": 367
+}
+{
+  "type": "synthesis",
+  "output": "/home/omarchy/pr447-omaspeak/stdin.wav",
+  "sample_rate": 44100,
+  "samples": 150560,
+  "audio_seconds": 3.4140589569161,
+  "load_milliseconds": 414,
+  "synthesis_milliseconds": 673
+}

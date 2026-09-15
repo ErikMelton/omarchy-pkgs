@@ -1,0 +1,108 @@
+paused
+{
+  "protocol": 1,
+  "id": "24706-1789449114645964879",
+  "type": "state",
+  "state": "paused",
+  "details": {
+    "audio": null,
+    "backend": {
+      "effective_runtime": "default",
+      "fallback_used": false,
+      "kind": "sherpa-onnx"
+    },
+    "model_load_milliseconds": 403
+  }
+}
+armed
+{
+  "protocol": 1,
+  "id": "24729-1789449115775461755",
+  "type": "state",
+  "state": "armed",
+  "details": {
+    "audio": {
+      "channels": 2,
+      "device": "default",
+      "sample_rate": 44100
+    },
+    "backend": {
+      "effective_runtime": "default",
+      "fallback_used": false,
+      "kind": "sherpa-onnx"
+    },
+    "model_load_milliseconds": 380
+  }
+}
+stopping
+inactive
+CONTROL_SOCKET_ABSENT
+checking dependencies...
+
+Package (1)  Old Version  Net Change
+
+omawake-bin  0.0.1.rc-1   -37.93 MiB
+
+Total Removed Size:  37.93 MiB
+
+:: Do you want to remove these packages? [Y/n] 
+:: Running pre-transaction hooks...
+(1/1) Waiting for limine-snapper-sync to finish...
+:: Processing package changes...
+removing omawake-bin...
+:: Running post-transaction hooks...
+(1/2) Reloading user manager configuration...
+(2/2) Arming ConditionNeedsUpdate...
+BINARY_REMOVED
+CONFIG_PRESERVED
+/home/omarchy/.config/omawake/config.toml: OK
+loading packages...
+resolving dependencies...
+looking for conflicting packages...
+
+Package (1)  New Version  Net Change
+
+omawake-bin  0.0.1.rc-1    37.93 MiB
+
+Total Installed Size:  37.93 MiB
+
+:: Proceed with installation? [Y/n] 
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+checking available disk space...
+:: Running pre-transaction hooks...
+(1/1) Waiting for limine-snapper-sync to finish...
+:: Processing package changes...
+installing omawake-bin...
+:: Run omawake setup to configure a model and runtime.
+:: The optional user service remains disabled; enable it only when desired.
+:: Accelerator instructions: /usr/share/doc/omawake-bin/ACCELERATOR_SETUP.md
+Optional dependencies for omawake-bin
+    pipewire-audio: PipeWire audio support [installed]
+    openvino: Intel runtime for an externally supplied OpenVINO provider bundle
+    openvino-intel-gpu-plugin: Intel GPU device support for OpenVINO
+    openvino-intel-npu-plugin: Intel NPU device support for OpenVINO
+    cuda: NVIDIA CUDA libraries for an external CUDA runtime bundle
+    cudnn: NVIDIA neural-network libraries for an external CUDA runtime bundle
+:: Running post-transaction hooks...
+(1/2) Reloading user manager configuration...
+(2/2) Arming ConditionNeedsUpdate...
+fbf1d0ec9f22b018062c63ae61e6e276f5f71041f19dbea780ed58f3882bb95d  /usr/bin/omawake
+5715f06d8992ca8eeeddcce43df3a7d38f97d537052126f558e912cb312460ca  /usr/lib/omawake/libonnxruntime.so
+5715f06d8992ca8eeeddcce43df3a7d38f97d537052126f558e912cb312460ca  /usr/lib/omawake/libonnxruntime.so.1
+5715f06d8992ca8eeeddcce43df3a7d38f97d537052126f558e912cb312460ca  /usr/lib/omawake/libonnxruntime.so.1.29.0
+84e0ce1481702836af5a965704af8fd87a318b72bd75203c7a72ea00966a7a1e  /usr/lib/omawake/libsherpa-onnx-c-api.so
+omawake-bin: 256 total files, 0 altered files
+disabled
+inactive
+/home/omarchy/.config/omawake/config.toml: OK
+ok config    /home/omarchy/.config/omawake/config.toml
+ok backend   sherpa-onnx is supported
+ok model     /home/omarchy/.local/share/omawake/models/sherpa-onnx-kws-zipformer-gigaspeech-3.3M-2024-01-01
+ok model-cache setup-time compiled cache is not required for this runtime/device
+ok engine    runtime/device probe passed; model inference is not verified by this check
+ok wake-words 2 mapping(s) configured
+ok launcher  /home/omarchy/.local/share/applications/omawake-settings.desktop
+ok systemd   not installed (optional); run `omawake setup systemd` to install it

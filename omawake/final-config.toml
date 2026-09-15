@@ -1,0 +1,68 @@
+[backend]
+kind = "sherpa-onnx"
+runtime = "default"
+device = "cpu"
+threads = 2
+fallback = "error"
+device_id = 0
+provider_config = ""
+library_dirs = []
+onnxruntime_library = ""
+sherpa_library = ""
+provider_library = ""
+
+[backend.options]
+
+[model]
+name = "sherpa-onnx-kws-zipformer-gigaspeech-3.3M-2024-01-01"
+directory = ""
+encoder = "encoder-epoch-12-avg-2-chunk-16-left-64.int8.onnx"
+decoder = "decoder-epoch-12-avg-2-chunk-16-left-64.int8.onnx"
+joiner = "joiner-epoch-12-avg-2-chunk-16-left-64.int8.onnx"
+tokens = "tokens.txt"
+bpe_model = "bpe.model"
+sample_rate = 16000
+keywords_score = 1.5
+keywords_threshold = 0.25
+max_active_paths = 4
+num_trailing_blanks = 1
+
+[audio]
+device = "default"
+channels = "mono"
+buffer_milliseconds = 200
+
+[daemon]
+cooldown_milliseconds = 1500
+queue_capacity = 8
+
+[[wake_words]]
+id = "lovely-child"
+phrase = "Lovely Child"
+enabled = true
+command = [
+    "/usr/bin/touch",
+    "/home/omarchy/pr447-evidence/action-lovely-child",
+]
+
+[[wake_words]]
+id = "forever"
+phrase = "Forever"
+enabled = true
+command = [
+    "/usr/bin/touch",
+    "/home/omarchy/pr447-evidence/action-forever",
+]
+
+[[wake_words]]
+id = "computer"
+phrase = "Computer"
+enabled = true
+command = [
+    "/usr/bin/omaspeak",
+    "say",
+    "Wake word received",
+    "--no-play",
+    "--out",
+    "/home/omarchy/pr447-evidence/cross-package-response.wav",
+]

@@ -1,0 +1,363 @@
+Unable to find image 'archlinux:base-devel' locally
+base-devel: Pulling from library/archlinux
+b8ecbf87034f: Pulling fs layer
+579a0240d65f: Pulling fs layer
+afd13e3089f6: Download complete
+b8ecbf87034f: Download complete
+edf36c1d9641: Download complete
+579a0240d65f: Download complete
+579a0240d65f: Pull complete
+b8ecbf87034f: Pull complete
+Digest: sha256:70d777aaeb45befc04150df137c4d7c1b5042be442b4c904c38c6f6880bb7844
+Status: Downloaded newer image for archlinux:base-devel
+:: Synchronizing package databases...
+ core downloading...
+ extra downloading...
+warning: python-3.14.7-1 is up to date -- reinstalling
+warning: :: Starting full system upgrade...
+libarchive-3.8.9-1 is up to date -- reinstalling
+resolving dependencies...
+looking for conflicting packages...
+
+Package (11)          Old Version  New Version  Net Change  Download Size
+
+core/libtirpc         1.3.7-1      1.3.8-1        0.01 MiB       0.17 MiB
+extra/oniguruma                    6.9.10-1       0.88 MiB       0.22 MiB
+extra/perl-error                   0.17030-3      0.04 MiB       0.02 MiB
+extra/perl-mailtools               2.22-3         0.10 MiB       0.06 MiB
+extra/perl-timedate                2.35-1         0.15 MiB       0.06 MiB
+core/tzdata           2026c-1      2026d-1        0.03 MiB       0.30 MiB
+extra/zlib-ng                      2.3.3-1        0.28 MiB       0.11 MiB
+extra/git                          2.55.0-1      31.33 MiB       7.11 MiB
+extra/jq                           1.8.2-1        0.47 MiB       0.20 MiB
+core/libarchive       3.8.9-1      3.8.9-1        0.00 MiB       0.57 MiB
+core/python           3.14.7-1     3.14.7-1       0.00 MiB      13.53 MiB
+
+Total Download Size:    22.35 MiB
+Total Installed Size:  110.23 MiB
+Net Upgrade Size:       33.28 MiB
+
+:: Proceed with installation? [Y/n] 
+:: Retrieving packages...
+ python-3.14.7-1-x86_64 downloading...
+ git-2.55.0-1-x86_64 downloading...
+ libarchive-3.8.9-1-x86_64 downloading...
+ tzdata-2026d-1-x86_64 downloading...
+ oniguruma-6.9.10-1-x86_64 downloading...
+ jq-1.8.2-1-x86_64 downloading...
+ libtirpc-1.3.8-1-x86_64 downloading...
+ zlib-ng-2.3.3-1-x86_64 downloading...
+ perl-timedate-2.35-1-any downloading...
+ perl-mailtools-2.22-3-any downloading...
+ perl-error-0.17030-3-any downloading...
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+:: Processing package changes...
+upgrading tzdata...
+installing perl-error...
+installing perl-timedate...
+installing perl-mailtools...
+installing zlib-ng...
+upgrading libtirpc...
+installing git...
+Optional dependencies for git
+    git-zsh-completion: upstream zsh completion
+    tk: gitk and git gui
+    openssh: ssh transport and crypto
+    man: show help with `git command --help`
+    perl-libwww: git svn
+    perl-term-readkey: git svn and interactive.singlekey setting
+    perl-io-socket-ssl: git send-email TLS support
+    perl-authen-sasl: git send-email TLS support
+    perl-cgi: gitweb (web interface) support
+    python: git svn & git p4 [installed]
+    subversion: git svn
+    org.freedesktop.secrets: keyring credential helper
+    libsecret: libsecret credential helper [installed]
+    less: the default pager for git
+installing oniguruma...
+installing jq...
+reinstalling python...
+reinstalling libarchive...
+:: Running post-transaction hooks...
+(1/3) Creating system user accounts...
+Creating group 'git' with GID 969.
+Creating user 'git' (git daemon user) with UID 969 and GID 969.
+(2/3) Reloading system manager configuration...
+  Skipped: Current root is not booted.
+(3/3) Arming ConditionNeedsUpdate...
+test_array_writer_handles_comments_and_quoted_parentheses (__main__.WatchTest.test_array_writer_handles_comments_and_quoted_parentheses) ... ok
+test_aur_import_is_once_only_and_records_local_ownership (__main__.WatchTest.test_aur_import_is_once_only_and_records_local_ownership) ... ok
+test_changed_checksum_override_is_detected_and_rolled_back (__main__.WatchTest.test_changed_checksum_override_is_detected_and_rolled_back) ... ok
+test_cli_continues_after_one_package_fails (__main__.WatchTest.test_cli_continues_after_one_package_fails) ... ok
+test_conditional_arm_source_cannot_use_x86_hash (__main__.WatchTest.test_conditional_arm_source_cannot_use_x86_hash) ... ok
+test_cursor_same_day_hash_uses_counter_not_hash_order (__main__.WatchTest.test_cursor_same_day_hash_uses_counter_not_hash_order) ... ok
+test_epoch_change_in_recipe_cannot_mask_downgrade (__main__.WatchTest.test_epoch_change_in_recipe_cannot_mask_downgrade) ... ok
+test_existing_signed_metadata_skips_are_retained (__main__.WatchTest.test_existing_signed_metadata_skips_are_retained) ... ok
+test_git_hash_matches_makepkg (__main__.WatchTest.test_git_hash_matches_makepkg) ... ok
+test_github_selects_stable_matching_tag_and_resolves_gitlinks (__main__.WatchTest.test_github_selects_stable_matching_tag_and_resolves_gitlinks) ... ok
+test_hostile_release_values_do_not_reach_shell (__main__.WatchTest.test_hostile_release_values_do_not_reach_shell) ... ok
+test_invalid_optional_metadata_fails_validation (__main__.WatchTest.test_invalid_optional_metadata_fails_validation) ... ok
+test_manual_hold_prevents_release_discovery (__main__.WatchTest.test_manual_hold_prevents_release_discovery) ... ok
+test_missing_arm_payload_preserves_original_recipe (__main__.WatchTest.test_missing_arm_payload_preserves_original_recipe) ... ok
+test_mutable_sources_are_rehashed_when_version_changes (__main__.WatchTest.test_mutable_sources_are_rehashed_when_version_changes) ... ok
+test_old_or_equal_versions_do_not_download_sources (__main__.WatchTest.test_old_or_equal_versions_do_not_download_sources) ... ok
+test_registry_releases_and_archive_filenames (__main__.WatchTest.test_registry_releases_and_archive_filenames) ... ok
+test_release_selection_and_age (__main__.WatchTest.test_release_selection_and_age) ... ok
+test_same_version_build_revision_advances_downstream_pkgrel (__main__.WatchTest.test_same_version_build_revision_advances_downstream_pkgrel) ... ok
+test_sha512_blake2_and_local_hashes_are_preserved (__main__.WatchTest.test_sha512_blake2_and_local_hashes_are_preserved) ... ok
+test_updates_both_arches_without_running_build_functions (__main__.WatchTest.test_updates_both_arches_without_running_build_functions) ... ok
+test_vendor_feeds_preserve_version_schemes (__main__.WatchTest.test_vendor_feeds_preserve_version_schemes) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.539s
+
+OK
+[1m================================[0m
+[1mUpstream Package Sync[0m
+[1m================================[0m
+Release selection:
+  ok: quarantine falls back past the young v2.0.0
+  ok: selected release reports its published_at
+  ok: x86_64 checksum via {tag} template and ./ prefix
+  ok: aarch64 checksum via {pkgver} template
+  ok: no policy selects the newest stable release
+  ok: prerelease v1.9.9 and draft v1.9.8 are never selected
+  ok: bypass lifts the quarantine
+  ok: x86_64 checksum via * binary-mode prefix
+  ok: latest_only ignores incompatible historical tags
+  ok: everything quarantined reports no update
+  ok: already checked in reports no update
+Failure paths:
+  ok: invalid published_at fails the sync
+  ok: unusable tag fails the sync
+  ok: missing aarch64 checksum fails the sync
+Release API digests:
+  ok: x86_64 checksum via the asset digest
+  ok: aarch64 checksum via the asset digest
+  ok: asset without a digest fails the sync
+  ok: asset re-cut under another release number fails the sync
+  ok: digest without the sha256: prefix fails the sync
+  ok: provider rejects checksums and digests together
+  ok: provider rejects a non-boolean digests
+Ordered GitHub assets with supplemental sources:
+  ok: ordered GitHub assets produce an ordered checksum array
+  ok: GitHub supplemental source is downloaded and hashed
+  ok: GitHub asset lists and disjoint sources validate
+  ok: GitHub assets and sources cannot target the same checksum array
+Debian Packages provider:
+  ok: Debian provider selects the newest exact package stanza
+  ok: Debian x86_64 source is hashed
+  ok: Debian aarch64 source is hashed
+  ok: Debian declaration validates
+  ok: checked-in Debian version avoids source downloads
+End-to-end Debian sync with the checked-in 1password recipe:
+  ok: 1password sync updates without failures
+  ok: 1password pkgver is the single download version source
+  ok: 1password pkgrel resets to 1
+  ok: 1password x86 URL follows the rewritten pkgver
+  ok: 1password ARM URL follows the rewritten pkgver
+Quarantine backstop:
+  ok: old enough passes
+  ok: too young is held
+  ok: no policy passes anything
+  ok: deliberate bypass passes
+  ok: missing published_at is unprovable
+  ok: relative-date expression is unprovable, not an age
+  ok: numeric-offset ISO timestamp passes
+Duration parser:
+  ok: min_release_age "24h"
+  ok: min_release_age "90m"
+  ok: min_release_age "2d"
+  ok: min_release_age 3600
+  ok: min_release_age "600s"
+  ok: min_release_age "010h"
+  ok: min_release_age "abc"
+  ok: min_release_age "24hh"
+  ok: min_release_age false
+  ok: min_release_age ""
+  ok: min_release_age "9999999999"
+Manifest validation:
+  ok: upstream: false is rejected
+  ok: upstream without checksums/assets is rejected
+  ok: upstream with both checksums and digests is rejected
+  ok: non-boolean digests is rejected
+  ok: checksums: false alongside digests is rejected
+  ok: digests: null is rejected
+  ok: digests: false beside a checksums manifest is accepted
+  ok: digests: false alone is rejected
+  ok: the digests declaration shape is accepted
+  ok: multiple provider types are rejected
+  ok: the real declaration shape is accepted
+Git-tag provider:
+  ok: pacman ordering selects 1.10.0 over 1.9.0
+  ok: remote source template is downloaded and hashed
+  ok: local source entry is hashed
+  ok: git-tags declaration validates
+npm provider:
+  ok: npm dist-tag selects its version
+  ok: npm tarball placeholder is hashed
+  ok: npm pkgver template is hashed
+  ok: npm publication time is preserved
+  ok: npm declaration validates
+End-to-end sync_package with the checked-in mise-bin metadata:
+  ok: sync_package updates without failures
+  ok: the 24h manifest policy holds v2026.9.7.91 and ships v2026.9.7.90
+  ok: pkgrel resets to 1
+  ok: x86_64 checksum lands in the PKGBUILD
+  ok: aarch64 checksum lands in the PKGBUILD
+  ok: malformed upstream stays discoverable for scheduled runs
+  ok: malformed upstream fails the sync instead of skipping
+Cua Driver release hook:
+  ok: component found beyond the first 100 releases
+  ok: stable-shaped prerelease accepted at exactly 24h
+  ok: x86_64 checksum
+  ok: ARM checksum
+  ok: publication date preserved
+  ok: release page larger than the argument limit succeeds
+  ok: large release page preserves version selection
+  ok: older page outranks recently rebuilt lower version
+  ok: drafts/nightlies rejected and young release quarantined
+  ok: all candidates too young is a successful skip
+  ok: all young candidates emit empty JSON
+  ok: quarantine reason is reported
+  ok: current package version is unchanged
+  ok: no stable component candidate fails
+  ok: no stable component candidate reports the reason
+  ok: empty feed fails
+  ok: empty feed reports the reason
+  ok: relative publication date fails
+  ok: relative publication date reports the reason
+  ok: impossible publication date fails
+  ok: impossible publication date reports the reason
+  ok: missing publication date fails
+  ok: missing publication date reports the reason
+  ok: API error object on later page fails
+  ok: API error object on later page reports the reason
+  ok: malformed JSON on later page fails
+  ok: malformed JSON on later page reports the reason
+  ok: malformed release entry fails
+  ok: malformed release entry reports the reason
+  ok: network failure after first page fails
+  ok: network failure after first page reports the reason
+  ok: feed exceeds pagination bound fails
+  ok: feed exceeds pagination bound reports the reason
+  ok: checksum download failure fails
+  ok: checksum download failure reports the reason
+  ok: missing ARM checksum fails
+  ok: missing ARM checksum reports the reason
+  ok: invalid checksum fails
+  ok: invalid checksum reports the reason
+
+[0;32m✓[0m Self-test passed
+[1m================================[0m
+[1msync-rebuilds self-test[0m
+[1m================================[0m
+A trigger missing from the record counts as changed:
+  ok: run succeeds
+  ok: pkgrel bumped
+  ok: unrecorded trigger now recorded
+Opting a package in buys a rebuild rather than a bare record:
+  ok: run succeeds
+  ok: pkgrel bumped
+  ok: trigger recorded
+An unchanged package is left alone:
+  ok: run succeeds
+  ok: pkgrel untouched
+Metadata that does not parse fails the run instead of vanishing from it:
+  ok: run fails
+  ok: the readable package is still processed
+A bump that pacman would not order above the published package is refused:
+  ok: run fails
+  ok: pkgrel untouched
+  ok: record untouched
+An AUR-synced package is bumped as a dotted suffix that sync-aur reapplies:
+  ok: run succeeds
+  ok: pkgrel suffixed
+  ok: suffix recorded for the next AUR sync
+A dependency is tracked independently for both published architectures:
+  ok: run succeeds
+  ok: pkgrel bumped once
+  ok: x86_64 trigger recorded
+  ok: aarch64 trigger recorded
+An ARM-only run records only the ARM dependency state:
+  ok: run succeeds
+  ok: pkgrel bumped
+  ok: ARM trigger recorded
+  ok: x86_64 was not consulted
+An x86-only package ignores ARM during a dual-architecture run:
+  ok: run succeeds
+  ok: pkgrel untouched
+A PKGBUILD that branches on CARCH at file scope still reads its version:
+  ok: pkgver read for x86_64
+  ok: pkgrel read for x86_64
+  ok: arch-specific value follows CARCH
+  ok: unsupported arch reports failure
+
+[0;32m✓[0m Self-test passed
+[1m================================[0m
+[1momarchy-pkgs self-test[0m
+[1m================================[0m
+Tag normalization:
+  ok: v4.0.0 → 4.0.0
+  ok: v4.0.0-rc1 → 4.0.0rc1
+  ok: v4.0.0-rc.2 → 4.0.0rc2
+  ok: v4.0.0.rc3 → 4.0.0rc3
+  ok: v4.0.0_rc4 → 4.0.0rc4
+  ok: 4.1.0 → 4.1.0
+  ok: v4.0.0-rc10 → 4.0.0rc10
+  ok: v4.0 → <reject>
+  ok: v4.0.0-beta1 → 4.0.0beta1
+  ok: v4.0.0-alpha.2 → 4.0.0alpha2
+  ok: v4.0.0-preview1 → <reject>
+  ok: v4.0.0rc → <reject>
+  ok: garbage → <reject>
+  ok: v4.0.0-rc → <reject>
+Pacman ordering of normalized outputs:
+  ok: 4.0.0rc1 < 4.0.0
+  ok: 4.0.0rc1 < 4.0.0rc2
+  ok: 4.0.0rc2 < 4.0.0rc10
+  ok: 4.0.0 > 4.0.0rc99
+  ok: 4.0.1 > 4.0.0
+  ok: 4.0.0 < 4.1.0rc1
+  ok: 4.0.0alpha1 < 4.0.0beta1
+  ok: 4.0.0beta1 < 4.0.0rc1
+  ok: 4.0.0beta2 < 4.0.0
+  ok: 4.0.0beta2 < 4.0.0beta10
+Version helpers:
+  ok: version_base 4.0.0beta3 → 4.0.0
+  ok: version_base 4.0.0rc7 → 4.0.0
+  ok: 4.0.0rc1 is rc
+  ok: 4.0.0 is not rc
+
+[0;32m✓[0m Self-test passed
+[1m================================[0m
+[1momarchy-release self-test[0m
+[1m================================[0m
+  ok: version_to_branch 4.0.2
+  ok: version_to_branch v4.1.0
+  ok: version_to_branch garbage rejects
+  ok: branch_to_version v4-0-2
+  ok: branch_to_version v10-2-33
+  ok: branch_to_version quattro rejects
+  ok: version_is_patch 4.0.2
+  ok: version_is_patch 4.1.0
+  ok: version_is_patch 5.0.0
+  ok: previous_patch_tag 4.0.2
+  ok: previous_patch_tag 4.0.10
+  ok: x86-only readiness
+  ok: ARM-only readiness
+  ok: mixed versions block release
+  ok: both architectures ready
+
+[0;32m✓[0m Self-test passed
+PASS: successes publish; incomplete outputs stay out; retries skip published versions
+PASS: infrastructure failures, missing completion records, and zero successes never publish
+PASS: signing failure stops promotion and sync
+PASS: deferred release pairs cannot publish partially
+PASS: complete success publishes and clears the queue
+PASS: dry runs neither publish nor notify
+PASS: x86_64 scheduler and explicit/unscoped plans skip retained archives, allow new versions and releases
+PASS: aarch64 scheduler and explicit/unscoped plans skip retained archives, allow new versions and releases

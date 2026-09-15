@@ -1,0 +1,92 @@
+Sep 15 05:10:45 omabot-worker systemd[633]: Started Omawake local wake-word daemon.
+Sep 15 05:10:45 omabot-worker omawake[13801]: loaded wake-word model in 403 ms
+Sep 15 05:10:45 omabot-worker omawake[13801]: armed on default (44100 Hz, 2 channel(s))
+Sep 15 05:10:45 omabot-worker omawake[13801]: /tmp/omawake-native/sherpa-onnx/sherpa-onnx/csrc/features.cc:AcceptWaveformImpl:107 Creating a resampler:
+Sep 15 05:10:45 omabot-worker omawake[13801]:    in_sample_rate: 44100
+Sep 15 05:10:45 omabot-worker omawake[13801]:    output_sample_rate: 16000
+Sep 15 05:11:20 omabot-worker omawake[13801]: detected lovely-child; action exited 0
+Sep 15 05:11:22 omabot-worker omawake[13801]: armed on default (44100 Hz, 2 channel(s))
+Sep 15 05:11:22 omabot-worker omawake[13801]: /tmp/omawake-native/sherpa-onnx/sherpa-onnx/csrc/features.cc:AcceptWaveformImpl:107 Creating a resampler:
+Sep 15 05:11:22 omabot-worker omawake[13801]:    in_sample_rate: 44100
+Sep 15 05:11:22 omabot-worker omawake[13801]:    output_sample_rate: 16000
+Sep 15 05:11:25 omabot-worker omawake[13801]: detected forever; action exited 0
+Sep 15 05:11:27 omabot-worker omawake[13801]: armed on default (44100 Hz, 2 channel(s))
+Sep 15 05:11:27 omabot-worker omawake[13801]: /tmp/omawake-native/sherpa-onnx/sherpa-onnx/csrc/features.cc:AcceptWaveformImpl:107 Creating a resampler:
+Sep 15 05:11:27 omabot-worker omawake[13801]:    in_sample_rate: 44100
+Sep 15 05:11:27 omabot-worker omawake[13801]:    output_sample_rate: 16000
+Sep 15 05:11:54 omabot-worker systemd[633]: Stopping Omawake local wake-word daemon...
+Sep 15 05:11:54 omabot-worker omawake[13801]: stopped
+Sep 15 05:11:54 omabot-worker systemd[633]: Stopped Omawake local wake-word daemon.
+Sep 15 05:11:54 omabot-worker systemd[633]: omawake.service: Consumed 2min 59.005s CPU time over 1min 9.704s wall clock time, 49.8M memory peak.
+Sep 15 05:11:54 omabot-worker systemd[633]: Started Omawake local wake-word daemon.
+Sep 15 05:11:55 omabot-worker omawake[24714]: loaded wake-word model in 380 ms
+Sep 15 05:11:55 omabot-worker omawake[24714]: armed on default (44100 Hz, 2 channel(s))
+Sep 15 05:11:55 omabot-worker omawake[24714]: /tmp/omawake-native/sherpa-onnx/sherpa-onnx/csrc/features.cc:AcceptWaveformImpl:107 Creating a resampler:
+Sep 15 05:11:55 omabot-worker omawake[24714]:    in_sample_rate: 44100
+Sep 15 05:11:55 omabot-worker omawake[24714]:    output_sample_rate: 16000
+Sep 15 05:11:55 omabot-worker omawake[24714]: stopped
+Sep 15 05:11:55 omabot-worker systemd[633]: omawake.service: Consumed 2.071s CPU time over 1.091s wall clock time, 36.4M memory peak.
+Sep 15 05:12:11 omabot-worker systemd[633]: Started Omawake local wake-word daemon.
+Sep 15 05:12:11 omabot-worker omawake[25175]: loaded wake-word model in 375 ms
+Sep 15 05:12:11 omabot-worker omawake[25175]: armed on default (44100 Hz, 2 channel(s))
+Sep 15 05:12:11 omabot-worker omawake[25175]: /tmp/omawake-native/sherpa-onnx/sherpa-onnx/csrc/features.cc:AcceptWaveformImpl:107 Creating a resampler:
+Sep 15 05:12:11 omabot-worker omawake[25175]:    in_sample_rate: 44100
+Sep 15 05:12:11 omabot-worker omawake[25175]:    output_sample_rate: 16000
+Sep 15 05:12:18 omabot-worker omawake[25175]: detected lovely-child; action exited 0
+Sep 15 05:12:20 omabot-worker omawake[25175]: armed on default (44100 Hz, 2 channel(s))
+Sep 15 05:12:20 omabot-worker omawake[25175]: /tmp/omawake-native/sherpa-onnx/sherpa-onnx/csrc/features.cc:AcceptWaveformImpl:107 Creating a resampler:
+Sep 15 05:12:20 omabot-worker omawake[25175]:    in_sample_rate: 44100
+Sep 15 05:12:20 omabot-worker omawake[25175]:    output_sample_rate: 16000
+Sep 15 05:12:23 omabot-worker omawake[25175]: detected forever; action exited 0
+Sep 15 05:12:25 omabot-worker omawake[25175]: armed on default (44100 Hz, 2 channel(s))
+Sep 15 05:12:25 omabot-worker omawake[25175]: /tmp/omawake-native/sherpa-onnx/sherpa-onnx/csrc/features.cc:AcceptWaveformImpl:107 Creating a resampler:
+Sep 15 05:12:25 omabot-worker omawake[25175]:    in_sample_rate: 44100
+Sep 15 05:12:25 omabot-worker omawake[25175]:    output_sample_rate: 16000
+Sep 15 05:12:33 omabot-worker systemd[633]: Stopping Omawake local wake-word daemon...
+Sep 15 05:12:33 omabot-worker omawake[25175]: stopped
+Sep 15 05:12:33 omabot-worker systemd[633]: Stopped Omawake local wake-word daemon.
+Sep 15 05:12:33 omabot-worker systemd[633]: omawake.service: Consumed 56.927s CPU time over 22.666s wall clock time, 42.2M memory peak.
+Sep 15 05:12:33 omabot-worker systemd[633]: Started Omawake local wake-word daemon.
+Sep 15 05:12:34 omabot-worker omawake[25238]: loaded wake-word model in 341 ms
+Sep 15 05:12:34 omabot-worker omawake[25238]: armed on default (44100 Hz, 2 channel(s))
+Sep 15 05:12:34 omabot-worker omawake[25238]: /tmp/omawake-native/sherpa-onnx/sherpa-onnx/csrc/features.cc:AcceptWaveformImpl:107 Creating a resampler:
+Sep 15 05:12:34 omabot-worker omawake[25238]:    in_sample_rate: 44100
+Sep 15 05:12:34 omabot-worker omawake[25238]:    output_sample_rate: 16000
+Sep 15 05:13:44 omabot-worker systemd[633]: Stopping Omawake local wake-word daemon...
+Sep 15 05:13:44 omabot-worker omawake[25238]: stopped
+Sep 15 05:13:44 omabot-worker systemd[633]: Stopped Omawake local wake-word daemon.
+Sep 15 05:13:44 omabot-worker systemd[633]: omawake.service: Consumed 3min 32.619s CPU time over 1min 11.116s wall clock time, 43.5M memory peak.
+Sep 15 05:13:44 omabot-worker systemd[633]: Started Omawake local wake-word daemon.
+Sep 15 05:13:45 omabot-worker omawake[25589]: loaded wake-word model in 341 ms
+Sep 15 05:13:45 omabot-worker omawake[25589]: armed on default (44100 Hz, 2 channel(s))
+Sep 15 05:13:45 omabot-worker omawake[25589]: /tmp/omawake-native/sherpa-onnx/sherpa-onnx/csrc/features.cc:AcceptWaveformImpl:107 Creating a resampler:
+Sep 15 05:13:45 omabot-worker omawake[25589]:    in_sample_rate: 44100
+Sep 15 05:13:45 omabot-worker omawake[25589]:    output_sample_rate: 16000
+Sep 15 05:13:48 omabot-worker omawake[25735]: {
+Sep 15 05:13:48 omabot-worker omawake[25735]:   "type": "synthesis",
+Sep 15 05:13:48 omabot-worker omawake[25735]:   "output": "/home/omarchy/pr447-evidence/cross-package-response.wav",
+Sep 15 05:13:48 omabot-worker omawake[25735]:   "sample_rate": 44100,
+Sep 15 05:13:48 omabot-worker omawake[25735]:   "samples": 76667,
+Sep 15 05:13:48 omabot-worker omawake[25735]:   "audio_seconds": 1.7384807256235828,
+Sep 15 05:13:48 omabot-worker omawake[25735]:   "load_milliseconds": 631,
+Sep 15 05:13:48 omabot-worker omawake[25735]:   "synthesis_milliseconds": 448
+Sep 15 05:13:48 omabot-worker omawake[25735]: }
+Sep 15 05:13:48 omabot-worker omawake[25589]: detected computer; action exited 0
+Sep 15 05:13:50 omabot-worker omawake[25589]: armed on default (44100 Hz, 2 channel(s))
+Sep 15 05:13:50 omabot-worker omawake[25589]: /tmp/omawake-native/sherpa-onnx/sherpa-onnx/csrc/features.cc:AcceptWaveformImpl:107 Creating a resampler:
+Sep 15 05:13:50 omabot-worker omawake[25589]:    in_sample_rate: 44100
+Sep 15 05:13:50 omabot-worker omawake[25589]:    output_sample_rate: 16000
+Sep 15 05:14:35 omabot-worker systemd[633]: Stopping Omawake local wake-word daemon...
+Sep 15 05:14:35 omabot-worker omawake[25589]: stopped
+Sep 15 05:14:35 omabot-worker systemd[633]: Stopped Omawake local wake-word daemon.
+Sep 15 05:14:35 omabot-worker systemd[633]: omawake.service: Consumed 2min 23.143s CPU time over 50.441s wall clock time, 278.2M memory peak, 244K memory swap peak.
+Sep 15 05:14:35 omabot-worker systemd[633]: Started Omawake local wake-word daemon.
+Sep 15 05:14:35 omabot-worker omawake[25912]: loaded wake-word model in 387 ms
+Sep 15 05:14:35 omabot-worker omawake[25912]: armed on default (44100 Hz, 2 channel(s))
+Sep 15 05:14:35 omabot-worker omawake[25912]: /tmp/omawake-native/sherpa-onnx/sherpa-onnx/csrc/features.cc:AcceptWaveformImpl:107 Creating a resampler:
+Sep 15 05:14:35 omabot-worker omawake[25912]:    in_sample_rate: 44100
+Sep 15 05:14:35 omabot-worker omawake[25912]:    output_sample_rate: 16000
+Sep 15 05:14:46 omabot-worker systemd[633]: Stopping Omawake local wake-word daemon...
+Sep 15 05:14:46 omabot-worker omawake[25912]: stopped
+Sep 15 05:14:46 omabot-worker systemd[633]: Stopped Omawake local wake-word daemon.
+Sep 15 05:14:46 omabot-worker systemd[633]: omawake.service: Consumed 27.789s CPU time over 11.031s wall clock time, 40.6M memory peak.

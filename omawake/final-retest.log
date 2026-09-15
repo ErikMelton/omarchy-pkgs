@@ -1,0 +1,4 @@
+/tmp/omawake-native/sherpa-onnx/sherpa-onnx/csrc/features.cc:AcceptWaveformImpl:107 Creating a resampler:
+   in_sample_rate: 22050
+   output_sample_rate: 16000
+

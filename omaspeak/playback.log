@@ -1,0 +1,11 @@
+536870916
+118	pr447_speech	PipeWire	float32le 2ch 48000Hz	SUSPENDED
+{
+  "type": "synthesis",
+  "output": "/home/omarchy/pr447-omaspeak/playback.wav",
+  "sample_rate": 44100,
+  "samples": 117995,
+  "audio_seconds": 2.67562358276644,
+  "load_milliseconds": 429,
+  "synthesis_milliseconds": 600
+}

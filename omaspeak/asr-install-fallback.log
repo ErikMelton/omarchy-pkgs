@@ -1,0 +1,20 @@
+resolving dependencies...
+looking for conflicting packages...
+
+Package (3)        New Version  Net Change  Download Size
+
+extra/ggml         0.21.0-1       1.11 MiB               
+extra/ggml-cpu     0.21.0-1      13.45 MiB       1.55 MiB
+extra/whisper-cpp  1.9.1-2        3.41 MiB               
+
+Total Download Size:    1.55 MiB
+Total Installed Size:  17.97 MiB
+
+:: Proceed with installation? [Y/n] 
+:: Retrieving packages...
+ ggml-cpu-0.21.0-1-x86_64 downloading...
+ ggml-0.21.0-1-x86_64 downloading...
+error: failed retrieving file 'ggml-0.21.0-1-x86_64.pkg.tar.zst' from geo.mirror.pkgbuild.com : The requested URL returned error: 404
+warning: failed to retrieve some files
+error: failed to commit transaction (failed to retrieve some files)
+Errors occurred, no packages were upgraded.

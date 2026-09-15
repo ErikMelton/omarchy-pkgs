@@ -1,0 +1,11 @@
+installed: /home/omarchy/.local/share/applications/omaspeak-settings.desktop
+ok config    /home/omarchy/.config/omaspeak/config.toml
+ok backend   supertonic runtime adapter is available
+ok model     /home/omarchy/.local/share/omaspeak/models/supertonic-3-int8
+ok voice     M1 (speaker ID 0)
+ok runtime   default runtime is installed and its libraries resolve
+ok engine    runtime/device probe passed; model inference is not verified by this check
+ok audio     pw-play or aplay is available
+ok launcher  /home/omarchy/.local/share/applications/omaspeak-settings.desktop
+ok systemd   not installed (optional): /home/omarchy/.config/systemd/user/omaspeak.service
+inactive

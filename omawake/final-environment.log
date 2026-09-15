@@ -1,0 +1,65 @@
+        "fallback": "error",
+        "kind": "sherpa-onnx",
+        "library_dirs": [
+          "/usr/bin/../lib/omawake"
+        ],
+        "onnxruntime_library": "/usr/bin/../lib/omawake/libonnxruntime.so",
+        "options": {},
+        "provider_config": "",
+        "provider_library": "",
+        "runtime": "default",
+        "sherpa_library": "/usr/bin/../lib/omawake/libsherpa-onnx-c-api.so",
+        "threads": 2
+      }
+    },
+    {
+      "device": "cpu",
+      "ready": true,
+      "loadable": true,
+      "paths": {
+        "device": "cpu",
+        "device_id": 0,
+        "fallback": "error",
+        "kind": "sherpa-onnx",
+        "library_dirs": [
+          "/usr/bin/../lib/omawake"
+        ],
+        "onnxruntime_library": "/usr/bin/../lib/omawake/libonnxruntime.so",
+        "options": {},
+        "provider_config": "",
+        "provider_library": "",
+        "runtime": "default",
+        "sherpa_library": "/usr/bin/../lib/omawake/libsherpa-onnx-c-api.so",
+        "threads": 2
+      }
+    }
+  ]
+}
+
+~ ❯
+Linux omabot-worker 7.1.9-arch1-2 #1 SMP PREEMPT_DYNAMIC Fri, 21 Aug 2026 22:18:59 +0000 x86_64 GNU/Linux
+omarchy 4.0.1-1
+hyprland 0.56.2-1
+pipewire 1:1.6.8-1
+pipewire-alsa 1:1.6.8-1
+glibc 2.44+r24+g16be1518495f-1
+alsa-lib 1.2.16.1-1
+fbf1d0ec9f22b018062c63ae61e6e276f5f71041f19dbea780ed58f3882bb95d  /usr/bin/omawake
+paused
+{
+  "protocol": 1,
+  "id": "26188-1789449286304800556",
+  "type": "state",
+  "state": "paused",
+  "details": {
+    "audio": null,
+    "backend": {
+      "effective_runtime": "default",
+      "fallback_used": false,
+      "kind": "sherpa-onnx"
+    },
+    "model_load_milliseconds": 387
+  }
+}
+armed
+inactive
