@@ -753,10 +753,12 @@ EOF
   check "checked-in Debian version avoids source downloads" "{}" "$(debian_upstream_release "$debpkg" | jq -c .)"
 
   echo "End-to-end Debian sync with the checked-in 1password recipe:"
-  local one_root="$TEMP_DIR/e2e-1password" one_dir one_version=8.12.35
+  local one_root="$TEMP_DIR/e2e-1password" one_dir one_current_version one_version
   mkdir -p "$one_root"
   cp -a "$BUILD_ROOT/pkgbuilds/1password" "$one_root/1password"
   one_dir="$one_root/1password"
+  one_current_version=$(get_pkgver "$one_dir")
+  one_version="${one_current_version}.1"
   debian_fetch_packages() {
     printf 'Package: 1password\nVersion: %s\n' "$one_version"
   }
